@@ -334,8 +334,7 @@ footer {
   }
   header {
     background-image: url(headerhp.png);
-    height: 80px;
-    width: auto;
+    background-size: 104% 106% ;
   }
   
   img{
