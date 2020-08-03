@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Latihan Soal </h2>
+
+<p id="soal"></p>
+<p id="a"></p>
+<p id="b"></p>
+<p id="c"></p>
+<p id="d"></p>
+
+<script>
+var soal = '{"soal":"Dua garis yang saling menutupi satu sama lain adalah. . . .", "a":"a. Garis Berhimpit", "b":"b. Garis Berpotongan","c":"c. Garis Bersilangan", "d":"d. Garis Sejajar"}'
+var obj = JSON.parse(soal);
+document.getElementById("soal").innerHTML = obj.soal;
+document.getElementById("a").innerHTML = obj.a;
+document.getElementById("b").innerHTML = obj.b;
+document.getElementById("c").innerHTML = obj.c;
+document.getElementById("d").innerHTML = obj.d;
+</script>
+
+</body>
+</html>

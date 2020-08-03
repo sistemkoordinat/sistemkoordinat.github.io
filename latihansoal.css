@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box; /*kolom utamanya*/
+}
+
+body {
+  font-family: montserrat, sans-serif;
+  background: #f86a6a;
+}
+
+/* Header coyy*/
+header {
+  background-image: url(hd.png);
+  height: 250px;
+  width: 1333px;
+  text-align:center;
+  font-size: 35px;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+nav {
+  float: left;
+  width: 30%;
+  height: 700px; 
+  background: #ff5252;
+  padding: 20px;
+}
+
+.button-nav .button {
+  background-color: #ff5252; /* warna buttonnya*/
+  border: 1px solid #7d2941;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  display: block;
+}
+
+.button-nav .button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+.button-nav .button:hover {
+  background-color: #633e5a;
+  
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+article{
+  font-family: Baskerville, "Baskerville Old Face",serif; 
+  font-size: 18px; 
+  font-weight: 700; 
+  line-height: 26.4px;
+  float: center;
+  padding: 20px;
+  width: 100%;
+  background-color: #ffccb2;
+  height: 500px; 
+  border: 3px dotted red;
+}
+
+.submit{
+margin-left: 10px;
+margin-bottom: 10px;
+
+}
+
+.tengah{
+    font-family: Baskerville, "Baskerville Old Face",serif; 
+    font-size: 18px; 
+    font-weight: 700; 
+    line-height: 26.4px;
+    text-align: justify;
+    margin-left: 210px;
+    padding: 20px;
+    width: 40%;
+    background-color: #ffccb2;
+    height: 700px; 
+    border: 3px dotted red;
+    overflow: scroll; 
+}
+
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #6d6875;
+  font-family: Baskerville, "Baskerville Old Face",serif; 
+  padding: 15px;
+  height: 60px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens, kada ngaruh sih*/
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}

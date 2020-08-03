@@ -1,0 +1,83 @@
+[
+	{
+	"soal0":{
+		"soal":"Garis yang dibatasi oleh dua titik ujung yang berbeda disebut. . . .",
+		"a":"a. Ruas Garis",
+		"b":"b. Sinar garis",
+		"c":"c. Panjang garis",
+		"d":"d. Garis",
+		"benar":"a"
+		}
+	},
+	{
+	"soal1":{
+		"soal":"Garis yang memiliki satu titik ujung dan ujung yang lain membentang tak terbatas disebut. . . .",
+		"a":"a. Ruas Garis",
+		"b":"b. Sinar garis",
+		"c":"c. Panjang garis",
+		"d":"d. Garis",
+		"benar":"b"
+		}
+	},
+	{
+	"soal2":{
+		"soal":"Ruas garis yang titik ujung satu dengan yang lainnya diperpanjang tak terbatas disebut. . . .",
+		"a":"a. Ruas Garis",
+		"b":"b. Sinar garis",
+		"c":"c. Panjang garis",
+		"d":"d. Garis",
+		"benar":"b"
+		}
+	},
+	{
+	"soal3":{
+		"soal":"Garis yang setiap titiknya diperpanjang tak terbatas disebut. . . .",
+		"a":"a. Ruas Garis",
+		"b":"b. Sinar garis",
+		"c":"c. Panjang garis",
+		"d":"d. Garis",
+		"benar":"d"
+		}
+	},
+	{
+	"soal4":{
+		"soal":"Terdapat dua garis yang  dimana garis pertama berada tepat disamping garis kedua disebut. . . .",
+		"a":"a. Garis Sejajar",
+		"b":"b. Garis Berhimpit",
+		"c":"c. Garis Berpotongan",
+		"d":"d. Garis Bersilangan",
+		"benar":"a"
+		}
+	},
+	{
+	"soal5":{
+		"soal":"Terdapat dua garis yang dimana garis pertama berada tepat diatas atau dibawah garis kedua disebut. . . .",
+		"a":"a. Garis Sejajar",
+		"b":"b. Garis Berhimpit",
+		"c":"c. Garis Berpotongan",
+		"d":"d. Garis Bersilangan",
+		"benar":"b"
+		}
+	},
+	{
+	"soal6":{
+		"soal":"Terdapat dua garis yang dimana dua garis tersebut berpotongan pada satu titik disebut. . . .",
+		"a":"a. Garis Sejajar",
+		"b":"b. Garis Berhimpit",
+		"c":"c. Garis Berpotongan",
+		"d":"d. Garis Bersilangan",
+		"benar":"c"
+		}
+	},
+	{
+		"soal7":{
+			"soal":"Terdapat dua garis yang saling berpotongan namun pada bidang yang berbeda disebut. . . .",	
+			"a":"a. Garis Sejajar",
+			"b":"b. Garis Berhimpit",
+			"c":"c. Garis Berpotongan",
+			"d":"d. Garis Bersilangan",
+			"benar":"d"
+		}
+		
+	}
+]
