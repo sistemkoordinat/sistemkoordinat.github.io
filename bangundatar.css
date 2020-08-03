@@ -340,6 +340,7 @@
       height: auto;
       float:none;
       font-size: 3vw;
+      overflow-x: hidden;
     }
     header {
       background-image: url(headerr.png);
@@ -356,7 +357,44 @@
       width: 100%;
       height: 300px;
     }
+
+   .noth{
+     width:3px;
+   }
+
+   .tkth{
+     width: 10px;
+   }
+
+   .bdth{
+     width: 20px;
+   }
+   
+   .ketth{
+     width: 10px;
+   }
      
-     
+   table {
+    width:400px !important;
+    padding-right: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  #t01{
+    width:400px !important;
+    padding-right: 20px;
+  }
+
+  .kecil{
+    width: 140px;
+    font-size: small;
+    text-align: center;
+  }
+  
+  .droptarget
+  {
+    width:140px;
+    padding:3px;
+  }
      
   }
