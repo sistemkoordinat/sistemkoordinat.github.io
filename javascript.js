@@ -10,11 +10,9 @@ function myFunction() {
  }
 
  function Functiontwo() {
-  var x = document.getElementById("Texttwo").value;
+  var x = document.getElementById("Texttwo").value.split(' ').join('');
    var jawaban;
    if (x == "5,6") {
-    jawaban = "Berhasil, jawabanmu benar";
-  } else if (x=="5, 6"){
     jawaban = "Berhasil, jawabanmu benar";
   }else {
     jawaban = "Jawabanmu salah, jangan lupa tanda koma(,) untuk pemisah titiknya";
@@ -23,11 +21,9 @@ function myFunction() {
  }
 
  function Functionthree() {
-  var x = document.getElementById("Textthree").value;
+  var x = document.getElementById("Textthree").value.split(' ').join('');
    var jawaban;
    if (x == "8,5") {
-    jawaban = "Berhasil, jawabanmu benar";
-  } else if (x=="8, 5"){
     jawaban = "Berhasil, jawabanmu benar";
   }else {
     jawaban = "Jawabanmu salah, jangan lupa tanda koma(,) untuk pemisah titiknya";
@@ -36,24 +32,20 @@ function myFunction() {
  }
 
  function Functionfour() {
-  var x = document.getElementById("Textfour").value;
+  var x = document.getElementById("Textfour").value.split(' ').join('');
    var jawaban;
    if (x == "10,2") {
     jawaban = "Berhasil, jawabanmu benar";
-  } else if (x=="10, 2"){
-    jawaban = "Berhasil, jawabanmu benar";
-  }else {
+  } else {
     jawaban = "Jawabanmu salah, jangan lupa tanda koma(,) untuk pemisah titiknya";
   }
    document.getElementById("cekfour").innerHTML = jawaban;
  }
 
  function Functionfive() {
-  var x = document.getElementById("Textfive").value;
+  var x = document.getElementById("Textfive").value.split(' ').join('');
    var jawaban;
    if (x == "12,8") {
-    jawaban = "Berhasil, jawabanmu benar";
-  } else if (x=="12, 8"){
     jawaban = "Berhasil, jawabanmu benar";
   }else {
     jawaban = "Jawabanmu salah, jangan lupa tanda koma(,) untuk pemisah titiknya";

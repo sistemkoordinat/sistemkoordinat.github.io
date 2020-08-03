@@ -1,14 +1,14 @@
 function cek(){
-    var jwb1 = document.getElementById("text1").value;
-    var jwb2 = document.getElementById("text2").value;
-    var jwb3 = document.getElementById("text3").value;
-    var jwb4 = document.getElementById("text4").value;
-    var jwb5 = document.getElementById("text5").value;
-    var jwb6 = document.getElementById("text6").value;
-    var jwb7 = document.getElementById("text7").value;
-    var jwb8 = document.getElementById("text8").value;
-    var jwb9 = document.getElementById("text9").value;
-    var jwb10 = document.getElementById("text10").value;
+    var jwb1 = document.getElementById("text1").value.toLowerCase().split(' ').join('');
+    var jwb2 = document.getElementById("text2").value.toLowerCase().split(' ').join('');
+    var jwb3 = document.getElementById("text3").value.toLowerCase().split(' ').join('');
+    var jwb4 = document.getElementById("text4").value.toLowerCase().split(' ').join('');
+    var jwb5 = document.getElementById("text5").value.toLowerCase().split(' ').join('');
+    var jwb6 = document.getElementById("text6").value.toLowerCase().split(' ').join('');
+    var jwb7 = document.getElementById("text7").value.toLowerCase().split(' ').join('');
+    var jwb8 = document.getElementById("text8").value.toLowerCase().split(' ').join('');
+    var jwb9 = document.getElementById("text9").value.toLowerCase().split(' ').join('');
+    var jwb10 = document.getElementById("text10").value.toLowerCase().split(' ').join('');
 
 if(jwb1 == "7 satuan ke atas"){
     document.getElementById("ket1").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
