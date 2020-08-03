@@ -325,7 +325,7 @@ footer {
 }
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens, kada ngaruh sih*/
-@media (max-width: 600px) {
+@media (max-width: 992px) {
   nav,.Isi-Kiri,.Isi-Kanan {
     width: 100%;
     height: auto;

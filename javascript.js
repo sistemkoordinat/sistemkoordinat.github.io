@@ -1,11 +1,9 @@
 function myFunction() {
-  var x = document.getElementById("myText").value;
+  var x = document.getElementById("myText").value.split(' ').join('');
    var jawaban;
    if (x == "3,3") {
      jawaban = "Berhasil, jawabanmu benar";
-   } else if (x=="3, 3"){
-     jawaban = "Berhasil, jawabanmu benar";
-   }else {
+   } else {
      jawaban = "Jawabanmu salah, jangan lupa tanda koma(,) untuk pemisah titiknya";
    }
    document.getElementById("demo").innerHTML = jawaban;
