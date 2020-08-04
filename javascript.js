@@ -4,6 +4,14 @@ var xx= document.querySelector('.petunjuk');
 xx.addEventListener("click",function(){
   x.classList.toggle("hilang");
 })
+
+var x1 = document.getElementById("tujuan");
+var xx1= document.querySelector('.tujuan');
+
+xx1.addEventListener("click",function(){
+  x1.classList.toggle("hilang");
+})
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
