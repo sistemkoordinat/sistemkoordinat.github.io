@@ -54,10 +54,16 @@ function myFunction() {
    }
 
    function Functionsix() {
-    var x = document.getElementById("Textsix").value.toLowerCase().split(' ').join('');
+    var x = document.getElementById("Textsix").value.toLowerCase();
      var jawaban;
      if (x == "f,g") {
       jawaban = "Berhasil, jawabanmu benar";
+    } else if (x=="f dan g"){
+      jawaban = "Berhasil, jawabanmu benar";
+    } else if (x=="F,G"){
+        jawaban = "Berhasil, jawabanmu benar";
+    } else if (x=="F dan G"){
+        jawaban = "Berhasil, jawabanmu benar";
     }else {
       jawaban = "Jawabanmu salah, gunakan penghubung koma atau dan";
     }
@@ -65,10 +71,16 @@ function myFunction() {
    }
 
    function Functionseven() {
-    var x = document.getElementById("Textseven").value.toLowerCase().split(' ').join('');
+    var x = document.getElementById("Textseven").value;
      var jawaban;
      if (x == "b,c") {
         jawaban = "Berhasil, jawabanmu benar";
+      } else if (x=="b dan c"){
+        jawaban = "Berhasil, jawabanmu benar";
+      } else if (x=="B,C"){
+          jawaban = "Berhasil, jawabanmu benar";
+      } else if (x=="B dan C"){
+          jawaban = "Berhasil, jawabanmu benar";
       }else {
       jawaban = "Jawabanmu salah, gunakan penghubung koma atau dan";
     }
