@@ -15,8 +15,7 @@
   </div>
 <section>
     <ul>
-        <li><a class="active" href="main.html">Home</a></li>
-        <li><a href="kikd.html">Kompetensi Dasar</a></li>
+        <li><a class="active" href="index.html">Halaman Utama</a></li>
       </ul>
       <nav>
         <div class="button-nav">
@@ -57,15 +56,17 @@
       </div>
       </nav>
   <article>
-    <img src="subab1.png" width="450" height="80">
+    <img src="subab1.png" width="450" height="80" class="gmb">
     <p> &nbsp;&nbsp;Untuk mengetahui apa itu sistem koordinat, bagaimana contoh sistem koordinat dalam 
                     kehidupan sehari - hari. Mari kita simak penjelasan animasi berikut.</p>
-    <div id="myDIV">
-      <p align="justify">&nbsp;&nbsp;Petunjuk Penggunaan Animasi</p>
-      &nbsp;&nbsp;&nbsp;&nbsp;Klik tombol <img src="play.PNG" width="20" height="20"> 
-        pada animasi dibawah ini untuk memulai.<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;Klik tombol <img src="fullscreen.PNG" width="20" height="20"> 
-        untuk memperbesar layar.
+    <button class="petunjuk">Klik Untuk Melihat Petunjuk Animasi</button><br>
+      <div id="petunjuk" class="hilang">
+        <b> Petunjuk Penggunaan Animasi</b>
+        <ol>
+        <li>Klik tombol mulai pada animasi dibawah ini untuk memulai.</li><br>
+        <li>Klik tombol <img src="fullscreen.PNG" width="20" height="20"> 
+          untuk memperbesar layar.</li>
+      </ol>
       </div>
       <br>
     <iframe id="pengenalan" src="pengenalan.html" allowtransparency ="true" width ="500" height ="450"  
@@ -73,14 +74,13 @@
     <p> &nbsp;&nbsp;Nah, setelah menyaksikan animasi diatas, sudah terbayangkan apa itu sistem koordinat 
                     dan bagaimana contohnya dalam kehidupan sehari-hari. Selanjutnya kita akan mempelajari 
                     bagaimana membaca posisi tempat menggunakan bidang koordinat.</p>
-  <button class="lanjut" button onclick="location.href='homepage.html'">Lanjutkan Belajar</button>
   </article>
 </section>
 
 <footer>
     <div id="footer">
-      &copy;2019 Faridah Munawarah (1610131220005)
-      <br> Media Pembelajaran Matematika Kelas 8 : Sistem Koordinat
+      <a href="index.html" class="previous">&laquo; Sebelumnya</a>
+      <a href="homepage.html" class="next">Selanjutnya &raquo;</a>
     </div>
 </footer>
 <script src="pengenalan.js"></script>
