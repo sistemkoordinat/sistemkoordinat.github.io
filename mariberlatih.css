@@ -12,7 +12,7 @@ header {
   height: 80px;
   padding: 15px 15px;
   text-align:center;
-  font-size: 40px;
+  font-size: 44px;
   font-weight: bold;
   color: white;
 }
@@ -84,16 +84,14 @@ article{
 .tombol{
   width: 100%;
   height: 485px;
-  background-color: rgba(255, 255, 255, 0.678);
+  background-color: rgba(255, 255, 255, 0.89);
 }
 
 .over  { text-decoration: overline; }
 
 .kikd{
-  background-color: #ff5252;
+  background-color: white;
   border: none;
-  color: white;
-  padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -102,7 +100,7 @@ article{
   cursor: pointer;
   border-radius: 8px;
   margin-top: 70px;
-  margin-left: 550px;
+  margin-left: 200px;
 }
 
 .kikd:hover {background-color: #ff8a80}
@@ -114,10 +112,9 @@ article{
 }
 
 .materi{
-  background-color: #ff5252;
+  background-color: white;
   border: none;
   color: white;
-  padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -126,7 +123,7 @@ article{
   cursor: pointer;
   border-radius: 8px;
   margin-top: 70px;
-  margin-left: 650px;
+  margin-left: 50px;
 }
 
 .materi:hover {background-color: #ff8a80}
@@ -138,10 +135,9 @@ article{
 }
 
 .info{
-  background-color: #ff5252;
+  background-color: white;
   border: none;
   color: white;
-  padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -150,7 +146,7 @@ article{
   cursor: pointer;
   border-radius: 8px;
   margin-top: 70px;
-  margin-left: 550px;
+  margin-left: 50px;
 }
 
 .info:hover {background-color: #ff8a80}
@@ -183,27 +179,29 @@ footer {
 @media (max-width: 992px) {
   article {
     width: 100%;
-    height: 85%;
+    height: 100%;
     float:none;
     font-size: 3vw;
+    min-height: 800;
   }
 
   .tombol{
     height: 100%;
+    font-size: 3vw;
   }
   header {
   background-color: #fd7878;
   height: 10%;
-  padding: 55px 30px;
+  padding: 30px 15px;
   text-align:center;
-  font-size: 60px;
   font-weight: bold;
   color: white;
+  font-size: 8vw;
   }
   .kikd{
-    margin-top: 400px;
-    margin-left: 170px;
-    font-size: 50px; 
+    margin-top: 30px;
+    margin-left: 90px;
+    font-size: 5vw;
   }
 
 .kikd:hover {background-color: #ff8a80}
@@ -215,9 +213,9 @@ footer {
 }
 
   .materi{
-    margin-top: 100px;
-    margin-left: 350px;
-    font-size: 50px;
+    margin-top: 40px;
+    margin-left: 90px;
+    font-size: 6vw;
   }
 
 .materi:hover {background-color: #ff8a80}
@@ -229,9 +227,9 @@ footer {
 }
 
   .info{
-    margin-top: 100px;
-    margin-left: 170px;
-    font-size: 50px;
+    margin-top: 40px;
+    margin-left: 90px;
+    font-size: 5vw;
   }
 
   .info:hover {background-color: #ff8a80}
@@ -243,14 +241,20 @@ footer {
 }
 
   footer{
-    height: 5%;
+    height: 10%;
     text-align:center;
     padding: 20px 10px;
-    font-size: 30px;
+    font-size: 4vw;
   }
 
   .text{
-    font-size: 30px;
+    font-size: 4vw;
+    height: auto;
+    width: auto;
   }
    
+  img{
+    width: 100%;
+    height: auto;
+  }
 }

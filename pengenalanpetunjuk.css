@@ -215,6 +215,9 @@
     overflow: scroll;
   }
   
+  #pengenalan{
+    margin-left: 200px;
+  }
   section:after {
     content: "";
     display: table;
@@ -271,9 +274,8 @@
       text-align: justify;
     }
     header {
-      background-image: url(headerr.png);
-      height: 80px;
-      width: 100%;
+      background-image: url(headerhp.png);
+      background-size: 104% 106% ;
     }
     
     img{
@@ -286,10 +288,10 @@
       height: 50px;
     }
   
-    iframe{
-      width: 500px;
+    #pengenalan{
+      width: 350px;
       height: 300px;
-      margin-left:none;
+      margin-left: 1px;
     }
 
     .lanjut{
@@ -297,6 +299,6 @@
     }
 
     #petunjuk{
-      height: 200px;
+      height: 150px;
     }
   }
