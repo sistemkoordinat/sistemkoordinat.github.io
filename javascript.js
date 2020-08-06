@@ -12,6 +12,13 @@ xx1.addEventListener("click",function(){
   x1.classList.toggle("hilang");
 })
 
+var x2 = document.getElementById("petunjuksoal");
+var xx2= document.querySelector('.petunjuksoal');
+
+xx2.addEventListener("click",function(){
+  x2.classList.toggle("hilang");
+})
+
 var slideIndex = 1;
 showSlides(slideIndex);
 

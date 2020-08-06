@@ -12,15 +12,13 @@
 
 <section>
     <ul>
-        <li><a  href="main.html">Home</a></li>
-        <li><a href="kikd.html">Kompetensi Dasar</a></li>
+      <li><a  href="index.html">Halaman Utama</a></li>
     </ul>
 
   <nav>
+    <div class="list">Daftar Materi</div>
     <div class="button-nav">
-      
       <button class="button" button onclick="location.href='pengenalanpetunjuk.html'">Mengenal Sistem Koordinat</button>
-    
     <div class="dropdown">
       <button class="dropbutton">A. Posisi Titik dalam bidang koordinat
         <i class="fa fa-caret-down"></i>
@@ -68,6 +66,15 @@
   
   <div class="Isi-Kiri">
       <img src="subab2.png" width="450" height="70">
+      <button class="tujuan">Klik Untuk Melihat Tujuan Pembelajaran</button>
+      <div id="tujuan" class="hilang">
+        <ol>
+         <b> Tujuan Pembelajaran:</b>
+        <li>Siswa dapat menentukan posisi tempat pada bidang koordinat</li>
+        <li>Siswa dapat menentukan posisi titik pada bidang koordinat</li>
+        <li>Siswa dapat menentukan bangun datar yang dibentuk dari titik koordinat</li>
+      </ol>
+      </div>
       <p>&nbsp;&nbsp;Setelah mengetahui bagaimana cara menentukan posisi tempat pada bidang koordinat, 
                     selanjutnya kita akan mempelajari bagaimana menentukan titik bidang koordinat pada 
                     bidang koordinat dengan 4 bagian kuadran.
@@ -92,7 +99,7 @@
           Pantai Joras pada bidang koordinat?</li>
         <li>Bagaimana cara penulisan titik koordinat yang tepat?</li>
       </ol>
-      <img src="marimenggali informasi.png" width="320" height="70" class="gmbr">
+      <img src="marimenggali informasi.png" width="320" height="70" class="gmbr"><br>
       Berdasarkan gambar bidang koordinat Gambar 1.6, Tentukan
       <ol>
         <li>Posisi Titik Air Terjun Bajuin pada bidang koordinat dengan penulisan titik koordinat yang tepat,</li>
@@ -107,20 +114,44 @@
                     <br>
                     <img src="4kuadran.png" width="480" height="300">
                     <center><i><b>Gambar 1.5</b> : Bidang Koordinat 4 bagian kuadran</i></center>
-        &nbsp;&nbsp;Berikut ini adalah contoh penulisan dengan titik koordinat: A</p>
-      <p><center>A(X,Y)</center></p>
-      <p><center><i>(contoh penulisan titik koordinat)</i></center></p>
-
       <p>&nbsp;&nbsp;Sumbu-X dan sumbu-Y membagi bidang koordinat menjadi 4 bagian kuadran, yaitu :
         <ol>
-          <li>Kuadran I : koordinat-x positif dan koordinat-y positif</li>
-          <li>Kuadran II : koordinat-x negatif dan koordinat-y positif</li>
-          <li>Kuadran III : koordinat-x negatif dan koordinat-y negatif</li>
-          <li>Kuadran IV : koordinat-x positif dan koordinat-y negatif</li>
+          <li><b>Kuadran I :</b><br>
+          &nbsp;&nbsp;-	Mulai titik awal (0,0) ke arah kanan bernilai positif (Sumbu-x)<br>
+          &nbsp;&nbsp;-	Mulai titik awal (0,0) ke arah atas bernilai positif (Sumbu-y)</li><br><br>
+          <li><b>Kuadran II :</b> <br>
+          &nbsp;&nbsp;-	Mulai titik awal (0,0) ke arah kiri bernilai negatif (Sumbu-x)<br>
+          &nbsp;&nbsp;-	Mulai titik awal (0,0) ke arah atas bernilai positif (Sumbu-y)</li><br><br>
+          <li><b>Kuadran III :</b> <br>
+          &nbsp;&nbsp;-	Mulai titik awal (0,0) ke arah kiri bernilai negatif (Sumbu-x)<br>
+          &nbsp;&nbsp;-	Mulai titik awal (0,0) ke arah bawah bernilai negatif (Sumbu-y)</li><br><br>
+          <li><b>Kuadran IV :</b> <br>
+          &nbsp;&nbsp;-	Mulai titik awal (0,0) ke arah kanan bernilai positif (Sumbu-x)<br>
+          &nbsp;&nbsp;-	Mulai titik awal (0,0) ke arah bawah bernilai negatif (Sumbu-y)<br><br>
+        </li>
         </ol>
 
-        <br>&nbsp;&nbsp;Mari kita simak animasi berikut ini untuk menentukan posisi titik berdasarkan 4 
+        <p>&nbsp;&nbsp;&nbsp;Posisi titik koordinat kartesius ditulis dalam pasangan berurut (x,y). Bilangan x 
+        menyatakan jarak titik itu dari sumbu-y dan bilangan y menyatakan jarak titik itu dari sumbu-x.</p>
+
+        <p>&nbsp;&nbsp;&nbsp;Berikut ini adalah contoh penulisan dengan titik koordinat A.</p>
+
+                                    <div class="rumus">A(x,y)<br>
+                                  (contoh penulisan titik koordinat)
+                                                  </div>
+        <br>
+        &nbsp;&nbsp;Mari kita simak animasi berikut ini untuk menentukan posisi titik berdasarkan 4 
                         kuadran koordinat. &nbsp;&nbsp;&nbsp;&nbsp; <br>
+                        <button class="petunjuk">Klik Untuk Melihat Petunjuk Animasi</button><br>
+                        <div id="petunjuk" class="hilang">
+                          <b> Petunjuk Penggunaan Animasi</b>
+                          <ol>
+                          <li>Klik tombol mulai pada animasi dibawah ini untuk memulai.</li><br>
+                          <li>Klik tombol &nbsp; <img src="fullscreen.PNG" width="20" height="20" class="fullmoon"> 
+                            &nbsp;untuk memperbesar layar.</li>
+                        </ol>
+                        </div>
+                        <br>
         <iframe id="kuadran" src="kuadranfix.html" allowtransparency ="true" width ="480" height ="450" 
         frameborder="0" scrolling="no" allowfullscreen style="z-index:100 !important;"></iframe>
       </p>
@@ -130,50 +161,88 @@
 
         <img src="latih.png" width="400" height="50">
 
-      <p>&nbsp;&nbsp;Kerjakan latihan soal berikut ini!</p>
+       <p>&nbsp;&nbsp;Kerjakan latihan soal berikut ini!</p>
 
         <img src="latsoal2.png" width="480" height="300">
-
-      <p>&nbsp;&nbsp; Jawablah pertanyaan dibawah ini berdasarkan gambar diatas dengan mengisi kolom yang 
+        <center><i><b>Gambar 1.6</b> : Bidang Koordinat</i></center>
+       <p>&nbsp;&nbsp; Jawablah pertanyaan dibawah ini berdasarkan gambar diatas dengan mengisi kolom yang 
         kosong dibawah ini!</p>
+        <button class="petunjuksoal">Klik Untuk Melihat Petunjuk</button><br>
+      <div id="petunjuksoal" class="hilang">
+        <ol>
+          Petunjuk:
+        <li>Isikan jawaban anda pada kolom yang kosong.</li>
+        <li>Tekan tombol cek untuk mengecek jawaban.</li>
+        <li>Tekan tombol 1,2,3,4,5,6,7 dibawah soal  atau tombol < dan > untuk mengganti ke nomor selanjutnya</li>
+      </ol>
+      </div>
+      <br>
+        <div class="slideshow-container">
 
-      <ol type="a">
-          <li>Titik A terletak pada( <input type="text" id="myText" value=""> )</li>
-          <p>Kemudian klik tombol dibawah ini untuk mengecek jawabanmu</p>
-          <button onclick="myFunction()">Cek</button>
-          <p id="demo"></p>
-
-          <li>Titik B terletak pada( <input type="text" id="Texttwo" value=""> )</li>
-          <p>Kemudian klik tombol dibawah ini untuk mengecek jawaban anda</p>
-          <button onclick="Functiontwo()">Cek</button>
-          <p id="cektwo"></p>
-
-          <li>Titik C terletak pada( <input type="text" id="Textthree" value=""> )</li>
-          <p>Kemudian klik tombol dibawah ini untuk mengecek jawaban anda</p>
-          <button onclick="Functionthree()">Cek</button>
-          <p id="cekthree"></p>
-
-          <li>(1,-3) terletak pada titik <input type="text" id="Textfour" value=""> </li>
+          <div class="mySlides">
+          <p>1. Titik A terletak pada( <input type="text" id="myText" value=""> )</p>
+            <p>Kemudian klik tombol dibawah ini untuk mengecek jawabanmu</p>
+            <button onclick="myFunction()">Cek</button>
+            <p id="demo"></p>
+          </div>
+          
+          <div class="mySlides">
+            <p>2. Titik B terletak pada( <input type="text" id="Texttwo" value=""> )</p>
+            <p>Kemudian klik tombol dibawah ini untuk mengecek jawaban anda</p>
+            <button onclick="Functiontwo()">Cek</button>
+            <p id="cektwo"></p>
+          </div>
+          
+          <div class="mySlides">
+            <p>3. Titik C terletak pada( <input type="text" id="Textthree" value=""> )</p>
+            <p>Kemudian klik tombol dibawah ini untuk mengecek jawaban anda</p>
+            <button onclick="Functionthree()">Cek</button>
+            <p id="cekthree"></p>
+          </div>
+          
+          <div class="mySlides">
+            <p>4. (1,-3) terletak pada titik <input type="text" id="Textfour" value=""> </p>
           <p>Kemudian klik tombol dibawah ini untuk mengecek jawaban anda</p> 
           <button onclick="Functionfour()">Cek</button>
           <p id="cekfour"></p>
+          </div>
+          
+          <div class="mySlides">
+            <p>5. (-2,-5) terletak pada titik( <input type="text" id="Textfive" value=""> )</p>
+            <p>Kemudian klik tombol dibawah ini untuk mengecek jawaban anda</p>
+            <button onclick="Functionfive()">Cek</button>
+            <p id="cekfive"></p>
+          </div>
 
-          <li>(-2,-5) terletak pada titik( <input type="text" id="Textfive" value=""> )</li>
-          <p>Kemudian klik tombol dibawah ini untuk mengecek jawaban anda</p>
-          <button onclick="Functionfive()">Cek</button>
-          <p id="cekfive"></p>
-
-          <li>Sebutkan titik apa saja yang terletak pada kuadran IV <input type="text" id="Textsix" value=""> </li>
+          <div class="mySlides">
+            <p>6. Sebutkan titik apa saja yang terletak pada kuadran IV <input type="text" id="Textsix" value=""> </p>
           <p>Kemudian klik tombol dibawah ini untuk mengecek jawaban anda</p>
           <button onclick="Functionsix()">Cek</button>
           <p id="ceksix"></p>
+          </div>
 
-          <li>Sebutkan titik apa saja yang terletak pada kuadran II <input type="text" id="Textseven" value=""> </li>
+          <div class="mySlides">
+            <p>7. Sebutkan titik apa saja yang terletak pada kuadran II <input type="text" id="Textseven" value=""> </p>
           <p>Kemudian klik tombol dibawah ini untuk mengecek jawaban anda</p>
           <button onclick="Functionseven()">Cek</button>
           <p id="cekseven"></p>
-
-        </ol>
+          </div>
+          
+          <a class="pre" onclick="plusSlides(-1)">❮</a>
+          <a class="nex" onclick="plusSlides(1)">❯</a>
+          
+          </div>
+          
+          <div class="dot-container">
+            <span class="dot" onclick="currentSlide(1)">1</span> 
+            <span class="dot" onclick="currentSlide(2)">2</span> 
+            <span class="dot" onclick="currentSlide(3)">3</span> 
+            <span class="dot" onclick="currentSlide(4)">4</span>
+            <span class="dot" onclick="currentSlide(5)">5</span>
+            <span class="dot" onclick="currentSlide(6)">6</span>
+            <span class="dot" onclick="currentSlide(7)">7</span>
+          </div>
+      
       </div>
   </div>
     </div>
