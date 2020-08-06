@@ -537,5 +537,9 @@ q {font-style: italic;}
     width: 20px;
     height: 20px;
   }
+
+  .rumus{
+    margin-left: 5px;
+  }
    
 }
