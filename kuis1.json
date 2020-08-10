@@ -1,0 +1,102 @@
+[{
+    "soal0": {
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='kosong.png' width='300' height='200'> <br>Toko buku terletak pada koordinat . . . .",
+        "a": "a. ( 4 , 5 )",
+        "b": "b. ( 9 , 2 )",
+        "c": "c. ( 11, 7 )",
+        "d": "d. ( 5 , 4 )",
+        "benar": "a",
+        "nih": "a. ( 4 , 5 )"
+    }
+}, {
+    "soal1": {
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='kosong.png' width='300' height='200'> <br>Supermarket terletak pada koordinat . . . .",
+        "a": "a. ( 4 , 5 )",
+        "b": "b. ( 9 , 2 )",
+        "c": "c. ( 11, 7 )",
+        "d": "d. ( 5 , 4 )",
+        "benar": "b",
+        "nih": "b. ( 9 , 2 )"
+    }
+
+}, {
+    "soal2": {
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='no3.png' width='300' height='200'> <br>Titik yang berada di kuadran III adalah . . . .",
+        "a": "a. Titik A",
+        "b": "b. Titik B",
+        "c": "c. Titik C",
+        "d": "d. Titik D",
+        "benar": "d",
+        "nih": "d. Titik D"
+    }
+}, {
+    "soal3": {
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='no3.png' width='300' height='200'> <br>Titik E berada pada kuadran . . . .",
+        "a": "a. Kuadran I",
+        "b": "b. Kuadran II",
+        "c": "c. Kuadran III",
+        "d": "d. Kuadran IV",
+        "benar": "d",
+        "nih": "d. Kuadran IV"
+    }
+}, {
+    "soal4": {
+        "soal": "Pada gambar bidang koordinat di bawah ini, tentukan bangun datar apa yang akan terbentuk apabila titik A,C,E,F dihubungkan menggunakan ruas garis!<br> <img src='no4.png' width='300' height='200'> <br>",
+        "a": "a. Segitiga",
+        "b": "b. Trapesium",
+        "c": "c. Jajargenjang",
+        "d": "d. Persegi",
+        "benar": "b",
+        "nih": "b. Trapesium"
+    }
+}, {
+    "soal5": {
+        "soal": "Diketahui segiempat ABCD dengan koordinat titik A(-3,5), B(-3,1), C(6,1) dan D(6,5). Segiempat ABCD berbentuk  . . .",
+        "a": "a. Persegi",
+        "b": "b. Persegi Panjang",
+        "c": "c. Jajargenjang",
+        "d": "d. Trapesium",
+        "benar": "b",
+        "nih": "b. Persegi Panjang"
+    }
+}, {
+    "soal6": {
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='no7.png' width='300' height='200'> <br>Koordinat-koordinat di bawah ini yang sesuai dengan gambar adalah...",
+        "a": "a. A(-2,-4)",
+        "b": "b. B(5,5)",
+        "c": "c. C(-2,6)",
+        "d": "d. D(1,4)",
+        "benar": "b",
+        "nih": "b. B(5,5)"
+    }
+}, {
+    "soal7": {
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='no89.png' width='300' height='200'> <br>Bangun datar yang terbentuk adalah dari titik PQRS adalah . . .",
+        "a": "a. Persegi Panjang",
+        "b": "b. Persegi",
+        "c": "c. Jajargenjang",
+        "d": "d. Trapesium",
+        "benar": "a",
+        "nih": "a. Persegi Panjang"
+    }
+}, {
+    "soal8": {
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='no89.png' width='300' height='200'> <br>Koordinat titik P,Q,R dan S berturut-turut adalah. . . .",
+        "a": "a. P(-2,-2), Q(2,-2), R(2,5) dan S(5,-2)",
+        "b": "b. P(5,-2), Q(2,-2), R(2,5) dan S(-2,-2",
+        "c": "c. P(-2,5),Q(2,5),R(-2,-2) dan S(2,-2)",
+        "d": "d. P(5,-2), Q(2,5), R(-2,-5) dan S(2,-2)",
+        "benar": "c",
+        "nih": "c. P(-2,5),Q(2,5),R(-2,-2) dan S(2,-2)"
+    }
+}, {
+    "soal9": {
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='no89.png' width='300' height='200'> <br>Luas bangun di atas adalah. . . .",
+        "a": "a. 28 satuan luas",
+        "b": "a. 30 satuan luas",
+        "c": "a. 21 satuan luas",
+        "d": "a. 32 satuan luas",
+        "benar": "a",
+        "nih": "a. 28 satuan luas"
+    }
+}]
