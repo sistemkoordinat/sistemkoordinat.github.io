@@ -12,7 +12,7 @@ label {
 }
 
 .mundu{
-    margin-left: 5% !important;
+    margin-left: 17% !important;
     display: inline-block;
 }
 
@@ -356,16 +356,18 @@ p{
         padding: 10px 0px 10px 20px;
     }
     .mundu{
-        margin-left: 8% !important;
+        margin-left: 9% !important;
+        width: 100%;
     }
     .mundur {
-        margin-left: 22% !important;
+        margin-left: 5% !important;
     }
     .mundurr{
-        margin-left: 27% !important;
+        margin-left: 11% !important;
     }
     label {
-        width: 90%;
+        width: 110%;
+        text-align: left;
     }
     .lanjut:hover{
         background-color: rgb(3, 31, 75);
@@ -383,7 +385,7 @@ p{
     #sekolah, #kelas{
         width: 60%;
         height: 25px;
-        padding: 0px 10px;
+        margin-left: 10px;
     }
     .bg_soal span {
         padding: 2px;
@@ -426,7 +428,7 @@ p{
         font-size: 16px;
     }
     .nav_sebelum {
-        width: 26%;
+        width: 30%;
     }
     .nav_sebelum:hover{
         background-color:  #ffb49e;
@@ -436,7 +438,7 @@ p{
         font-size: 14px;
     }
     .nav_selanjut {
-        width: 26%;
+        width: 30%;
     }
     .nav_selanjut:hover{
         background-color:  #ffb49e;
@@ -464,5 +466,9 @@ p{
     }
     .ket_ulang{
         font-size: 16px;
+    }
+
+    .lanjut, .tmblUlang{
+        margin-top: 25px;
     }
 }

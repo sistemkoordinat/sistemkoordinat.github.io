@@ -296,6 +296,15 @@ article{
   border: 3px solid red;
 }
 
+.acuan{
+  font-weight: 700;
+  text-align: center;
+  width: 300px;
+  height: 130px;
+  margin-left: 100px;
+  border: 3px solid red;
+}
+
 section:after {
   content: "";
   display: table;

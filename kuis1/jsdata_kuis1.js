@@ -41,24 +41,10 @@ selanjutnya.addEventListener('click', function () {
     } else {
         kelasnya.className = kelasnya.className.replace('tt_salah', '');
         if (kelasnya.value == "1") {
-            kelasfix = "7A";
+            kelasfix = "8A";
         } else if (kelasnya.value == "2") {
-            kelasfix = "7B";
-        } else if (kelasnya.value == "3") {
-            kelasfix = "7C";
-        } else if (kelasnya.value == "4") {
-            kelasfix = "7D";
-        } else if (kelasnya.value == "5") {
-            kelasfix = "7E";
-        } else if (kelasnya.value == "6") {
-            kelasfix = "7F";
-        } else if (kelasnya.value == "7") {
-            kelasfix = "7G";
-        } else if (kelasnya.value == "8") {
-            kelasfix = "7H";
-        } else if (kelasnya.value == "9") {
-            kelasfix = "7I";
-        }
+            kelasfix = "8B";
+        } 
         cek += 1;
     }
 
@@ -69,12 +55,12 @@ selanjutnya.addEventListener('click', function () {
     } else {
         sekolah.className = sekolah.className.replace('tt_salah', '');
         if (sekolah.value == "1") {
-            sekolahfix = "SMP Negeri 2 Banjarmasin";
+            sekolahfix = "SMP Negeri 13 Banjarmasin";
         }
         cek += 1;
     }
 
-    // console.log(sekolahfix);
+    console.log(sekolahfix);
 
     if (cek != 3) {
         alert("lengkapi dulu data dari anda");

@@ -31,61 +31,61 @@ function cek(){
     var jwb9 = document.getElementById("text9").value;
     var jwb10 = document.getElementById("text10").value;
 
-if(jwb1 == "7 satuan ke atas"){
+if(jwb1 == "5 satuan ke atas"){
     document.getElementById("ket1").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
   } else{
     document.getElementById("ket1").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
   }
 
-if(jwb2 == "4 satuan ke kiri"){
+if(jwb2 == "6 satuan ke atas"){
     document.getElementById("ket2").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
   } else{
     document.getElementById("ket2").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
   }
 
-  if(jwb3 == "2 satuan ke bawah"){
+  if(jwb3 == "9 satuan ke kiri"){
     document.getElementById("ket3").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
   } else{
     document.getElementById("ket3").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
   }
 
-  if(jwb4 == "(9,4)"){
+  if(jwb4 == "(-8,-2)"){
     document.getElementById("ket4").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
   } else{
     document.getElementById("ket4").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
   }
 
-  if(jwb5 == "(-9,2)"){
+  if(jwb5 == "(-6,-6)"){
     document.getElementById("ket5").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
   } else{
     document.getElementById("ket5").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
   }
 
-  if(jwb6 == "9 satuan ke kiri"){
+  if(jwb6 == "6 satuan ke bawah"){
     document.getElementById("ket6").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
   } else{
     document.getElementById("ket6").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
   }
 
-  if(jwb7 == "(-10,-7)"){
+  if(jwb7 == "(2,-3)"){
     document.getElementById("ket7").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
   } else{
     document.getElementById("ket7").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
   }
 
-  if(jwb8 == "7 satuan ke bawah"){
+  if(jwb8 == "2 satuan ke kanan"){
     document.getElementById("ket8").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
   } else{
     document.getElementById("ket8").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
   }
 
-  if(jwb9 == "(4,-5)"){
+  if(jwb9 == "(10,-5)"){
     document.getElementById("ket9").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
   } else{
     document.getElementById("ket9").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
   }
 
-  if(jwb10 == "4 satuan ke kanan"){
+  if(jwb10 == "5 satuan ke bawah"){
     document.getElementById("ket10").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
   } else{
     document.getElementById("ket10").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"

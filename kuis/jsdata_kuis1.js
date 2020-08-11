@@ -22,7 +22,7 @@ let sekolahfix = '';
 let kelasfix = '';
 
 selanjutnya.addEventListener('click', function () {
-
+console.log(kk);
     let cek = 0;
     if (namanya.value == "") {
         if (namanya.className.indexOf('tt_salah') == -1) {

@@ -359,9 +359,22 @@ main{
   border-left: none;
   border-top: 2px solid  #ff5252;
 } 
-.kembali:hover{
+
+.kembali{
+  text-decoration: none;
   background-color: #f71c1c;
   color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 135px;
+  text-align: left;
+  }
+  
+  .kembali:hover{
+  background-color: #ffb49e;
+  color: black;
+  }
+  
 }
 .kanan {
   background-color: white;
@@ -381,8 +394,6 @@ main{
   padding: 15px;
   text-align: justify;
   
-  /* outline: 2px solid rgb(131, 176, 190);
-  outline-offset: -10px; */
 
 }
 }
