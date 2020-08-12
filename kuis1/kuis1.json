@@ -1,6 +1,6 @@
 [{
     "soal0": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/no1.png' width='300' height='200'> <br>Toko buku terletak pada koordinat . . . .",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/no1.png' width='270' height='170'> <br>Toko buku terletak pada koordinat . . . .",
         "a": "a. ( 4 , 5 )",
         "b": "b. ( 9 , 2 )",
         "c": "c. ( 11, 7 )",
@@ -10,7 +10,7 @@
     }
 }, {
     "soal1": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/no1.png' width='300' height='200'> <br>Supermarket terletak pada koordinat . . . .",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/no1.png' width='270' height='170'> <br>Supermarket terletak pada koordinat . . . .",
         "a": "a. ( 4 , 5 )",
         "b": "b. ( 9 , 2 )",
         "c": "c. ( 11, 7 )",

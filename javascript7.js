@@ -12,8 +12,8 @@ xx1.addEventListener("click",function(){
   x1.classList.toggle("hilang");
 })
 
-var x2 = document.getElementById("petunjuksoal");
-var xx2= document.querySelector('.petunjuksoal');
+var x2 = document.getElementById("petunjuksoal2");
+var xx2= document.querySelector('.petunjuksoal2');
 
 xx2.addEventListener("click",function(){
   x2.classList.toggle("hilang");
@@ -46,57 +46,156 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-function myFunction() {
-  var x = document.getElementById("myText").value.split(' ').join('');
-   var jawaban;
-   if (x == "3,3") {
-     jawaban = "Berhasil, jawabanmu benar";
-   } else {
-     jawaban = "Jawabanmu salah, jangan lupa tanda koma(,) untuk pemisah titiknya";
-   }
-   document.getElementById("demo").innerHTML = jawaban;
+function myFunction(){
+    var jwb1 = document.getElementById("titik1").value;
+    var jwb2 = document.getElementById("titik2").value;
+    var jwb3 = document.getElementById("titik3").value;
+
+ if(jwb1 == "5"){
+    document.getElementById("ket1").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
+  } else{
+    document.getElementById("ket1").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
+  }
+
+ if(jwb2 == "1"){
+    document.getElementById("ket2").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
+  } else{
+    document.getElementById("ket2").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
+  }
+
+  if(jwb3 == "2"){
+    document.getElementById("ket3").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
+  } else{
+    document.getElementById("ket3").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
+  }
 }
 
- function Functiontwo() {
-  var x = document.getElementById("Texttwo").value.split(' ').join('');
-   var jawaban;
-   if (x == "5,6") {
-    jawaban = "Berhasil, jawabanmu benar";
-  }else {
-    jawaban = "Jawabanmu salah, jangan lupa tanda koma(,) untuk pemisah titiknya";
+function Functiontwo(){
+    var jwb4 = document.getElementById("titik4").value;
+    var jwb5 = document.getElementById("titik5").value;
+    var jwb6 = document.getElementById("titik6").value;
+
+ if(jwb4 == "6,3"){
+    document.getElementById("ket4").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
+  } else{
+    document.getElementById("ket4").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
   }
-   document.getElementById("cektwo").innerHTML = jawaban;
+
+ if(jwb5 == "5,0"){
+    document.getElementById("ket5").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
+  } else{
+    document.getElementById("ket5").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
+  }
+
+  if(jwb6 == "-2,-1"){
+    document.getElementById("ket6").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
+  } else{
+    document.getElementById("ket6").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
+  }
 }
 
- function Functionthree() {
-  var x = document.getElementById("Textthree").value.split(' ').join('');
-   var jawaban;
-   if (x == "8,5") {
-    jawaban = "Berhasil, jawabanmu benar";
-  }else {
-    jawaban = "Jawabanmu salah, jangan lupa tanda koma(,) untuk pemisah titiknya";
-  }
-   document.getElementById("cekthree").innerHTML = jawaban;
- }
+function Functionthree(){
+    var jwb7 = document.getElementById("titik7").value;
+    var jwb8 = document.getElementById("titik8").value;
+    var jwb9 = document.getElementById("titik9").value;
 
- function Functionfour() {
-  var x = document.getElementById("Textfour").value.split(' ').join('');
-   var jawaban;
-   if (x == "10,2") {
-    jawaban = "Berhasil, jawabanmu benar";
-  } else {
-    jawaban = "Jawabanmu salah, jangan lupa tanda koma(,) untuk pemisah titiknya";
+ if(jwb7 == "1,5"){
+    document.getElementById("ket7").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
+  } else{
+    document.getElementById("ket7").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
   }
-   document.getElementById("cekfour").innerHTML = jawaban;
- }
 
- function Functionfive() {
-  var x = document.getElementById("Textfive").value.split(' ').join('');
-   var jawaban;
-   if (x == "12,8") {
-    jawaban = "Berhasil, jawabanmu benar";
-  }else {
-    jawaban = "Jawabanmu salah, jangan lupa tanda koma(,) untuk pemisah titiknya";
+ if(jwb8 == "-1,4"){
+    document.getElementById("ket8").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
+  } else{
+    document.getElementById("ket8").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
   }
-   document.getElementById("cekfive").innerHTML = jawaban;
- }
+
+  if(jwb9 == "7,-1"){
+    document.getElementById("ket9").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
+  } else{
+    document.getElementById("ket9").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
+  }
+}
+
+
+function ulang(){
+    var jwb1 = document.getElementById("titik1").value;
+    var jwb2 = document.getElementById("titik2").value;
+    var jwb3 = document.getElementById("titik3").value;
+  
+    document.getElementById("titik1").value="";
+    document.getElementById("ket1").innerHTML="";
+    if(jwb1==""){
+      document.getElementById("titik1").value = "";
+      document.getElementById("ket1").innerHTML = "";
+    }
+  
+    document.getElementById("titik2").value="";
+    document.getElementById("ket2").innerHTML="";
+    if(jwb2==""){
+      document.getElementById("titik2").value = "";
+      document.getElementById("ket2").innerHTML = "";
+    }
+  
+    document.getElementById("titik3").value="";
+    document.getElementById("ket3").innerHTML="";
+    if(jwb3==""){
+      document.getElementById("titik3").value = "";
+      document.getElementById("ket3").innerHTML = "";
+    }
+  }
+
+  function ulang2(){
+    var jwb4 = document.getElementById("titik4").value;
+    var jwb5 = document.getElementById("titik5").value;
+    var jwb6 = document.getElementById("titik6").value;
+  
+    document.getElementById("titik4").value="";
+    document.getElementById("ket4").innerHTML="";
+    if(jwb4==""){
+      document.getElementById("titik4").value = "";
+      document.getElementById("ket4").innerHTML = "";
+    }
+  
+    document.getElementById("titik5").value="";
+    document.getElementById("ket5").innerHTML="";
+    if(jwb5==""){
+      document.getElementById("titik5").value = "";
+      document.getElementById("ket5").innerHTML = "";
+    }
+  
+    document.getElementById("titik6").value="";
+    document.getElementById("ket6").innerHTML="";
+    if(jwb6==""){
+      document.getElementById("titik6").value = "";
+      document.getElementById("ket6").innerHTML = "";
+    }
+  }
+
+  function ulang3(){
+    var jwb7 = document.getElementById("titik7").value;
+    var jwb8 = document.getElementById("titik8").value;
+    var jwb9 = document.getElementById("titik9").value;
+  
+    document.getElementById("titik7").value="";
+    document.getElementById("ket7").innerHTML="";
+    if(jwb7==""){
+      document.getElementById("titik7").value = "";
+      document.getElementById("ket7").innerHTML = "";
+    }
+  
+    document.getElementById("titik8").value="";
+    document.getElementById("ket8").innerHTML="";
+    if(jwb8==""){
+      document.getElementById("titik8").value = "";
+      document.getElementById("ket8").innerHTML = "";
+    }
+  
+    document.getElementById("titik9").value="";
+    document.getElementById("ket9").innerHTML="";
+    if(jwb9==""){
+      document.getElementById("titik9").value = "";
+      document.getElementById("ket9").innerHTML = "";
+    }
+  }

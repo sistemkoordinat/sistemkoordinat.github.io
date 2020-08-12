@@ -136,60 +136,50 @@
     <p>&nbsp;&nbsp;Perhatikan gambar berikut ini!</p>
     <img src="asal.png" width="480" height="300">
     <center><i><b>Gambar 2.9</b> : Bidang Koordinat</i></center>
-    <button class="petunjuksoal">Klik Untuk Melihat Petunjuk</button><br>
-    <div id="petunjuksoal" class="hilang">
-      
+    <button class="petunjuksoal2">Klik Untuk Melihat Petunjuk</button><br>
+    <div id="petunjuksoal2" class="hilang">
+      <ol>
+        <b>Petunjuk:<br></b>
+      <li>Isikan jawaban anda pada kotak yang kosong.</li>
+      <li>Tekan tombol cek untuk mengecek jawaban.</li>
+      <li>Tekan tombol ulang untuk menghapus jawaban</li>
+      <li>Tekan tombol 1,2,3 dibawah soal atau tekan tombol "<" dan ">" disamping soal untuk mengganti ke nomor selanjutnya</li>
+    </ol>
   </div>
+  <br>
   <div class="slideshow-container">
 
     <div class="mySlides">
-    <p>1. Titik A terletak pada( <input type="text" id="myText" value=""> )</p>
-      <p>Kemudian klik tombol dibawah ini untuk mengecek jawabanmu</p>
-      <button onclick="myFunction()">Cek</button>
-      <p id="demo"></p>
-    </div>
-    
-    <div class="mySlides">
-      <p>2. Titik B terletak pada( <input type="text" id="Texttwo" value=""> )</p>
+    <p>1.	Tentukan koordinat titik pada bidang koordinat di atas!
+      <br>
+      a. A(2,<input type="text" id="titik1" value="" style="width: 30px;" placeholder=".....">)<p id="ket1"></p>
+      b. B(<input type="text" id="titik2" value="" style="width: 30px;" placeholder=".....">,2)<p id="ket2"></p>
+      c. C(-4,<input type="text" id="titik3" value="" style="width: 30px;" placeholder=".....">)<p id="ket3"></p>
+    </p>
       <p>Kemudian klik tombol dibawah ini untuk mengecek jawaban anda</p>
-      <button onclick="Functiontwo()">Cek</button>
-      <p id="cektwo"></p>
+      <button onclick="myFunction()">Cek</button> <button id="ulang" onclick="ulang()">Ulang</button>
     </div>
     
     <div class="mySlides">
-      <p>3. Titik C terletak pada( <input type="text" id="Textthree" value=""> )</p>
+      <p>2.Jika titik C dijadikan titik acuan, tentukan :<br>
+      a. Posisi titik A terhadap titik C adalah<input type="text" id="titik4" value="" placeholder=" ...,..." style="width: 40px;"><p id="ket4"></p>
+      b. Posisi titik B terhadap titik C adalah<input type="text" id="titik5" value="" placeholder=" ...,..." style="width: 40px;"><p id="ket5"></p>
+      c. Posisi titik B terhadap titik C adalah<input type="text" id="titik6" value="" placeholder=" ...,..." style="width: 40px;"><p id="ket6"></p>
+    </p>
       <p>Kemudian klik tombol dibawah ini untuk mengecek jawaban anda</p>
-      <button onclick="Functionthree()">Cek</button>
-      <p id="cekthree"></p>
+      <button onclick="Functiontwo()">Cek</button> <button id="ulang" onclick="ulang2()">Ulang</button>
     </div>
     
     <div class="mySlides">
-      <p>4. (1,-3) terletak pada titik <input type="text" id="Textfour" value=""> </p>
-    <p>Kemudian klik tombol dibawah ini untuk mengecek jawaban anda</p> 
-    <button onclick="Functionfour()">Cek</button>
-    <p id="cekfour"></p>
+      <p>3.Jika titik E dijadikan titik acuan, tentukan :<br>
+        a. Posisi titik C terhadap titik E adalah<input type="text" id="titik7" value="" placeholder=" ...,..." style="width: 40px;"><p id="ket7"></p>
+        b. Posisi titik D terhadap titik E adalah<input type="text" id="titik8" value="" placeholder=" ...,..." style="width: 40px;"><p id="ket8"></p>
+        c. Posisi titik F terhadap titik E adalah<input type="text" id="titik9" value="" placeholder=" ...,..." style="width: 40px;"><p id="ket9"></p>
+      </p>
+        <p>Kemudian klik tombol dibawah ini untuk mengecek jawaban anda</p>
+      <button onclick="Functionthree()">Cek</button> <button id="ulang" onclick="ulang3()">Ulang</button>
     </div>
     
-    <div class="mySlides">
-      <p>5. (-2,-5) terletak pada titik( <input type="text" id="Textfive" value=""> )</p>
-      <p>Kemudian klik tombol dibawah ini untuk mengecek jawaban anda</p>
-      <button onclick="Functionfive()">Cek</button>
-      <p id="cekfive"></p>
-    </div>
-
-    <div class="mySlides">
-      <p>6. Sebutkan titik apa saja yang terletak pada kuadran IV <input type="text" id="Textsix" value=""> </p>
-    <p>Kemudian klik tombol dibawah ini untuk mengecek jawaban anda</p>
-    <button onclick="Functionsix()">Cek</button>
-    <p id="ceksix"></p>
-    </div>
-
-    <div class="mySlides">
-      <p>7. Sebutkan titik apa saja yang terletak pada kuadran II <input type="text" id="Textseven" value=""> </p>
-    <p>Kemudian klik tombol dibawah ini untuk mengecek jawaban anda</p>
-    <button onclick="Functionseven()">Cek</button>
-    <p id="cekseven"></p>
-    </div>
     
     <a class="pre" onclick="plusSlides(-1)">❮</a>
     <a class="nex" onclick="plusSlides(1)">❯</a>
@@ -199,11 +189,7 @@
     <div class="dot-container">
       <span class="dot" onclick="currentSlide(1)">1</span> 
       <span class="dot" onclick="currentSlide(2)">2</span> 
-      <span class="dot" onclick="currentSlide(3)">3</span> 
-      <span class="dot" onclick="currentSlide(4)">4</span>
-      <span class="dot" onclick="currentSlide(5)">5</span>
-      <span class="dot" onclick="currentSlide(6)">6</span>
-      <span class="dot" onclick="currentSlide(7)">7</span>
+      <span class="dot" onclick="currentSlide(3)">3</span>
     </div>
 
 </div>
