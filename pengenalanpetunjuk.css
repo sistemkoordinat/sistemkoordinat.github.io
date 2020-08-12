@@ -312,4 +312,15 @@
       height: 150px;
     }
 
+  .divscratch{
+    overflow-y:hidden;
+    height: auto;
+  }
+
+  .scratch{
+    margin-top: -44px;
+    width: 300px;
+    height: 300px;;
+  }
+
   }
