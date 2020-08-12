@@ -292,6 +292,14 @@ section:after {
   clear: both;
 }
 
+.kotak{
+  background-color:#fd806ac5;
+  height: 250px;
+  width: 600px;
+  padding: 10px 10px;
+  box-sizing: border-box;
+}
+
 table {
   width:100%;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

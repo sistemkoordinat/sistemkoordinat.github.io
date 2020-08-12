@@ -248,7 +248,7 @@ color: black;
 
 .kanan{
 float: right;
-width: 25%;
+width: 30%;
 background-color: white;
 height: 485px;
 padding: 15px;
@@ -260,7 +260,7 @@ outline-offset: -20px; */
 
 .kiri {
 float: left;
-width: 75%;
+width: 70%;
 background-color: white;
 height: 485px;
 overflow: auto;
@@ -375,7 +375,7 @@ main{
   color: black;
   }
   
-}
+
 .kanan {
   background-color: white;
   width: 99%;
