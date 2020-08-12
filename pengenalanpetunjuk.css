@@ -117,6 +117,16 @@
     color: white;
     font-size: 20px;
   }
+  .divscratch{
+    overflow-y:hidden;
+    height: 372px;
+  }
+
+  .scratch{
+    margin-top: -44px;
+    width: 50%;
+    height: 402px;
+  }
   
   .button-nav .button {
     background-color:#ff8a80; /* warna buttonnya*/
