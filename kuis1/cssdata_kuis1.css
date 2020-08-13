@@ -3,12 +3,14 @@
     text-align: justify;
     border: 3px solid #ff5252;
     padding: 10px 20px 20px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 label {
     width: 100%;
     display: inline-block;
     margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .mundu{
@@ -40,6 +42,7 @@ label {
 
 .lanjut, .tmblUlang{
     background-color: #ff5252;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     padding: 10px 30px 10px 30px;
     border-radius: 5px;
@@ -109,6 +112,7 @@ label {
     padding: 2px;
     text-align: center;
     border: 2px solid #ff5252;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 5px;
     float: left;
     margin-left: 8.5%;
@@ -119,6 +123,7 @@ label {
 .soal_nav:hover {
     cursor: pointer;
     background-color:#ec4141;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
 }
 
@@ -151,6 +156,7 @@ label {
     text-align: center;
     width: 80%;
     background-color: #ffb49e;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     cursor: pointer;
     height: 30px;
     border-radius: 10px;
@@ -182,6 +188,7 @@ label {
 
 .pertanyaannya {
     border-left: 4px solid #ffb49e;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     padding-left: 15px;
     font-size: 18px;
 }
@@ -270,19 +277,20 @@ input[type="radio"]:checked+span .nav_pilihan:after {
 
 .nav_sebelum {
     background-color: #ffb49e;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     width: 20%;
     padding: 5px;
     text-align: center;
     margin-top: 20px;
     border-radius: 5px;
-    border: 2px solid  rgb(3, 31, 75);
+    border: 2px solid  rgb(129, 1, 1);
     cursor: pointer;
     display: inline-block;
     margin-right: 3%;
 }
 
 .nav_sebelum:hover {
-    background-color:  rgb(3, 31, 75);
+    background-color:  rgb(129, 1, 1);
     color: white;
 }
 
@@ -292,12 +300,13 @@ input[type="radio"]:checked+span .nav_pilihan:after {
 
 .nav_selanjut {
     background-color: #ffb49e;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     width: 20%;
     padding: 5px;
     text-align: center;
     margin-top: 20px;
     border-radius: 5px;
-    border: 2px solid  rgb(3, 31, 75);
+    border: 2px solid  rgb(129, 1, 1);
     cursor: pointer;
     display: inline-block;
     margin-right: 3%;
@@ -305,7 +314,7 @@ input[type="radio"]:checked+span .nav_pilihan:after {
 }
 
 .nav_selanjut:hover {
-    background-color:  rgb(3, 31, 75);
+    background-color:  rgb(129, 1, 1);
     color: white;
 }
 
@@ -332,7 +341,7 @@ p{
 }
 
 .t_hasil {
-    border: 5px solid rgb(9, 64, 82);
+    border: 5px solid rgb(129, 1, 1);
     border-radius: 5px;
     padding: 20px;
     width: 50%;
@@ -370,11 +379,11 @@ p{
         text-align: left;
     }
     .lanjut:hover{
-        background-color: rgb(3, 31, 75);
+        background-color: rgb(129, 1, 1);
       color: white;
     }
     .tmblUlang:hover{
-        background-color: rgb(3, 31, 75);
+        background-color: rgb(129, 1, 1);
       color: white;
     }
     #nama{
@@ -451,7 +460,7 @@ p{
         height: auto;
     }
     .t_hasil{
-        border: 4px solid rgb(9, 64, 82);
+        border: 4px solid rgb(129, 1, 1);
         border-radius: 5px;
         padding: 5px;
         width: 97%;

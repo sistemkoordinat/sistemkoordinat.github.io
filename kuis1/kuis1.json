@@ -1,6 +1,6 @@
 [{
     "soal0": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/no3.png' width='300' height='200'> <br>Toko buku terletak pada koordinat . . . .",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/no12.png' width='250' height='170'> <br>Toko buku terletak pada koordinat . . . .",
         "a": "a. ( 4 , 5 )",
         "b": "b. ( 9 , 2 )",
         "c": "c. ( 11, 7 )",
@@ -10,7 +10,7 @@
     }
 }, {
     "soal1": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/no3.png' width='300' height='200'> <br>Supermarket terletak pada koordinat . . . .",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/no12.png' width='250' height='170'> <br>Supermarket terletak pada koordinat . . . .",
         "a": "a. ( 4 , 5 )",
         "b": "b. ( 9 , 2 )",
         "c": "c. ( 11, 7 )",
@@ -21,7 +21,7 @@
 
 }, {
     "soal2": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/no3.png' width='300' height='200'> <br>Titik yang berada di kuadran III adalah . . . .",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/no3.png' width='250' height='170'> <br>Titik yang berada di kuadran III adalah . . . .",
         "a": "a. Titik A",
         "b": "b. Titik B",
         "c": "c. Titik C",
@@ -31,7 +31,7 @@
     }
 }, {
     "soal3": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/no3.png' width='300' height='200'> <br>Titik E berada pada kuadran . . . .",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/no3.png' width='250' height='170'> <br>Titik E berada pada kuadran . . . .",
         "a": "a. Kuadran I",
         "b": "b. Kuadran II",
         "c": "c. Kuadran III",
@@ -41,7 +41,7 @@
     }
 }, {
     "soal4": {
-        "soal": "Pada gambar bidang koordinat di bawah ini, tentukan bangun datar apa yang akan terbentuk apabila titik A,C,E,F dihubungkan menggunakan ruas garis!<br> <img src='img/no4.png' width='300' height='200'> <br>",
+        "soal": "Pada gambar bidang koordinat di bawah ini, tentukan bangun datar apa yang akan terbentuk apabila titik A,C,E,F dihubungkan menggunakan ruas garis!<br> <img src='img/no4.png' width='250' height='170'> <br>",
         "a": "a. Segitiga",
         "b": "b. Trapesium",
         "c": "c. Jajargenjang",
@@ -61,7 +61,7 @@
     }
 }, {
     "soal6": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/no7.png' width='300' height='200'> <br>Koordinat-koordinat di bawah ini yang sesuai dengan gambar adalah...",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/no7.png' width='250' height='170'> <br>Koordinat-koordinat di bawah ini yang sesuai dengan gambar adalah...",
         "a": "a. A(-2,-4)",
         "b": "b. B(5,5)",
         "c": "c. C(-2,6)",
@@ -71,7 +71,7 @@
     }
 }, {
     "soal7": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/no89.png' width='300' height='200'> <br>Bangun datar yang terbentuk adalah dari titik PQRS adalah . . .",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/no89.png' width='250' height='170'> <br>Bangun datar yang terbentuk adalah dari titik PQRS adalah . . .",
         "a": "a. Persegi Panjang",
         "b": "b. Persegi",
         "c": "c. Jajargenjang",
@@ -81,7 +81,7 @@
     }
 }, {
     "soal8": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/no89.png' width='300' height='200'> <br>Koordinat titik P,Q,R dan S berturut-turut adalah. . . .",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/no89.png' width='250' height='170'> <br>Koordinat titik P,Q,R dan S berturut-turut adalah. . . .",
         "a": "a. P(-2,-2), Q(2,-2), R(2,5) dan S(5,-2)",
         "b": "b. P(5,-2), Q(2,-2), R(2,5) dan S(-2,-2",
         "c": "c. P(-2,5),Q(2,5),R(-2,-2) dan S(2,-2)",
@@ -91,7 +91,7 @@
     }
 }, {
     "soal9": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/no89.png' width='300' height='200'> <br>Luas bangun di atas adalah. . . .",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/no89.png' width='250' height='170'> <br>Luas bangun di atas adalah. . . .",
         "a": "a. 28 satuan luas",
         "b": "a. 30 satuan luas",
         "c": "a. 21 satuan luas",

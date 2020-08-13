@@ -5,7 +5,7 @@
 
 body{
 background-size: 35%;
-font-family: Bahnschrift;
+font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 header{
@@ -68,7 +68,7 @@ background: none;
 text-align: left;
 cursor: pointer;
 outline: none;
-font-family: Bahnschrift;
+font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .sidenav a{
@@ -194,6 +194,7 @@ overflow: auto;
 .kliktunjuk{
 margin: 5px 0px 5px 0px;
 background-color: #ffb49e;
+font-family: Georgia, 'Times New Roman', Times, serif;
 padding: 5px 13px;
 border-radius: 5px;
 width: 61%;
@@ -211,6 +212,7 @@ border-style: dotted;
 border-color:#ff5252;
 border-radius: 10px;
 background-color: #f8eded;
+font-family: Georgia, 'Times New Roman', Times, serif;
 padding: 10px 0px 5px 0px;
 display: block !important;
 }
@@ -230,6 +232,7 @@ overflow: auto;
 margin: 0px 0px 10px 10px;
 padding: 20px;
 border-left: 8px solid #ff5252;
+font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .kembali{
@@ -340,6 +343,7 @@ main{
 }
 .petunjuk{
   width: 95%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   margin: 5px;
   float: none;
   overflow: none;
@@ -362,6 +366,7 @@ main{
 
 .kembali{
   text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   background-color: #f71c1c;
   color: white;
   padding: 10px;
@@ -378,6 +383,7 @@ main{
 
 .kanan {
   background-color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   width: 99%;
   height: auto;
   margin-top: 5px;
@@ -389,6 +395,7 @@ main{
 .kiri {
   background-color: white;
   width: 99%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   height: auto;
   margin-top: 5px;
   padding: 15px;
