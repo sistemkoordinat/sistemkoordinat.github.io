@@ -140,86 +140,89 @@
       <img src="grslatihan.png" width="480" height="300">
       <center><i><b>Gambar 3.3</b> : Bidang Koordinat posisi garis terhadap garis sumbu</i></center>
       <button class="petunjuksoal">Klik Untuk Melihat Petunjuk</button><br>
-      <div id="petunjuksoal" class="hilang">
-        
+      <div id="petunjuksoal" class="hilang" style="height: 180px;">
+        <ol>
+          Petunjuk:
+        <li>Tekan tombol 1,2,3,4,5 dibawah soal untuk mengganti ke nomor selanjutnya</li>
+        <li>Tekan tombol "<" dan ">" disamping soal untuk mengganti nomor</li>
+      </ol>
       </div>
-      <p>&nbsp;&nbsp; Jawab pernyataan berikut dengan memilih jawaban yang menurut anda benar dari pilihan Ya/Tidak</p>
-      
+      <p>&nbsp;&nbsp; Jawab pernyataan berikut dengan memilih jawaban Ya apabila pernyataan benar dan Tidak apabila pernyataan salah.</p>
       <div class="slideshow-container">
 
-          <div class="mySlides">
+        <div class="mySlides">
           <p>1.	Garis <i>k</i> melewati titik A(1,5).</p>
-                    <button onclick="Ya1()" id="ya" class="sjj">Ya</button><button onclick="Tidak1()" class="sjj">Tidak</button>
-                    <p id="cekone"></p>
-          </div>
-          
-          <div class="mySlides">
+          <button onclick="Ya1()" id="ya" class="sjj">Ya</button><button onclick="Tidak1()" class="sjj">Tidak</button>
+          <p id="cekone"></p>
+        </div>
+        
+        <div class="mySlides">
           <p>2.	Garis <i>k</i> melewati titik B(4,2).</p>
-                    <button onclick="Ya2()" class="sjj">Ya</button><button onclick="Tidak2()" class="sjj">Tidak</button>
-                    <p id="cektwo"></p>
-          </div>
-          
-          <div class="mySlides">
+          <button onclick="Ya2()" class="sjj">Ya</button><button onclick="Tidak2()" class="sjj">Tidak</button>
+          <p id="cektwo"></p>
+        </div>
+        
+        <div class="mySlides">
           <p>3.	Garis <i>k</i> melewati titik C(6,2).</p>
-                    <button onclick="Ya3()" class="sjj">Ya</button><button onclick="Tidak3()" class="sjj">Tidak</button>
-                    <p id="cekthree"></p>
-          </div>
-          
-          <div class="mySlides">
-              <p>4.	Garis <i>k</i> sejajar dengan sumbu-x.</p>
-                    <button onclick="Ya4()" class="sjj">Ya</button><button onclick="Tidak4()" class="sjj">Tidak</button>
-                    <p id="cekfour"></p>
-          </div>
-          
-          <div class="mySlides">
-              <p>5.	Garis <i>m</i> sejajar dengan sumbu-x.</p>
-                    <button onclick="Ya5()" class="sjj">Ya</button><button onclick="Tidak5()" class="sjj">Tidak</button>
-                    <p id="cekfive"></p>
-          </div>
+          <button onclick="Ya3()" class="sjj">Ya</button><button onclick="Tidak3()" class="sjj">Tidak</button>
+          <p id="cekthree"></p>
+        </div>
+        
+        <div class="mySlides">
+          <p>4.	Garis <i>k</i> sejajar dengan sumbu-x.</p>
+          <button onclick="Ya4()" class="sjj">Ya</button><button onclick="Tidak4()" class="sjj">Tidak</button>
+          <p id="cekfour"></p>
+        </div>
+        
+        <div class="mySlides">
+          <p>5.	Garis <i>m</i> sejajar dengan sumbu-x.</p>
+          <button onclick="Ya5()" class="sjj">Ya</button><button onclick="Tidak5()" class="sjj">Tidak</button>
+          <p id="cekfive"></p>
+        </div>
 
-          <div class="mySlides">
-            <p>6.	Garis <i>l</i> melewati titik asal(0,0).</p>
-                  <button onclick="Ya6()" class="sjj">Ya</button><button onclick="Tidak6()" class="sjj">Tidak</button>
-                  <p id="ceksix"></p>
+        <div class="mySlides">
+          <p>6.	Garis <i>l</i> melewati titik asal(0,0).</p>
+            <button onclick="Ya6()" class="sjj">Ya</button><button onclick="Tidak6()" class="sjj">Tidak</button>
+            <p id="ceksix"></p>
         </div>
 
         <div class="mySlides">
           <p>7.	Garis <i>l</i> melewati titik D(-1,-2).</p>
-                <button onclick="Ya7()" class="sjj">Ya</button><button onclick="Tidak7()" class="sjj">Tidak</button>
-                <p id="cekseven"></p>
-      </div>
+          <button onclick="Ya7()" class="sjj">Ya</button><button onclick="Tidak7()" class="sjj">Tidak</button>
+          <p id="cekseven"></p>
+        </div>
 
-      <div class="mySlides">
-        <p>8.	Garis <i>l</i>  dan garis <i>m</i> tidak saling sejajar.</p>
-              <button onclick="Ya8()" class="sjj">Ya</button><button onclick="Tidak8()" class="sjj">Tidak</button>
-              <p id="cekeight"></p>
-    </div>
-          
-          <a class="pre" onclick="plusSlides(-1)">❮</a>
-          <a class="nex" onclick="plusSlides(1)">❯</a>
-          
-          </div>
-          
-          <div class="dot-container">
-            <span class="dot" onclick="currentSlide(1)">1</span> 
-            <span class="dot" onclick="currentSlide(2)">2</span> 
-            <span class="dot" onclick="currentSlide(3)">3</span> 
-            <span class="dot" onclick="currentSlide(4)">4</span>
-            <span class="dot" onclick="currentSlide(5)">5</span>
-            <span class="dot" onclick="currentSlide(6)">6</span> 
-            <span class="dot" onclick="currentSlide(7)">7</span>
-            <span class="dot" onclick="currentSlide(8)">8</span>
-          </div>
-              
-    </div>
+        <div class="mySlides">
+          <p>8.	Garis <i>l</i>  dan garis <i>m</i> tidak saling sejajar.</p>
+        <button onclick="Ya8()" class="sjj">Ya</button><button onclick="Tidak8()" class="sjj">Tidak</button>
+        <p id="cekeight"></p>
+        </div>
+        
+        <a class="pre" onclick="plusSlides(-1)">❮</a>
+        <a class="nex" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        
+        <div class="dot-container">
+          <span class="dot" onclick="currentSlide(1)">1</span> 
+          <span class="dot" onclick="currentSlide(2)">2</span> 
+          <span class="dot" onclick="currentSlide(3)">3</span> 
+          <span class="dot" onclick="currentSlide(4)">4</span>
+          <span class="dot" onclick="currentSlide(5)">5</span>
+          <span class="dot" onclick="currentSlide(6)">6</span> 
+          <span class="dot" onclick="currentSlide(7)">7</span>
+          <span class="dot" onclick="currentSlide(8)">8</span>
+        </div>
+            
+</div>
 </section>
 </body>
 <footer>
     <div id="footer">
-      <a href="pengenalanpetunjuk.html" class="previous">&laquo; Sebelumnya</a>
-      <a href="titikkoordinat.html" class="next">Selanjutnya &raquo;</a>
+      <a href="titikacuan.html" class="previous">&laquo; Sebelumnya</a>
+      <a href="tegaklurus.html" class="next">Selanjutnya &raquo;</a>
     </div>
 </footer>
-<script src="javascript8.js">
+<script src="javascript.js">
 </script>
 </html>

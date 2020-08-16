@@ -46,6 +46,7 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
+
 function myFunction() {
   var x = document.getElementById("myText").value.split(' ').join('');
    var jawaban;
@@ -100,3 +101,118 @@ function myFunction() {
   }
    document.getElementById("cekfive").innerHTML = jawaban;
  }
+
+ 
+
+function Ya1() {
+  var jawaban;
+   jawaban = "Berhasil, jawabanmu benar";
+   document.getElementById("cekone").innerHTML = jawaban;
+ }
+
+ function Tidak1() {
+  var jawaban;
+   jawaban = "Maaf, Jawabanmu salahh";
+   document.getElementById("cekone").innerHTML = jawaban;
+ }
+
+
+
+ function Ya2() {
+  var jawaban;
+  jawaban = "Maaf, Jawabanmu salahh";
+   document.getElementById("cektwo").innerHTML = jawaban;
+ }
+
+ function Tidak2() {
+  var jawaban;
+  jawaban = "Berhasil, jawabanmu benar";
+   document.getElementById("cektwo").innerHTML = jawaban;
+ }
+
+
+
+ function Ya3() {
+  var jawaban;
+  jawaban = "Maaf, Jawabanmu salahh";
+   document.getElementById("cekthree").innerHTML = jawaban;
+ }
+
+ function Tidak3() {
+  var jawaban;
+  jawaban = "Berhasil, jawabanmu benar";
+   document.getElementById("cekthree").innerHTML = jawaban;
+ }
+
+
+
+ function Ya4() {
+  var jawaban;
+   jawaban = "Berhasil, jawabanmu benar";
+   document.getElementById("cekfour").innerHTML = jawaban;
+ }
+
+ function Tidak4() {
+  var jawaban;
+   jawaban = "Maaf, Jawabanmu salahh";
+   document.getElementById("cekfour").innerHTML = jawaban;
+ }
+
+
+
+ function Ya5() {
+  var jawaban;
+  jawaban = "Maaf, Jawabanmu salahh";
+   document.getElementById("cekfive").innerHTML = jawaban;
+ }
+
+ function Tidak5() {
+  var jawaban;
+  jawaban = "Berhasil, jawabanmu benar";
+   document.getElementById("cekfive").innerHTML = jawaban;
+ }
+
+
+
+ function Ya6() {
+  var jawaban;
+  jawaban = "Maaf, Jawabanmu salahh";
+   document.getElementById("ceksix").innerHTML = jawaban;
+ }
+
+ function Tidak6() {
+  var jawaban;
+  jawaban = "Berhasil, jawabanmu benar";
+   document.getElementById("ceksix").innerHTML = jawaban;
+ }
+
+
+
+ function Ya7() {
+  var jawaban;
+  jawaban = "Maaf, Jawabanmu salahh";
+   document.getElementById("cekseven").innerHTML = jawaban;
+ }
+
+ function Tidak7() {
+  var jawaban;
+  jawaban = "Berhasil, jawabanmu benar";
+   document.getElementById("cekseven").innerHTML = jawaban;
+ }
+
+
+
+ function Ya8() {
+  var jawaban;
+   jawaban = "Berhasil, jawabanmu benar";
+   document.getElementById("cekeight").innerHTML = jawaban;
+ }
+
+ function Tidak8() {
+  var jawaban;
+   jawaban = "Maaf, Jawabanmu salahh";
+   document.getElementById("cekeight").innerHTML = jawaban;
+ }
+ 
+
+ 

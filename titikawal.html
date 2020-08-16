@@ -15,7 +15,7 @@
   </div>
 <section>
     <ul>
-        <li><a  href="index.html">Home</a></li>
+        <li><a  href="index.html">Halamam Utama</a></li>
       </ul>
   <nav>
     <div class="button-nav">
@@ -28,7 +28,7 @@
       <a href="homepage.html">1. Membaca posisi tempat pada bidang koordinat</a>
       <a href="titikkoordinat.html">2. Menentukan posisi titik pada bidang koordinat</a>
       <a href="bangundatar.html">3. Menggambar bangun datar pada bidang koordinat</a>
-      <a href="latihan.html">Latihan</a>
+      <a href="../kuis1/kuis1awal.html">Kuis</a>
     </div>
   </div> 
 
@@ -40,7 +40,8 @@
       <a href="sumbuxy.html">1. Posisi titik terhadap sumbu X dan sumbu Y</a>
       <a href="titikawal.html" class="hvr">2. Posisi titik terhadap titik asal (0,0)</a>
       <a href="titikacuan.html">3. Posisi titik terhadap titik acuan (a,b)</a>
-    </div>
+      <a href="../kuis2/kuis2.html">Kuis</a>
+      </div>
   </div> 
 
   <div class="dropdown">
@@ -71,7 +72,8 @@
     <p>&nbsp;&nbsp;Sebelumnya kita telah mempelajari bagaimana menentukan jarak titik terhadap sumbu-X dan sumbu-Y. 
       Sekarang kita akan mempelajari bagaimana menentukan jarak titik terhadap titik asalnya.
         </p>
-    <img src="3.2.png" width="450" height="70">
+    <img src="3.2.png" width="450" height="50">
+    <img src="marimengamati.png" width="250" height="60" class="gmb"><br>
     <p>&nbsp;&nbsp;<b>Masalah 2.2</b> : Perhatikan gambar berikut ini!</p>
     <img src="pasar1.png" width="480" height="360">
     <center><i><b>Gambar 2.4</b> : Peta Pasar Tradisional Banjarmasin</i></center>
@@ -108,7 +110,7 @@
       </ol>
       </div>
       <br>
-        <iframe id="sumbuxy" src="pasar2.html" allowtransparency ="true" width ="480" height ="450" frameborder="0" scrolling="no" allowfullscreen style="z-index:100 !important;"></iframe>
+        <iframe id="titikawal" src="subsubbab5.html" allowtransparency ="true" width ="480" height ="450" frameborder="0" scrolling="no" allowfullscreen style="z-index:100 !important;"></iframe>
       
     
       
@@ -120,85 +122,106 @@
     <img src="soalss2.png" width="480" height="300">
     <center><i><b>Gambar 2.6</b> : Bidang Koordinat</i></center>
     <button class="petunjuksoal">Klik Untuk Melihat Petunjuk</button><br>
-    <div id="petunjuksoal" class="hilang">
-      <ol>
-        Petunjuk:
-      <li>Isikan jawaban anda pada kolom yang kosong.</li>
-      <li>Tekan tombol cek untuk mengecek jawaban.</li>
-      <li>klik ulang untuk mengulang dan menghapus jawaban </li>
-    </ol>
-    </div>
-      <table id="t01">
-        <tr>
-          <th width="5%">Titik</th>
-          <th width="10%">Koordinat</th> 
-          <th width="60%">Posisi Titik terhadap Titik Asal(0,0)</th>
-    
-        </tr>
+      <div id="petunjuksoal" class="hilang">
+        <ol>
+          Petunjuk:
+        <li>Isikan jawaban anda pada kolom yang kosong.</li>
+        <li>Tekan tombol cek untuk mengecek jawaban.</li>
+        <li>klik ulang untuk mengulang dan menghapus jawaban </li>
+      </ol>
+      </div>
+      <div class="slideshow-container">
 
-        <tr>
-          <td>A</td>
-          <td>(3,3)</td> 
-          <td>3 satuan ke kanan,
-          <br>3 satuan ke atas</td>
-        </tr>
+        <div class="mySlides">
+        <p>Lengkapilah kotak kosong dibawah ini dengan jawaban yang benar berdasarkan <b>Gambar 2.6</b></p><br>
+        <left><p>1. Titik Koordinat :<b> A(3,3)</b></p>
+        <p>Posisi Titik A terhadap Titik Asal(0,0) adalah</p>
+        <p>3 satuan ke kanan, <input type="text" id="text1" value="" placeholder=". . . . satuan ke . . . . . ."><br><p id="ket1"></p></p>
+        </left>
+        <button id="cek" onclick="cek()" style="margin-top: 30px;"><b>Cek Jawaban</button>     <button id="ulang" button onclick="ulang()">Ulang</b></button>
+        </div>
 
-        <tr>
-          <td>B</td>
-          <td>(1,5)</td> 
-          <td>1 satuan ke kanan,
-          <br><input type="text" id="text1" value=""><br><p id="ket1"></p></td>
-        </tr>
+        <div class="mySlides">
+          <p>Lengkapilah kotak kosong dibawah ini dengan jawaban yang benar berdasarkan <b>Gambar 2.6</b></p><br>
+          <left><p>2. Titik Koordinat :<b> B(1,5)</b></p>
+            <p>Posisi Titik B terhadap Titik Asal(0,0) adalah</p>
+            <p>1 satuan ke kanan, <input type="text" id="text2" value="" placeholder=". . . . satuan ke . . . . . ."><br><p id="ket2"></p></p>
+            </left>
+          <button id="cek2" onclick="cek2()" style="margin-top: 30px;"><b>Cek Jawaban</button>     <button id="ulang2" button onclick="ulang2()">Ulang</b></button>
+          </div>
+        
+          <div class="mySlides">
+            <p>Lengkapilah kotak kosong dibawah ini dengan jawaban yang benar berdasarkan <b>Gambar 2.6</b></p><br>
+            <left><p>3. Titik Koordinat :<b> C(-9,6)</b></p>
+              <p>Posisi Titik C terhadap Titik Asal(0,0) adalah</p>
+              <p><input type="text" id="text3" value="" placeholder=". . . . satuan ke . . . . . .">, 6 satuan ke atas<br><p id="ket3"></p></p>
+            </left>
+            <button id="cek3" onclick="cek3()" style="margin-top: 30px;"><b>Cek Jawaban</button>     <button id="ulang3" button onclick="ulang3()">Ulang</b></button>
+            </div>
 
-        <tr>
-          <td>C</td>
-          <td>(-6,6)</td>
-          <td>6 satuan ke kiri,
-          
-          <br><input type="text" id="text2" value=""><br><p id="ket2"></p></td>
-        </tr>
+            <div class="mySlides">
+              <p>Lengkapilah kotak kosong dibawah ini dengan jawaban yang benar berdasarkan <b>Gambar 2.6</b></p><br>
+              <left><p>4. Titik Koordinat :<b> D(-9,6)</b></p>
+                <p>Posisi Titik D terhadap Titik Asal(0,0) adalah</p>
+                <p>9 satuan ke kiri, <input type="text" id="text4" value="" placeholder=". . . . satuan ke . . . . . ."><br><p id="ket4"></p></p>
+                </left>
+              <button id="cek4" onclick="cek4()" style="margin-top: 30px;"><b>Cek Jawaban</button>     <button id="ulang4" button onclick="ulang4()">Ulang</b></button>
+              </div>
 
-        <tr>
-          <td>D</td>
-          <td>(-9,6)</td>
-          <td><input type="text" id="text3" value=""><br><p id="ket3"></p>
-          6 satuan ke atas</td>
-        </tr>
+              <div class="mySlides">
+                <p>Lengkapilah kotak kosong dibawah ini dengan jawaban yang benar berdasarkan <b>Gambar 2.6</b></p><br>
+                <left><p>5. Titik Koordinat : E(<input type="text" id="text5" value="" style="width: 40px;" placeholder="...,...">)<br><p id="ket5"></p></p>
+                  <p>Posisi Titik E terhadap Titik Asal(0,0) adalah</p>
+                <p>8 satuan ke kiri, 2 satuan ke bawah</p>
+                </left>
+                <button id="cek5" onclick="cek5()" style="margin-top: 30px;"><b>Cek Jawaban</button>     <button id="ulang5" button onclick="ulang5()">Ulang</b></button>
+                </div>
 
-        <tr>
-          <td>E</td>
-          <td><input type="text" id="text4" value="" style="width: 70px;"><br><p id="ket4"></p></td>
-          <td>4 satuan ke atas,<br>
-          9 satuan ke kanan</td>
-        </tr>
+                <div class="mySlides">
+                  <p>Lengkapilah kotak kosong dibawah ini dengan jawaban yang benar berdasarkan <b>Gambar 2.3</b></p><br>
+                  <left><p>6. Titik Koordinat : F(<input type="text" id="text6" value="" style="width: 40px;" placeholder="...,...">)<br><p id="ket6"></p></p>
+                    <p>Posisi Titik F terhadap Titik Asal(0,0) adalah</p>
+                    <p>6 satuan ke kiri, 6 satuan ke bawah</p>
+                    </left>
+                  <button id="cek6" onclick="cek6()" style="margin-top: 30px;"><b>Cek Jawaban</button>     <button id="ulang6" button onclick="ulang6()">Ulang</b></button>
+                  </div>
 
-        <tr>
-          <td>F</td>
-          <td><input type="text" id="text5" value="" style="width: 70px;"><br><p id="ket5"></p></td>
-          <td>6  satuan ke kiri,
-          <br>
-          <input type="text" id="text6" value=""><br><p id="ket6"></p></td>
-        </tr>
+                  <div class="mySlides">
+                    <p>Lengkapilah kotak kosong dibawah ini dengan jawaban yang benar berdasarkan <b>Gambar 2.3</b></p><br>
+                    <left><p>7. Titik Koordinat : G(<input type="text" id="text7" value="" style="width: 40px;" placeholder="...,...">)<br><p id="ket7"></p></p>
+                      <p>Posisi Titik G terhadap Titik Asal(0,0) adalah</p>
+                      <p>2 satuan ke kanan, 3 satuan ke bawah</p>
+                    </left>
+                    <button id="cek7" onclick="cek7()" style="margin-top: 30px;"><b>Cek Jawaban</button>     <button id="ulang7" button onclick="ulang7()">Ulang</b></button>
+                    </div>
 
-        <tr>
-          <td>G</td>
-          <td><input type="text" id="text7" value="" style="width: 70px;"><br><p id="ket7"></p></td>
-          <td><input type="text" id="text8" value=""><br><p id="ket8"></p>
-          
-          3 satuan ke bawah</td>
-        </tr>
-
-        <tr>
-          <td>H</td>
-          <td><input type="text" id="text9" value="" style="width: 70px;"><br><p id="ket9"></p></td>
-          <td>10 satuan ke kanan,
+                  <div class="mySlides">
+                    <p>Lengkapilah kotak kosong dibawah ini dengan jawaban yang benar berdasarkan <b>Gambar 2.3</b></p><br>
+                    <left><p>8. Titik Koordinat : <b>H(10,-5)</b></p>
+                      <p>Posisi Titik G terhadap Titik Asal(0,0) adalah</p>
+                    <p>10 satuan ke kanan,<input type="text" id="text8" value="" placeholder=". . . . satuan ke . . . . . ."><br><p id="ket8"></p> </p>
+                    </left>
+                    <button id="cek8" onclick="cek8()" style="margin-top: 30px;"><b>Cek Jawaban</button>     <button id="ulang8" button onclick="ulang8()">Ulang</b></button>
+                    </div>
+        
+         
+        
+        <a class="pre" onclick="plusSlides(-1)">❮</a>
+        <a class="nex" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        
+        <div class="dot-container">
+          <span class="dot" onclick="currentSlide(1)">1</span> 
+          <span class="dot" onclick="currentSlide(2)">2</span> 
+          <span class="dot" onclick="currentSlide(3)">3</span>
+          <span class="dot" onclick="currentSlide(4)">4</span>
+          <span class="dot" onclick="currentSlide(5)">5</span> 
+          <span class="dot" onclick="currentSlide(6)">6</span> 
+          <span class="dot" onclick="currentSlide(7)">7</span>
+          <span class="dot" onclick="currentSlide(8)">8</span>
+        </div>
       
-          <br><input type="text" id="text10" value=""><br><p id="ket10"></p></td>
-        </tr>
-        <tr>
-          <td colspan="4" class="jawab" ><button id="cek" onclick="cek()"><b>Cek Jawaban</button>     <button id="ulang" onclick="ulang()">Ulang</b></button></td>
-        </tr>
-      </table> 
   </div>
     </div>
 </section>

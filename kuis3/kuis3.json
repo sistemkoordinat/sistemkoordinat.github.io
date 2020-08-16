@@ -1,0 +1,102 @@
+[{
+    "soal0": {
+        "soal": "Suatu garis yang setiap titiknya yang dilalui oleh garis tersebut mempunyai jarak yang sama terhadap sumbu-x, sehingga garis tersebut . . . .",
+        "a": "a. Sejajar sumbu-y",
+        "b": "b. Sejajar sumbu-x",
+        "c": "c. Tegak lurus sumbu-y",
+        "d": "d. Memotong sumbu-x",
+        "benar": "b",
+        "nih": "b. Sejajar sumbu-x"
+    }
+}, {
+    "soal1": {
+        "soal": " Jika terdapat suatu garis dengan sumbu koordinat membentuk sudut 90º, maka garis tersebut  . . . .",
+        "a": "a. Sejajar dengan sumbu koordinat",
+        "b": "b. Bersilangan dengan sumbu koordinat",
+        "c": "c. Tegak lurus dengan sumbu koordinat",
+        "d": "d. Memotong dengan sumbu koordinat",
+        "benar": "c",
+        "nih": "c. Tegak lurus dengan sumbu koordinat"
+    }
+
+}, {
+    "soal2": {
+        "soal": "Perhatikan gambar di bawah ini<br> <img src='img/soals3n35.png' width='300' height='200'><br>Garis yang sejajar dengan sumbu-x adalah . . . .",
+        "a": "a. Garis k",
+        "b": "b. Garis l",
+        "c": "c. Garis m",
+        "d": "d. Garis m dan n",
+        "benar": "a",
+        "nih": "a. Garis k"
+    }
+}, {
+    "soal3": {
+        "soal": "Perhatikan gambar di bawah ini<br> <img src='img/soals3n35.png' width='300' height='200'><br>Garis yang tegak lurus dengan sumbu-x dan sejajar dengan sumbu-y adalah  . . . .",
+        "a": "a. Garis k",
+        "b": "b. Garis l",
+        "c": "c. Garis m",
+        "d": "d. Garis n",
+        "benar": "c",
+        "nih": "c. Garis m"
+    }
+}, {
+    "soal4": {
+        "soal": "Perhatikan gambar di bawah ini<br> <img src='img/soals3n35.png' width='300' height='200'><br> Garis yang berpotongan dengan sumbu-x dan sumbu-y adalah . . . . ",
+        "a": "a. Garis k",
+        "b": "b. Garis l",
+        "c": "c. Garis m",
+        "d": "d. Garis n",
+        "benar": "b",
+        "nih": "b. Garis l"
+    }
+}, {
+    "soal5": {
+        "soal": "Perhatikan gambar di bawah ini<br> <img src='img/soals3n68.png' width='300' height='200'> <br>Garis m dan n merupakan pasangan garis yang saling . . .",
+        "a": "a. Berpotongan",
+        "b": "b. Tegak Lurus",
+        "c": "c. Sejajar",
+        "d": "d. Berhimpit",
+        "benar": "b",
+        "nih": "b. Tegak Lurus"
+    }
+}, {
+    "soal6": {
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/soals3n68.png' width='300' height='200'> <br>Garis yang berjarak 3 satuan terhadap <b>sumbu-x</b> adalah. . . .",
+        "a": "a. Garis m",
+        "b": "b. Garis n",
+        "c": "c. Garis m ban n",
+        "d": "d. Garis l",
+        "benar": "a",
+        "nih": "a. Garis m"
+    }
+}, {
+    "soal7": {
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/soals3n68.png' width='300' height='200'> <br>Garis yang berjarak 3 satuan terhadap <b>sumbu-y</b> adalah  . . .",
+        "a": "a. Garis m",
+        "b": "b. Garis n",
+        "c": "c. Garis m ban n",
+        "d": "d. Garis l",
+        "benar": "b",
+        "nih": "a. Garis n"
+    }
+}, {
+    "soal8": {
+        "soal": "Diketahui ruas garis AB menghubungkan titik A(3,-2) dan B(-3,-2). Maka kedudukan ruas garis AB terhadap sumbu-x adalah. . . .",
+        "a": "a. Sejajar",
+        "b": "b. Tegak Lurus",
+        "c": "c. Berhimpit",
+        "d": "d. Berpotongan",
+        "benar": "a",
+        "nih": "a. Sejajar"
+    }
+}, {
+    "soal9": {
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/soals3n10.png' width='300' height='200'> <br>Garis k dan garis l berpotongan pada titik   . . .",
+        "a": "a. (3,2)",
+        "b": "b. (3,-2)",
+        "c": "c. (4,2)",
+        "d": "d. (4,-2)",
+        "benar": "d",
+        "nih": "a. (4,-2)"
+    }
+}]

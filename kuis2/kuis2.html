@@ -3,15 +3,14 @@
 <head>
 	<title>Media Pembelajaran</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="csskuis1_awal.css">
-	<link rel="stylesheet" type="text/css" href="cssdata_kuis1.css">
+	<link rel="stylesheet" type="text/css" href="kuis2_1.css">
+	<link rel="stylesheet" type="text/css" href="kuis2_2.css">
 	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 </head>
 
 <body>
 
 	<header>
-		<a href="#" onclick="dafis()"><img src="" class="bar"></a>
 		<div class="utama" onclick="home_klik()">
 		</div>
 		
@@ -70,11 +69,11 @@
 		<div class="konten">
 			<div class="isi" id="data">
 				<center>
-					<span class="judul">Kuis 1</span>
+					<span class="judul">Kuis 2</span>
 				</center><br>
 				<hr><br>
 				<div class="petunjuk">
-					<div class="kliktunjuk"><a href="#tjk1" onclick="tjk1('tjk1')"><img src="img/tjk.png" width="15px" height="15px"> Petunjuk (klik untuk menyembunyikan petunjuk)<br></a></div>
+					<div class="kliktunjuk"><a href="#tjk1" onclick="tjk1('tjk1')"> Petunjuk <br></a></div>
       				<div class="tjk1" id="tjk1">
       					<ol>
       						<li>Kuis ini terdiri dari 10 soal pilihan ganda.</li>
@@ -111,7 +110,7 @@
                             <br>
                             <br>
                             <br>
-							<a href="../bangundatar.html" class="kembali">
+							<a href="../titikacuan.html" class="kembali">
 								Kembali Ke Materi
 							</a>
                             <div class="lanjut">
@@ -124,8 +123,8 @@
 
 			<!--KONTEN KIRI-->
 			<div class="kiri" id="kiri">
-				<img src="img/kuis.png" class="gambar">
-				<span class="judul">Kuis 1</span>
+			
+				<span class="judul">Kuis 2</span>
 				<hr>
 
 				
@@ -698,7 +697,6 @@
 			<div class="dataaa hilang" id="halskor">
 				<div class="skornya">
 					<center>
-						<img src="img/kuis.png" class="gambar">
 						<span class="judul">Kuis 1</span>
 						<br>
 						<br>
@@ -734,7 +732,7 @@
 									<p>:</p>
 								</td>
 								<td>
-									<p class="kelas">7</p>
+									<p class="kelas">8</p>
 								</td>
 							</tr>
 							<tr>
@@ -774,8 +772,9 @@
 						<br>
 						<div id="ulang" class="ket_ulang hilang">
 							Jika nilaimu masih kurang dari 75, silahkan tekan tombol "Ulang" di bawah ini untuk remedial<br>
-							<div class="tmblUlang"><a href="kuis1awal.html">Ulang</a></div>
+							<div class="tmblUlang"><a href="kuis2.html">Ulang</a></div>
 						</div>
+						<button class="materiselanjutnya" id="mathlanjut" button onclick="location.href='../sejajar.html'">Materi Selanjutnya</button> 
 					</center>
 				</div>
 			</div>
@@ -788,7 +787,7 @@
     <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
 
 
-	<script src="jskuis1_awal.js"></script>
-	<script src="jsdata_kuis1.js"></script>
+	<script src="kuis2.js"></script>
+	<script src="datakuis2.js"></script>
 </body>
 </html>

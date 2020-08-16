@@ -1,102 +1,102 @@
 [{
     "soal0": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/no1.png' width='270' height='170'> <br>Toko buku terletak pada koordinat . . . .",
-        "a": "a. ( 4 , 5 )",
-        "b": "b. ( 9 , 2 )",
-        "c": "c. ( 11, 7 )",
-        "d": "d. ( 5 , 4 )",
-        "benar": "a",
-        "nih": "a. ( 4 , 5 )"
+        "soal": "Pernyataan yang benar jika dikeratahui titik A(-7,3)  . . . .",
+        "a": "a. Berjarak 7 satuan terhadap sumbu-x",
+        "b": "b. Berjarak -7 satuan terhadap sumbu-x",
+        "c": "c. Berjarak 7 satuan terhadap sumbu-y",
+        "d": "d. Berjarak -7 satuan terhadap sumbu-y",
+        "benar": "c",
+        "nih": "c. Berjarak 7 satuan terhadap sumbu-y"
     }
 }, {
     "soal1": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/no1.png' width='270' height='170'> <br>Supermarket terletak pada koordinat . . . .",
-        "a": "a. ( 4 , 5 )",
-        "b": "b. ( 9 , 2 )",
-        "c": "c. ( 11, 7 )",
-        "d": "d. ( 5 , 4 )",
-        "benar": "b",
-        "nih": "b. ( 9 , 2 )"
+        "soal": "Perhatikan gambar di bawah ini<br> <img src='img/soals3n2.png' width='300' height='200'><br>Titik yang berjarak 4 satuan terhadap sumbu-y adalah titik . . . .",
+        "a": "a. A",
+        "b": "b. B",
+        "c": "c. C",
+        "d": "d. A dan B",
+        "benar": "c",
+        "nih": "c. C"
     }
 
 }, {
     "soal2": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/no3.png' width='300' height='200'> <br>Titik yang berada di kuadran III adalah . . . .",
-        "a": "a. Titik A",
-        "b": "b. Titik B",
-        "c": "c. Titik C",
-        "d": "d. Titik D",
+        "soal": "Perhatikan gambar di bawah ini<br> <img src='img/soals3n2.png' width='300' height='200'><br>Koordinat posisi titik A terhadap titik B adalah  . . . .",
+        "a": "a. (2,4)",
+        "b": "b. (-4,2)",
+        "c": "c. (2,3)",
+        "d": "d. (-3,2)",
         "benar": "d",
-        "nih": "d. Titik D"
+        "nih": "d. (-3,2)"
     }
 }, {
     "soal3": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/no3.png' width='300' height='200'> <br>Titik E berada pada kuadran . . . .",
-        "a": "a. Kuadran I",
-        "b": "b. Kuadran II",
-        "c": "c. Kuadran III",
-        "d": "d. Kuadran IV",
-        "benar": "d",
-        "nih": "d. Kuadran IV"
+        "soal": "Perhatikan gambar di bawah ini<br> <img src='img/soals3n2.png' width='300' height='200'><br>Posisi titik C terhadap sumbu-y adalah  . . . .",
+        "a": "a. 3 satuan ke kanan",
+        "b": "b. 4 satuan ke kiri",
+        "c": "c. 3 satuan ke atas",
+        "d": "d. 4 satuan ke bawah",
+        "benar": "a",
+        "nih": "a. 3 satuan ke kanan"
     }
 }, {
     "soal4": {
-        "soal": "Pada gambar bidang koordinat di bawah ini, tentukan bangun datar apa yang akan terbentuk apabila titik A,C,E,F dihubungkan menggunakan ruas garis!<br> <img src='img/no4.png' width='300' height='200'> <br>",
-        "a": "a. Segitiga",
-        "b": "b. Trapesium",
-        "c": "c. Jajargenjang",
-        "d": "d. Persegi",
-        "benar": "b",
-        "nih": "b. Trapesium"
+        "soal": "Perhatikan gambar di bawah ini<br> <img src='img/soal2n46.png' width='300' height='200'><br> Posisi titik B terhadap titik asal(0,0) adalah . . . . ",
+        "a": "a. 4 satuan ke bawah dan 3 satuan ke kiri",
+        "b": "b. 3 satuan ke bawah dan 4 satuan ke kanan",
+        "c": "c. 4 satuan ke kanan dan 6 satuan ke atas",
+        "d": "d. 5 satuan ke kanan dan 4 satuan ke atas",
+        "benar": "d",
+        "nih": "d. 5 satuan ke kanan dan 4 satuan ke atas"
     }
 }, {
     "soal5": {
-        "soal": "Diketahui segiempat ABCD dengan koordinat titik A(-3,5), B(-3,1), C(6,1) dan D(6,5). Segiempat ABCD berbentuk  . . .",
-        "a": "a. Persegi",
-        "b": "b. Persegi Panjang",
-        "c": "c. Jajargenjang",
-        "d": "d. Trapesium",
+        "soal": "Perhatikan gambar di bawah ini<br> <img src='img/soal2n46.png' width='300' height='200'> <br>Posisi titik B terhadap titik acuan C adalah . . .",
+        "a": "a. (-2,8)",
+        "b": "b. (2,8)",
+        "c": "c. (8,-3)",
+        "d": "d. (8,3)",
         "benar": "b",
-        "nih": "b. Persegi Panjang"
+        "nih": "b. 2,8"
     }
 }, {
     "soal6": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/no7.png' width='300' height='200'> <br>Koordinat-koordinat di bawah ini yang sesuai dengan gambar adalah...",
-        "a": "a. A(-2,-4)",
-        "b": "b. B(5,5)",
-        "c": "c. C(-2,6)",
-        "d": "d. D(1,4)",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/soal2n79.png' width='300' height='200'> <br>Koordinat titik A,B,C dan D berturut-turut adalah ...",
+        "a": "a. A(-5,2), B(5,4), C(2,3) dan D(-1,3)",
+        "b": "b. A(-5,2), B(5,4), C(2,2) dan D(3,-1)",
+        "c": "c. A(-2,5), B(5,4), C(2,2) dan D(3,-1)",
+        "d": "d. A(-5,2), B(5,6), C(3,2) dan D(3,-1)",
         "benar": "b",
-        "nih": "b. B(5,5)"
+        "nih": "b. A(-5,2), B(5,4), C(2,2) dan D(3,-1)"
     }
 }, {
     "soal7": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/no89.png' width='300' height='200'> <br>Bangun datar yang terbentuk adalah dari titik PQRS adalah . . .",
-        "a": "a. Persegi Panjang",
-        "b": "b. Persegi",
-        "c": "c. Jajargenjang",
-        "d": "d. Trapesium",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/soal2n79.png' width='300' height='200'> <br>Titik yang memiliki jarak yang sama terhadap sumbu-x adalah  . . .",
+        "a": "a. A dan B",
+        "b": "b. B dan C",
+        "c": "c. A dan C",
+        "d": "d. C dan D",
         "benar": "a",
-        "nih": "a. Persegi Panjang"
+        "nih": "a. A dan B"
     }
 }, {
     "soal8": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/no89.png' width='300' height='200'> <br>Koordinat titik P,Q,R dan S berturut-turut adalah. . . .",
-        "a": "a. P(-2,-2), Q(2,-2), R(2,5) dan S(5,-2)",
-        "b": "b. P(5,-2), Q(2,-2), R(2,5) dan S(-2,-2",
-        "c": "c. P(-2,5),Q(2,5),R(-2,-2) dan S(2,-2)",
-        "d": "d. P(5,-2), Q(2,5), R(-2,-5) dan S(2,-2)",
-        "benar": "c",
-        "nih": "c. P(-2,5),Q(2,5),R(-2,-2) dan S(2,-2)"
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/soal2n79.png' width='300' height='200'> <br>Titik yang berada di sebelah kanan sumbu-y adalah . . . .",
+        "a": "a. A, B dan C",
+        "b": "b. A, C dan D",
+        "c": "c. A, B dan D",
+        "d": "d. B, C dan D",
+        "benar": "d",
+        "nih": "d. B, C dan D"
     }
 }, {
     "soal9": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/no89.png' width='300' height='200'> <br>Luas bangun di atas adalah. . . .",
-        "a": "a. 28 satuan luas",
-        "b": "a. 30 satuan luas",
-        "c": "a. 21 satuan luas",
-        "d": "a. 32 satuan luas",
+        "soal": "Diketahui titik apotek terletak pada koordinat (3,-2) dan sekolah terletak pada koordinat (4,5). Jika titik sekolah dijadikan dijadikan titik acuan,  maka berapa jarak yang diperlukan dari sekolah menuju ke apotek. . . .",
+        "a": "a. (-1,-7)",
+        "b": "b. (1,7)",
+        "c": "c. (7,-7)",
+        "d": "d. (-7,1)",
         "benar": "a",
-        "nih": "a. 28 satuan luas"
+        "nih": "a. (-1,-7)"
     }
 }]

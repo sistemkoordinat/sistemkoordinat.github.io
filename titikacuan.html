@@ -15,7 +15,7 @@
   </div>
 <section>
     <ul>
-        <li><a  href="index.html">Home</a></li>
+        <li><a  href="index.html">Halaman Utama</a></li>
       </ul>
   <nav>
     <div class="button-nav">
@@ -28,7 +28,7 @@
       <a href="homepage.html">1. Membaca posisi tempat pada bidang koordinat</a>
       <a href="titikkoordinat.html">2. Menentukan posisi titik pada bidang koordinat</a>
       <a href="bangundatar.html">3. Menggambar bangun datar pada bidang koordinat</a>
-      <a href="latihan.html">Latihan</a>
+      <a href="../kuis1/kuis1awal.html">Kuis</a>
     </div>
   </div> 
 
@@ -40,6 +40,7 @@
       <a href="sumbuxy.html">1. Posisi titik terhadap sumbu X dan sumbu Y</a>
       <a href="titikawal.html">2. Posisi titik terhadap titik asal (0,0)</a>
       <a href="titikacuan.html" class="hvr">3. Posisi titik terhadap titik acuan (a,b)</a>
+      <a href="../kuis2/kuis2.html">Kuis</a>
     </div>
   </div> 
 
@@ -70,7 +71,8 @@
     </div>
     <p>&nbsp;&nbsp;Setelah mengetahui bagaimana menentukan jarak titik terhadap titik awal, 
         selanjutnya kita akan mempelajari bagaimana cara menentukan jarak titik terhadap titik acuan</p>
-    <img src="3.3.png" width="450" height="70">
+    <img src="3.3.png" width="450" height="70"><br>
+    <img src="marimengamati.png" width="250" height="60" class="gmb"><br>
     <p>&nbsp;&nbsp;<b>Masalah 2.3</b> : Perhatikan gambar berikut ini!</p>
     <img src="pasark3.png" width="480" height="380">
     <center><i><b>Gambar 2.7</b> : Peta Pasar Tradisional Banjarmasin</i></center>
@@ -125,13 +127,13 @@
       </ol>
       </div>
       <br>
-      <iframe id="sumbuxy" src="pasarr2.html" allowtransparency ="true" width ="480" height ="450" frameborder="0" scrolling="no" allowfullscreen style="z-index:100 !important;"></iframe>
+      <iframe id="sumbuxy" src=".html" allowtransparency ="true" width ="480" height ="450" frameborder="0" scrolling="no" allowfullscreen style="z-index:100 !important;"></iframe>
       
     
       
-  </div>
+</div>
 
-  <div class="Isi-Kanan">
+<div class="Isi-Kanan">
     <img src="mariberlatih.png" width="250" height="70" class="gmb">
     <p>&nbsp;&nbsp;Perhatikan gambar berikut ini!</p>
     <img src="asal.png" width="480" height="300">
@@ -150,56 +152,104 @@
   <div class="slideshow-container">
 
     <div class="mySlides">
-    <p>1.	Tentukan koordinat titik pada bidang koordinat di atas!
+    <p>1.Tentukan koordinat titik pada bidang koordinat di atas!
       <br>
-      a. A(2,<input type="text" id="titik1" value="" style="width: 30px;" placeholder=".....">)<p id="ket1"></p>
-      b. B(<input type="text" id="titik2" value="" style="width: 30px;" placeholder=".....">,2)<p id="ket2"></p>
-      c. C(-4,<input type="text" id="titik3" value="" style="width: 30px;" placeholder=".....">)<p id="ket3"></p>
+      A(2,<input type="text" id="titik1" value="" style="width: 30px;" placeholder=".....">)<p id="ket1"></p>
     </p>
       <p>Kemudian klik tombol dibawah ini untuk mengecek jawaban anda</p>
       <button onclick="myFunction()">Cek</button> <button id="ulang" onclick="ulang()">Ulang</button>
     </div>
-    
+
     <div class="mySlides">
-      <p>2.Jika titik C dijadikan titik acuan, tentukan :<br>
-      a. Posisi titik A terhadap titik C adalah<input type="text" id="titik4" value="" placeholder=" ...,..." style="width: 40px;"><p id="ket4"></p>
-      b. Posisi titik B terhadap titik C adalah<input type="text" id="titik5" value="" placeholder=" ...,..." style="width: 40px;"><p id="ket5"></p>
-      c. Posisi titik B terhadap titik C adalah<input type="text" id="titik6" value="" placeholder=" ...,..." style="width: 40px;"><p id="ket6"></p>
-    </p>
-      <p>Kemudian klik tombol dibawah ini untuk mengecek jawaban anda</p>
-      <button onclick="Functiontwo()">Cek</button> <button id="ulang" onclick="ulang2()">Ulang</button>
-    </div>
-    
-    <div class="mySlides">
-      <p>3.Jika titik E dijadikan titik acuan, tentukan :<br>
-        a. Posisi titik C terhadap titik E adalah<input type="text" id="titik7" value="" placeholder=" ...,..." style="width: 40px;"><p id="ket7"></p>
-        b. Posisi titik D terhadap titik E adalah<input type="text" id="titik8" value="" placeholder=" ...,..." style="width: 40px;"><p id="ket8"></p>
-        c. Posisi titik F terhadap titik E adalah<input type="text" id="titik9" value="" placeholder=" ...,..." style="width: 40px;"><p id="ket9"></p>
+      <p>2.	Tentukan koordinat titik pada bidang koordinat di atas!
+        <br>
+        B(<input type="text" id="titik2" value="" style="width: 30px;" placeholder=".....">,2)<p id="ket2"></p>
       </p>
         <p>Kemudian klik tombol dibawah ini untuk mengecek jawaban anda</p>
-      <button onclick="Functionthree()">Cek</button> <button id="ulang" onclick="ulang3()">Ulang</button>
-    </div>
-    
-    
-    <a class="pre" onclick="plusSlides(-1)">❮</a>
-    <a class="nex" onclick="plusSlides(1)">❯</a>
-    
-    </div>
-    
-    <div class="dot-container">
-      <span class="dot" onclick="currentSlide(1)">1</span> 
-      <span class="dot" onclick="currentSlide(2)">2</span> 
-      <span class="dot" onclick="currentSlide(3)">3</span>
+        <button onclick="Functiontwo()">Cek</button> <button id="ulang2" onclick="ulang2()">Ulang</button>
     </div>
 
+      <div class="mySlides">
+        <p>3.	Tentukan koordinat titik pada bidang koordinat di atas!
+          <br>
+        C(-4,<input type="text" id="titik3" value="" style="width: 30px;" placeholder=".....">)<p id="ket3"></p>
+        </p>
+          <p>Kemudian klik tombol dibawah ini untuk mengecek jawaban anda</p>
+          <button onclick="Functionthree()">Cek</button> <button id="ulang3" onclick="ulang3()">Ulang</button>
+        </div>
+
+      <div class="mySlides">
+        <p>4.Jika titik C dijadikan titik acuan, tentukan :<br>
+        Posisi titik A terhadap titik C adalah<input type="text" id="titik4" value="" placeholder=" ...,..." style="width: 40px;"><p id="ket4"></p>
+      </p>
+        <p>Kemudian klik tombol dibawah ini untuk mengecek jawaban anda</p>
+        <button onclick="Functionfour()">Cek</button> <button id="ulang4" onclick="ulang4()">Ulang</button>
+      </div>
+
+      <div class="mySlides">
+        <p>5.Jika titik C dijadikan titik acuan, tentukan :<br>
+        Posisi titik B terhadap titik C adalah<input type="text" id="titik5" value="" placeholder=" ...,..." style="width: 40px;"><p id="ket5"></p>
+      </p>
+        <p>Kemudian klik tombol dibawah ini untuk mengecek jawaban anda</p>
+        <button onclick="Functionfive()">Cek</button> <button id="ulang5" onclick="ulang5()">Ulang</button>
+       </div>
+
+      <div class="mySlides">
+        <p>6.Jika titik C dijadikan titik acuan, tentukan :<br>
+        Posisi titik B terhadap titik C adalah<input type="text" id="titik6" value="" placeholder=" ...,..." style="width: 40px;"><p id="ket6"></p>
+      </p>
+        <p>Kemudian klik tombol dibawah ini untuk mengecek jawaban anda</p>
+        <button onclick="Functionsix()">Cek</button> <button id="ulang6" onclick="ulang6()">Ulang</button>
+      </div>
+    
+      <div class="mySlides">
+        <p>7. Jika titik E dijadikan titik acuan, tentukan :<br>
+          Posisi titik C terhadap titik E adalah<input type="text" id="titik7" value="" placeholder=" ...,..." style="width: 40px;"><p id="ket7"></p>
+        </p>
+          <p>Kemudian klik tombol dibawah ini untuk mengecek jawaban anda</p>
+        <button onclick="Functionseven()">Cek</button> <button id="ulang7" onclick="ulang7()">Ulang</button>
+      </div>
+
+      <div class="mySlides">
+        <p>8.Jika titik E dijadikan titik acuan, tentukan :<br>
+        Posisi titik D terhadap titik E adalah<input type="text" id="titik8" value="" placeholder=" ...,..." style="width: 40px;"><p id="ket8"></p>
+        </p>
+          <p>Kemudian klik tombol dibawah ini untuk mengecek jawaban anda</p>
+        <button onclick="Functioneight()">Cek</button> <button id="ulang8" onclick="ulang8()">Ulang</button>
+      </div>
+
+      <div class="mySlides">
+        <p>9. Jika titik E dijadikan titik acuan, tentukan :<br>
+          Posisi titik F terhadap titik E adalah<input type="text" id="titik9" value="" placeholder=" ...,..." style="width: 40px;"><p id="ket9"></p>
+        </p>
+          <p>Kemudian klik tombol dibawah ini untuk mengecek jawaban anda</p>
+        <button onclick="Functionnine()">Cek</button> <button id="ulang9" onclick="ulang9()">Ulang</button>
+      </div>
+    
+    
+        <a class="pre" onclick="plusSlides(-1)">❮</a>
+        <a class="nex" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+    
+      <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)">1</span> 
+        <span class="dot" onclick="currentSlide(2)">2</span> 
+        <span class="dot" onclick="currentSlide(3)">3</span>
+        <span class="dot" onclick="currentSlide(4)">4</span> 
+        <span class="dot" onclick="currentSlide(5)">5</span> 
+        <span class="dot" onclick="currentSlide(6)">6</span>
+        <span class="dot" onclick="currentSlide(7)">7</span> 
+        <span class="dot" onclick="currentSlide(8)">8</span> 
+        <span class="dot" onclick="currentSlide(9)">9</span>
+   </div>
 </div>
-    </div>
 </section>
 
 <footer>
     <div id="footer">
       <a href="titikawal.html" class="previous">&laquo; Sebelumnya</a>
-      <a href="" class="next">Selanjutnya &raquo;</a>
+      <a href="../kuis2/kuis2.html" class="next">Selanjutnya &raquo;</a>
     </div>
 </footer>
 <script src="javascript7.js">

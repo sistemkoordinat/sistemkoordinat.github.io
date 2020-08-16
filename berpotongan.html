@@ -128,78 +128,98 @@
       <img src="mariberlatih.png" width="250" height="70" class="gmb">
       <p>&nbsp;&nbsp;Kerjakan latihan soal berikut ini!</p>
       <img src="latihanpotong.png" width="480" height="300">
-      <center><i><b>Gambar 3.7</b> : Bidang oordinat posisi garis terhadap garis sumbu</i></center>
-      <button class="petunjuksoal">Klik Untuk Melihat Petunjuk</button><br>
-      <div id="petunjuksoal" class="hilang">
+      <center><i><b>Gambar 3.7</b> : Bidang kordinat posisi garis terhadap garis sumbu</i></center>
+      <button class="petunjuksoal2">Klik Untuk Melihat Petunjuk</button><br>
+      <div id="petunjuksoal2" class="hilang">
         <ol>
-          Petunjuk:
-        <li>Isikan jawaban anda pada kolom yang kosong.</li>
+          <b>Petunjuk:<br></b>
+        <li>Isikan jawaban anda pada kotak yang kosong.</li>
         <li>Tekan tombol cek untuk mengecek jawaban.</li>
-        <li>Tekan tombol 1,2,3,4,5 dibawah soal untuk mengganti ke nomor selanjutnya</li>
+        <li>Tekan tombol ulang untuk menghapus jawaban</li>
+        <li>Tekan tombol 1,2,3 dibawah soal atau tekan tombol "<" dan ">" disamping soal untuk mengganti ke nomor selanjutnya</li>
       </ol>
+    </div>
+    <br>
+    <div class="slideshow-container">
+  
+      <div class="mySlides">
+      <p>1.Posisi ruas garis AB terhadap <b>sumbu-x</b> adalah . . . .
+        <br>
+        <input type="text" id="titik1" value="" style="width: 50px;" placeholder=". . . . ."><p id="ket1"></p>
+      </p>
+        <p>Kemudian klik tombol dibawah ini untuk mengecek jawaban anda</p>
+        <button onclick="myFunction()">Cek</button> <button id="ulang" onclick="ulang()">Ulang</button>
       </div>
-      <p>&nbsp;&nbsp; Tentukan posisi Apotek, Terminal, Sekolah, Lapangan dan Pasar dengan mengisi kolom yang 
-                      kosong dibawah ini!</p>
+  
+      <div class="mySlides">
+        <p>2.Posisi ruas garis AB terhadap <b>sumbu-y</b> adalah . . . .
+          <br>
+          <input type="text" id="titik2" value="" style="width: 50px;" placeholder=". . . . ."><p id="ket2"></p>
+        </p>
+          <p>Kemudian klik tombol dibawah ini untuk mengecek jawaban anda</p>
+          <button onclick="Functiontwo()">Cek</button> <button id="ulang2" onclick="ulang2()">Ulang</button>
+      </div>
+  
+        <div class="mySlides">
+          <p>3.Posisi ruas garis CD terhadap <b>sumbu-x</b> adalah . . . .
+            <br>
+            <input type="text" id="titik3" value="" style="width: 50px;" placeholder=". . . . ."><p id="ket3"></p>
+          </p>
+            <p>Kemudian klik tombol dibawah ini untuk mengecek jawaban anda</p>
+            <button onclick="Functionthree()">Cek</button> <button id="ulang3" onclick="ulang3()">Ulang</button>
+          </div>
+  
+        <div class="mySlides">
+          <p>4.Posisi ruas garis CD terhadap <b>sumbu-y</b> adalah . . . .
+            <br>
+            <input type="text" id="titik4" value="" style="width: 50px;" placeholder=". . . . ."><p id="ket4"></p>
+          </p>
+          <p>Kemudian klik tombol dibawah ini untuk mengecek jawaban anda</p>
+          <button onclick="Functionfour()">Cek</button> <button id="ulang4" onclick="ulang4()">Ulang</button>
+        </div>
+  
+        <div class="mySlides">
+          <p>5.Posisi ruas garis EF terhadap <b>sumbu-x</b> adalah . . . .
+            <br>
+            <input type="text" id="titik5" value="" style="width: 50px;" placeholder=". . . . ."><p id="ket5"></p>
+          </p>
+          <p>Kemudian klik tombol dibawah ini untuk mengecek jawaban anda</p>
+          <button onclick="Functionfive()">Cek</button> <button id="ulang5" onclick="ulang5()">Ulang</button>
+         </div>
+  
+        <div class="mySlides">
+          <p>6.Posisi ruas garis EF terhadap <b>sumbu-y</b> adalah . . . .
+            <br>
+            <input type="text" id="titik6" value="" style="width: 50px;" placeholder=". . . . ."><p id="ket6"></p>
+          </p>
+          <p>Kemudian klik tombol dibawah ini untuk mengecek jawaban anda</p>
+          <button onclick="Functionsix()">Cek</button> <button id="ulang6" onclick="ulang6()">Ulang</button>
+        </div>
       
-        <div class="slideshow-container">
-
-          <div class="mySlides">
-          <p>Apotek terletak pada koordinat<br>( <input type="text" id="myText" value=""> )</p>
-                    <p>Kemudian klik tombol "cek" dibawah ini untuk mengecek jawabanmu</p>
-                    <button onclick="myFunction()">Cek</button>
-                    <p id="demo"></p>
-          </div>
-          
-          <div class="mySlides">
-          <p>Terminal terletak pada koordinat<br>( <input type="text" id="Texttwo" value=""> )</p>
-                    <p>Kemudian klik tombol "cek"  dibawah ini untuk mengecek jawaban anda</p>
-                    <button onclick="Functiontwo()">Cek</button>
-                    <p id="cektwo"></p>
-          </div>
-          
-          <div class="mySlides">
-          <p>Sekolah terletak pada koordinat<br>( <input type="text" id="Textthree" value=""> )</p>
-                    <p>Kemudian klik tombol "cek" dibawah ini untuk mengecek jawaban anda</p>
-                    <button onclick="Functionthree()">Cek</button>
-                    <p id="cekthree"></p>
-          </div>
-          
-          <div class="mySlides">
-              <p>Lapangan terletak pada koordinat<br>( <input type="text" id="Textfour" value=""> )</p>
-                    <p>Kemudian klik tombol "cek" dibawah ini untuk mengecek jawaban anda</p> 
-                    <button onclick="Functionfour()">Cek</button>
-                    <p id="cekfour"></p>
-          </div>
-          
-          <div class="mySlides">
-              <p>Pasar terletak pada koordinat<br>( <input type="text" id="Textfive" value=""> )</p>
-                    <p>Kemudian klik tombol "cek" dibawah ini untuk mengecek jawaban anda</p>
-                    <button onclick="Functionfive()">Cek</button>
-                    <p id="cekfive"></p>
-          </div>
-          
+      
           <a class="pre" onclick="plusSlides(-1)">❮</a>
           <a class="nex" onclick="plusSlides(1)">❯</a>
           
           </div>
-          
-          <div class="dot-container">
-            <span class="dot" onclick="currentSlide(1)">1</span> 
-            <span class="dot" onclick="currentSlide(2)">2</span> 
-            <span class="dot" onclick="currentSlide(3)">3</span> 
-            <span class="dot" onclick="currentSlide(4)">4</span>
-            <span class="dot" onclick="currentSlide(5)">5</span>
-          </div>
+      
+        <div class="dot-container">
+          <span class="dot" onclick="currentSlide(1)">1</span> 
+          <span class="dot" onclick="currentSlide(2)">2</span> 
+          <span class="dot" onclick="currentSlide(3)">3</span>
+          <span class="dot" onclick="currentSlide(4)">4</span> 
+          <span class="dot" onclick="currentSlide(5)">5</span> 
+          <span class="dot" onclick="currentSlide(6)">6</span>
+     </div>
               
     </div>
 </section>
 </body>
 <footer>
     <div id="footer">
-      <a href="pengenalanpetunjuk.html" class="previous">&laquo; Sebelumnya</a>
-      <a href="titikkoordinat.html" class="next">Selanjutnya &raquo;</a>
+      <a href="titikacuan.html" class="previous">&laquo; Sebelumnya</a>
+      <a href="../kuis3/kuis3.html" class="next">Selanjutnya &raquo;</a>
     </div>
 </footer>
-<script src="javascript.js">
+<script src="javascript9.js">
 </script>
 </html>

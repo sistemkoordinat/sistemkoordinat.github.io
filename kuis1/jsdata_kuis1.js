@@ -1,3 +1,4 @@
+//firebase connected
 var firebaseConfig = {
     apiKey: "AIzaSyBNS_wz_CMntH55l8Rb0lVfYmo66zRfkO4",
     authDomain: "sistemkoordinat.firebaseapp.com",
@@ -7,7 +8,7 @@ var firebaseConfig = {
     messagingSenderId: "322719063336",
     appId: "1:322719063336:web:6702959c04f1874f85841d"
   };
-  // Initialize Firebase
+
   firebase.initializeApp(firebaseConfig);
 
 
@@ -101,11 +102,8 @@ dat.onreadystatechange = function () {
         // tankap apapun responsnya tangkap,lalu diubah ke objeck
         let data = JSON.parse(this.responseText);
         // melihat data 
-        // console.log(data);
 
-        // ---------------------------------
-        // acak urutan soal
-        //random urutan
+        // Mengacak soal
         for (let x = 0; x < 100; x++) {
             // acak angka dengan batas length.data dan minimum 0
             let angka = Math.floor(Math.random() * data.length) + 0;
@@ -280,7 +278,6 @@ dat.onreadystatechange = function () {
 
             if (sarat == jwbs.length) {
                 // array kunci
-                // console.log(jwbs);
                 hasilakhir = 0;
                 benarr = 0;
                 salahh = jwbs.length;
@@ -406,21 +403,4 @@ function createTask(sekolah, nama, kelas, nilai, waktunya, hari) {
 
 }
 
-// //tomboll ulang
-// let ulangin = document.querySelector('.tmblUlang');
-
-// ulangin.addEventListener('click', function () {
-//     document.getElementById("halskor").className += " hilang";
-//     document.getElementById("data").className = document.getElementById("data").className.replace("hilang","");
-//     datadiri.className = datadiri.className.replace("hilang","");
-//     document.getElementById('nama').value="";
-//     document.getElementById('kelas').value="0";
-//     document.getElementById('sekolah').value="0";
-
-//     for(let i=1; i<=10; i++){
-//         let radio = document.getElementById("radio"+i);
-//         radio.checked = false;
-//     }
-    
-// })
 

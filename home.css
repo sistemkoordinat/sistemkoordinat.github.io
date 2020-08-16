@@ -335,7 +335,7 @@ th, td {
 
 footer {
   background-color: #6d6875;
-  font-family: Baskerville, "Baskerville Old Face",serif; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
   padding: 10px;
   height: 50px;
   text-align: center;
@@ -345,6 +345,7 @@ footer {
 
 .petunjuk{
   background-color: #ff5252;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   border: none;
   color: white;
   padding: 7px 10px;
@@ -368,12 +369,14 @@ footer {
   height: 200px;
   text-align: left;
   background-color: #ffccb2;
-  border: 3px solid red;
+  border: 3px dotted red;
+  border-radius: 8px;
   margin-top: 10px;
 }
 
 .tujuan{
   background-color: #ff5252;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   border: none;
   color: white;
   padding: 7px 10px;
@@ -398,7 +401,8 @@ footer {
   height: 220px;
   text-align: left;
   background-color: #ffccb2;
-  border: 3px solid red;
+  border: 3px dotted red;
+  border-radius: 8px;
   margin-top: 10px;
 }
 
@@ -428,13 +432,15 @@ footer {
   height: 130px;
   text-align: left;
   background-color: #ffccb2;
-  border: 3px solid red;
+  border: 3px dotted red;
+  border-radius: 8px;
   margin-top: 10px;
 }
 
 
 .petunjuksoal2{
   background-color: #ff5252;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   border: none;
   color: white;
   padding: 7px 10px;
@@ -459,8 +465,10 @@ footer {
   height: 200px;
   text-align: left;
   background-color: #ffccb2;
-  border: 3px solid red;
+  border: 3px dotted red;
+  border-radius: 8px;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .hilang{
@@ -482,7 +490,7 @@ display:none;
 
 .slideshow-container {
   position: relative;
-  background: #ffccb2;
+  background: #ffe7da;
   border: 3px solid red;
 }
 

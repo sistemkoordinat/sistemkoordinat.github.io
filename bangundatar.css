@@ -208,6 +208,7 @@
   
   
 .tujuan{
+  font-family: Georgia, 'Times New Roman', Times, serif;
   background-color: #ff5252;
   border: none;
   color: white;
@@ -233,13 +234,15 @@
   height: 210px;
   text-align: left;
   background-color: #ffccb2;
-  border: 3px solid red;
+  border: 3px dotted red;
+  border-radius: 8px;
   margin-top: 10px;
 }
 
 
 .petunjuk{
   background-color: #ff5252;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   border: none;
   color: white;
   padding: 7px 10px;
@@ -263,12 +266,14 @@
   height: 200px;
   text-align: left;
   background-color: #ffccb2;
-  border: 3px solid red;
+  border: 3px dotted red;
+  border-radius: 8px;
   margin-top: 10px;
 }
 
 .petunjuksoal{
   background-color: #ff5252;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   border: none;
   color: white;
   padding: 7px 10px;
@@ -278,7 +283,7 @@
   font-size: 12px;
   cursor: pointer;
   border-radius: 8px;
-  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .petunjuksoal:hover {background-color: #ff8a80}
@@ -293,8 +298,10 @@
   height: 180px;
   text-align: left;
   background-color: #ffccb2;
-  border: 3px solid red;
+  border: 3px dotted red;
+  border-radius: 4px;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .hilang{
@@ -384,12 +391,27 @@
     color: white;
   }
 
-  .droptarget {
+  .droptargetkecil{
     float: left; 
-    width: 250px; 
+    width: 130px; 
     height: 35px;
     margin: 15px;
-    padding: 10px;
+    padding: 2px;
+    border: 1px solid black;
+    background-color: cornsilk;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 150px;
+    
+  } 
+
+  .droptarget {
+    float: left; 
+    width: 100px; 
+    height: 35px;
+    margin: 15px;
+    padding: 2px;
     border: 1px solid black;
     background-color: cornsilk;
     text-align: center;
@@ -398,8 +420,48 @@
     display: inline;
   }
   
+  .droptarget1 {
+    float: left; 
+    width: 100px; 
+    height: 35px;
+    padding: 2px;
+    font-size: 16px;
+    border: 1px solid black;
+    background-color: cornsilk;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    margin-left:10px;
+  }
+
+  .droptarget2 {
+    float: left; 
+    width: 100px; 
+    height: 35px;
+    padding: 2px;
+    border: 1px solid black;
+    background-color: cornsilk;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 50px;
+  }
+
+  .droptarget3 {
+    float: left; 
+    width: 100px; 
+    height: 35px;
+    padding: 2px;
+    border: 1px solid black;
+    background-color: cornsilk;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 50px;
+  }
   #dragtarget {
     display: inline;
+    font-size: 16px;
     padding-bottom: 30px;
     padding-right: 20px;
     padding-top: 5px
@@ -426,15 +488,135 @@
     display: inline;
     text-align: center;
   }
+
+  #dragtarget5{
+    display: inline;
+    text-align: center;
+  }
+
+  #dragtarget6{
+    display: inline;
+    text-align: center;
+  }
+
+  #dragtarget7{
+    display: inline;
+    text-align: center;
+  }
+
+  #dragtarget8{
+    display: inline;
+    text-align: center;
+  }
+
+  #dragtarget9{
+    display: inline;
+    text-align: center;
+  }
   
   footer {
     background-color: #6d6875;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 15px;
     height: 60px;
     text-align: center;
     color: white;
   }
+
+  .slideshow-container {
+    position: relative;
+    background: #ffe7da;
+    border: 3px solid red;
+  }
+  
+  
+  .mySlides {
+    display: none;
+    padding: 20px;
+    height: 520px;
+    text-align: center;
+  }
+  
+  
+  .pre, .nex {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 4px 4px 0;
+    user-select: none;
+  }
+  
+  
+  .nex {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .pre:hover, .nex:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+  
+  .dot-container {
+      text-align: center;
+      padding: 10px;
+      background: #ddd;
+  }
+  
+  .sjj{
+    background-color: #ff5252;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    color: white;
+    padding: 7px 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  
+  .sjj:hover {background-color: #ff8a80}
+  
+  .sjj:active {
+    background-color: #ff8a80;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+  .dot {
+    cursor: pointer;
+    color:white;
+    height: 30px;
+    width: 30px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  
+  q {font-style: italic;}
+  
+  
+  .author {color: cornflowerblue;}
   
   /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens, kada ngaruh sih*/
   @media (max-width: 900px) {
@@ -503,8 +685,36 @@
     margin: 5px 2px;
   }
 
+  .droptargetkecil{
+    margin-left: 84px;
+  }
+
+  .droptarget1
+  {
+    width:76px;
+    font-size: 4vw;
+    padding-left: 10px;
+    margin: 5px 3px;
+  }
+
+  .droptarget2
+  {
+    width:76px;
+    font-size: 4vw;
+    padding:3px;
+    margin: 5px 2px;
+  }
+
+  .droptarget3
+  {
+    width:76px;
+    font-size: 4vw;
+    padding:3px;
+    margin: 5px 2px;
+  }
+
     .fullmoon{
-    width: 20px;
+    width: 76px;
     height: 20px;
   } 
   

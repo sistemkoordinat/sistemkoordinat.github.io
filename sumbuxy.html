@@ -12,7 +12,7 @@
   
 <section>
     <ul>
-        <li><a  href="index.html">Home</a></li>
+        <li><a  href="index.html">Halaman Utama</a></li>
     </ul>
 
   <nav>
@@ -28,7 +28,7 @@
           <a href="homepage.html">1. Membaca posisi tempat pada bidang koordinat</a>
           <a href="titikkoordinat.html">2. Menentukan posisi titik pada bidang koordinat</a>
           <a href="bangundatar.html">3. Menggambar bangun datar pada bidang koordinat</a>
-          <a href="latihan.html">Latihan</a>
+          <a href="../kuis1/kuis1awal.html">Kuis</a>
         </div>
       </div> 
 
@@ -41,6 +41,7 @@
           <a href="sumbuxy.html" class="hvr">1. Posisi titik terhadap sumbu X dan sumbu Y</a>
           <a href="titikawal.html">2. Posisi titik terhadap titik asal (0,0)</a>
           <a href="titikacuan.html">3. Posisi titik terhadap titik acuan (a,b)</a>
+          <a href="../kuis2/kuis2.html">Kuis</a>
         </div>
       </div> 
 
@@ -76,11 +77,11 @@
        suatu terhadap sumbu-X dan Sumbu-Y</p>
 
     <img src="3.1.png" width="450" height="70">
-    <img src="marimengamati.png" width="250" height="70" class="gmb"><br>
+    <img src="marimengamati.png" width="250" height="60" class="gmb"><br>
     &nbsp;&nbsp;<b>Masalah 2.1</b> : Perhatikan permasalahan berikut ini!
     &nbsp;&nbsp;<p>&nbsp;&nbsp;Pernahkah kalian pergi ke pasar tradisional? Pasar tradisional yang sering kita temui
       di Banjarmasin diantaranya Pasar Cemara, Pasar Tungging, Pasar Sudimampir dan Pasar Kuripan</p>
-        <img src="pasarmaps.png" width="490" height="320">
+        <img src="pasarmaps.png" width="490" height="400">
         <center><i><b>Gambar 2.1</b> : Peta pasar tradisioanl di Banjarmasin</i></center>
       &nbsp;&nbsp;Jika pasar tradisional di Banjarmasin dijadikan sebagai titik pada bidang koordinat dan Taman Siring 0 KM 
        dijadikan titik awal (0,0) seperti gambar berikut ini</p>
@@ -111,7 +112,7 @@
       </ol>
       </div>
       <br>
-        <iframe id="sumbuxy" src="pasarr2.html" allowtransparency ="true" width ="480" height ="450" frameborder="0" scrolling="no" allowfullscreen style="z-index:100 !important;"></iframe>
+        <iframe id="sumbuxy" src="subsubbab4.html" allowtransparency ="true" width ="480" height ="450" frameborder="0" scrolling="no" allowfullscreen style="z-index:100 !important;"></iframe>
     
   </div>
 
@@ -120,7 +121,6 @@
       <p>&nbsp;&nbsp;Perhatikan gambar dibawah ini</p>
       <img src="AH.png" width="480" height="300">
       <center><i><b>Gambar 2.3</b> : Bidang Koordinat</i></center>
-      <br><br>Lengkapilah kolom yang kosong pada tabel dibawah ini<br>
       <button class="petunjuksoal">Klik Untuk Melihat Petunjuk</button><br>
       <div id="petunjuksoal" class="hilang">
         <ol>
@@ -130,78 +130,97 @@
         <li>klik ulang untuk mengulang dan menghapus jawaban </li>
       </ol>
       </div>
-      <table id="t01">
-        <tr>
-          <th width="5%">Titik</th>
-          <th width="10%">Koordinat</th> 
-          <th width="30%">Jarak terhadap sumbu X</th>
-          <th width="30%">Jarak terhadap sumbu Y</th>
-        </tr>
+      <div class="slideshow-container">
 
-        <tr>
-          <td>A</td>
-          <td>(5,6)</td> 
-          <td>6 satuan ke atas</td>
-          <td>5 satuan ke kanan</td>
-        </tr>
+        <div class="mySlides">
+        <p>Lengkapilah kotak kosong dibawah ini dengan jawaban yang benar berdasarkan <b>Gambar 2.3</b></p><br>
+        <left><p>1. Titik Koordinat :<b> A(5,6)</b></p>
+        <p>Posisi titik A terhadap sumbu-x:<b> 6 satuan ke atas</b> </p>
+        <p>Posisi titik A terhadap sumbu-y: &nbsp;<input type="text" id="text1" value="" placeholder=". . . . satuan ke . . . . . ."><br><p id="ket1"></p></p>
+        </left>
+        <button id="cek" onclick="cek()" style="margin-top: 30px;"><b>Cek Jawaban</button>     <button id="ulang" button onclick="ulang()">Ulang</b></button>
+        </div>
 
-        <tr>
-          <td>B</td>
-          <td>(-4,7)</td> 
-          <td><input type="text" id="text1" value=""><br><p id="ket1"></p></td>
-          <td>4 satuan ke kiri</td>
-        </tr>
+        <div class="mySlides">
+          <p>Lengkapilah kotak kosong dibawah ini dengan jawaban yang benar berdasarkan <b>Gambar 2.3</b></p><br>
+          <left><p>2. Titik Koordinat :<b> B(-4,7)</b></p>
+          <p>Posisi titik B terhadap sumbu-x:&nbsp;<input type="text" id="text2" value="" placeholder=". . . . satuan ke . . . . . ."><br><p id="ket2"></p></p>
+          <p>Posisi titik B terhadap sumbu-y: <b> 4 satuan ke kiri</b> </p>
+          </left>
+          <button id="cek2" onclick="cek2()" style="margin-top: 30px;"><b>Cek Jawaban</button>     <button id="ulang2" button onclick="ulang2()">Ulang</b></button>
+          </div>
+        
+          <div class="mySlides">
+            <p>Lengkapilah kotak kosong dibawah ini dengan jawaban yang benar berdasarkan <b>Gambar 2.3</b></p><br>
+            <left><p>3. Titik Koordinat :<b> C(-4,-5)</b></p>
+              <p>Posisi titik C terhadap sumbu-x:<b> 5 satuan ke bawah</b> </p>
+              <p>Posisi titik C terhadap sumbu-y: &nbsp;<input type="text" id="text3" value="" placeholder=". . . . satuan ke . . . . . ."><br><p id="ket3"></p></p>
+              </left>
+            <button id="cek3" onclick="cek3()" style="margin-top: 30px;"><b>Cek Jawaban</button>     <button id="ulang3" button onclick="ulang3()">Ulang</b></button>
+            </div>
 
-        <tr>
-          <td>C</td>
-          <td>(-4,-5)</td>
-          <td>5 satuan ke bawah
-          </td>
-          <td><input type="text" id="text2" value=""><br><p id="ket2"></p></td>
-        </tr>
+            <div class="mySlides">
+              <p>Lengkapilah kotak kosong dibawah ini dengan jawaban yang benar berdasarkan <b>Gambar 2.3</b></p><br>
+              <left><p>4. Titik Koordinat :<b> D(4,-2)</b></p>
+                <p>Posisi titik D terhadap sumbu-x:&nbsp;<input type="text" id="text4" value="" placeholder=". . . . satuan ke . . . . . ."><br><p id="ket4"></p></p>
+                <p>Posisi titik D terhadap sumbu-y: <b> 4 satuan ke kanan</b> </p>
+                </left>
+              <button id="cek4" onclick="cek4()" style="margin-top: 30px;"><b>Cek Jawaban</button>     <button id="ulang4" button onclick="ulang4()">Ulang</b></button>
+              </div>
 
-        <tr>
-          <td>D</td>
-          <td>(4,-2)</td>
-          <td><input type="text" id="text3" value=""><br><p id="ket3"></p></td>
-          <td>4 satuan ke kanan</td>
-        </tr>
+              <div class="mySlides">
+                <p>Lengkapilah kotak kosong dibawah ini dengan jawaban yang benar berdasarkan <b>Gambar 2.3</b></p><br>
+                <left><p>5. Titik Koordinat : E(<input type="text" id="text5" value="" style="width: 40px;" placeholder="...,...">)<br><p id="ket5"></p></p>
+                  <p>Posisi titik E terhadap sumbu-x: <b> 4 satuan ke atas</b> </p>
+                  <p>Posisi titik E terhadap sumbu-y: <b> 9 satuan ke kanan</b> </p>
+                  </left>
+                <button id="cek5" onclick="cek5()" style="margin-top: 30px;"><b>Cek Jawaban</button>     <button id="ulang5" button onclick="ulang5()">Ulang</b></button>
+                </div>
 
-        <tr>
-          <td>E</td>
-          <td><input type="text" id="text4" value="" style="width: 70px;"><br><p id="ket4"></p></td>
-          <td>4 satuan ke atas
-          </td>
-          <td>9 satuan ke kanan</td>
-        </tr>
+                <div class="mySlides">
+                  <p>Lengkapilah kotak kosong dibawah ini dengan jawaban yang benar berdasarkan <b>Gambar 2.3</b></p><br>
+                  <left><p>6. Titik Koordinat : F(<input type="text" id="text6" value="" style="width: 40px;" placeholder="...,...">)<br><p id="ket6"></p></p>
+                    <p>Posisi titik F terhadap sumbu-x: <b> 2 satuan ke atas</b> </p>
+                    <p>Posisi titik F terhadap sumbu-y: <b> 9 satuan ke kiri</b> </p>
+                    </left>
+                  <button id="cek6" onclick="cek6()" style="margin-top: 30px;"><b>Cek Jawaban</button>     <button id="ulang6" button onclick="ulang6()">Ulang</b></button>
+                  </div>
 
-        <tr>
-          <td>F</td>
-          <td><input type="text" id="text5" value="" style="width: 70px;"><br><p id="ket5"></p></td>
-          <td>2 satuan ke atas
-          </td>
-          <td><input type="text" id="text6" value=""><br><p id="ket6"></p></td>
-        </tr>
+                  <div class="mySlides">
+                    <p>Lengkapilah kotak kosong dibawah ini dengan jawaban yang benar berdasarkan <b>Gambar 2.3</b></p><br>
+                    <left><p>7. Titik Koordinat : G(<input type="text" id="text7" value="" style="width: 40px;" placeholder="...,...">)<br><p id="ket7"></p></p>
+                      <p>Posisi titik G terhadap sumbu-x: <b> 7 satuan ke bawah</b> </p>
+                      <p>Posisi titik G terhadap sumbu-y: <b> 10 satuan ke kiri</b> </p>
+                      </left>
+                    <button id="cek7" onclick="cek7()" style="margin-top: 30px;"><b>Cek Jawaban</button>     <button id="ulang7" button onclick="ulang7()">Ulang</b></button>
+                    </div>
 
-        <tr>
-          <td>G</td>
-          <td><input type="text" id="text7" value="" style="width: 70px;"><br><p id="ket7"></p></td>
-          <td><input type="text" id="text8" value=""><br><p id="ket8"></p>
-          </td>
-          <td>10 satuan ke kiri</td>
-        </tr>
-
-        <tr>
-          <td>H</td>
-          <td><input type="text" id="text9" value="" style="width: 70px;"><br><p id="ket9"></p></td>
-          <td>5 satuan ke bawah
-          </td>
-          <td><input type="text" id="text10" value=""><br><p id="ket10"></p></td>
-        </tr>
-        <tr>
-          <td colspan="4" class="jawab" ><button id="cek" onclick="cek()"><b>Cek Jawaban</button>     <button id="ulang" onclick="ulang()">Ulang</b></button></td>
-        </tr>
-      </table> 
+                  <div class="mySlides">
+                    <p>Lengkapilah kotak kosong dibawah ini dengan jawaban yang benar berdasarkan <b>Gambar 2.3</b></p><br>
+                    <left><p>8. Titik Koordinat : <b>H(4,-5)</b></p>
+                    <p>Posisi titik H terhadap sumbu-x: <b> 4 satuan ke atas</b> </p>
+                    <p>Posisi titik H terhadap sumbu-y: <input type="text" id="text8" value="" placeholder=". . . . satuan ke . . . . . ."><br><p id="ket8"></p> </p>
+                    </left>
+                    <button id="cek8" onclick="cek8()" style="margin-top: 30px;"><b>Cek Jawaban</button>     <button id="ulang8" button onclick="ulang8()">Ulang</b></button>
+                    </div>
+        
+         
+        
+        <a class="pre" onclick="plusSlides(-1)">❮</a>
+        <a class="nex" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        
+        <div class="dot-container">
+          <span class="dot" onclick="currentSlide(1)">1</span> 
+          <span class="dot" onclick="currentSlide(2)">2</span> 
+          <span class="dot" onclick="currentSlide(3)">3</span>
+          <span class="dot" onclick="currentSlide(4)">4</span>
+          <span class="dot" onclick="currentSlide(5)">5</span> 
+          <span class="dot" onclick="currentSlide(6)">6</span> 
+          <span class="dot" onclick="currentSlide(7)">7</span>
+          <span class="dot" onclick="currentSlide(8)">8</span>
+        </div>
   </div>
 </section>
 

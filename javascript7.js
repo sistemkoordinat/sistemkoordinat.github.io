@@ -48,95 +48,123 @@ function showSlides(n) {
 
 function myFunction(){
     var jwb1 = document.getElementById("titik1").value;
-    var jwb2 = document.getElementById("titik2").value;
-    var jwb3 = document.getElementById("titik3").value;
-
+  
  if(jwb1 == "5"){
     document.getElementById("ket1").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
   } else{
     document.getElementById("ket1").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
   }
 
- if(jwb2 == "1"){
-    document.getElementById("ket2").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
-  } else{
-    document.getElementById("ket2").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
-  }
-
-  if(jwb3 == "2"){
-    document.getElementById("ket3").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
-  } else{
-    document.getElementById("ket3").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
-  }
 }
 
 function Functiontwo(){
-    var jwb4 = document.getElementById("titik4").value;
-    var jwb5 = document.getElementById("titik5").value;
-    var jwb6 = document.getElementById("titik6").value;
+  var jwb2 = document.getElementById("titik2").value;
+  
+if(jwb2 == "1"){
+  document.getElementById("ket2").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
+} else{
+  document.getElementById("ket2").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
+}
+}
 
+function Functionthree(){
+  var jwb3 = document.getElementById("titik3").value;
+
+if(jwb3 == "2"){
+  document.getElementById("ket3").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
+} else{
+  document.getElementById("ket3").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
+}
+}
+
+function Functionfour(){
+    var jwb4 = document.getElementById("titik4").value;
+ 
  if(jwb4 == "6,3"){
     document.getElementById("ket4").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
   } else{
     document.getElementById("ket4").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
   }
-
- if(jwb5 == "5,0"){
-    document.getElementById("ket5").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
-  } else{
-    document.getElementById("ket5").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
-  }
-
-  if(jwb6 == "-2,-1"){
-    document.getElementById("ket6").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
-  } else{
-    document.getElementById("ket6").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
-  }
 }
 
-function Functionthree(){
-    var jwb7 = document.getElementById("titik7").value;
-    var jwb8 = document.getElementById("titik8").value;
-    var jwb9 = document.getElementById("titik9").value;
+function Functionfive(){
+  var jwb5 = document.getElementById("titik5").value;
 
+if(jwb5 == "5,0"){
+  document.getElementById("ket5").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
+} else{
+  document.getElementById("ket5").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
+}
+}
+
+function Functionsix(){
+  var jwb6 = document.getElementById("titik6").value;
+
+if(jwb6 == "-2,-1"){
+  document.getElementById("ket6").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
+} else{
+  document.getElementById("ket6").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
+}
+}
+
+function Functionseven(){
+    var jwb7 = document.getElementById("titik7").value;
+  
  if(jwb7 == "1,5"){
     document.getElementById("ket7").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
   } else{
     document.getElementById("ket7").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
   }
+}
 
- if(jwb8 == "-1,4"){
-    document.getElementById("ket8").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
-  } else{
-    document.getElementById("ket8").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
-  }
 
-  if(jwb9 == "7,-1"){
-    document.getElementById("ket9").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
-  } else{
-    document.getElementById("ket9").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
-  }
+function Functioneight(){
+ var jwb8 = document.getElementById("titik8").value;
+
+if(jwb8 == "-1,4"){
+  document.getElementById("ket8").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
+} else{
+  document.getElementById("ket8").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
+}
+}
+
+
+function Functionnine(){
+ var jwb9 = document.getElementById("titik9").value;
+
+if(jwb9 == "7,-1"){
+  document.getElementById("ket9").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
+} else{
+  document.getElementById("ket9").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
+}
 }
 
 
 function ulang(){
     var jwb1 = document.getElementById("titik1").value;
-    var jwb2 = document.getElementById("titik2").value;
-    var jwb3 = document.getElementById("titik3").value;
-  
+
     document.getElementById("titik1").value="";
     document.getElementById("ket1").innerHTML="";
     if(jwb1==""){
       document.getElementById("titik1").value = "";
       document.getElementById("ket1").innerHTML = "";
     }
-  
+  }
+
+  function ulang2(){
+    var jwb2 = document.getElementById("titik2").value;
+   
     document.getElementById("titik2").value="";
     document.getElementById("ket2").innerHTML="";
     if(jwb2==""){
       document.getElementById("titik2").value = "";
       document.getElementById("ket2").innerHTML = "";
     }
+ 
+  }
+
+  function ulang3(){
+    var jwb3 = document.getElementById("titik3").value;
   
     document.getElementById("titik3").value="";
     document.getElementById("ket3").innerHTML="";
@@ -146,24 +174,31 @@ function ulang(){
     }
   }
 
-  function ulang2(){
+  function ulang4(){
     var jwb4 = document.getElementById("titik4").value;
-    var jwb5 = document.getElementById("titik5").value;
-    var jwb6 = document.getElementById("titik6").value;
-  
+   
     document.getElementById("titik4").value="";
     document.getElementById("ket4").innerHTML="";
     if(jwb4==""){
       document.getElementById("titik4").value = "";
       document.getElementById("ket4").innerHTML = "";
     }
-  
+  }
+
+  function ulang5(){
+   var jwb5 = document.getElementById("titik5").value;
+   
     document.getElementById("titik5").value="";
     document.getElementById("ket5").innerHTML="";
     if(jwb5==""){
       document.getElementById("titik5").value = "";
       document.getElementById("ket5").innerHTML = "";
     }
+  
+  }
+
+  function ulang6(){
+    var jwb6 = document.getElementById("titik6").value;
   
     document.getElementById("titik6").value="";
     document.getElementById("ket6").innerHTML="";
@@ -173,24 +208,30 @@ function ulang(){
     }
   }
 
-  function ulang3(){
+  function ulang7(){
     var jwb7 = document.getElementById("titik7").value;
-    var jwb8 = document.getElementById("titik8").value;
-    var jwb9 = document.getElementById("titik9").value;
-  
+    
     document.getElementById("titik7").value="";
     document.getElementById("ket7").innerHTML="";
     if(jwb7==""){
       document.getElementById("titik7").value = "";
       document.getElementById("ket7").innerHTML = "";
     }
-  
+  }
+
+  function ulang8(){
+    var jwb8 = document.getElementById("titik8").value;
+   
     document.getElementById("titik8").value="";
     document.getElementById("ket8").innerHTML="";
     if(jwb8==""){
       document.getElementById("titik8").value = "";
       document.getElementById("ket8").innerHTML = "";
     }
+  }
+
+  function ulang9(){
+     var jwb9 = document.getElementById("titik9").value;
   
     document.getElementById("titik9").value="";
     document.getElementById("ket9").innerHTML="";
