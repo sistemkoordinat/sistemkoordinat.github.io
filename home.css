@@ -282,6 +282,21 @@ article{
   overflow: auto;
 }
 
+.Isi-Kirii{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px; 
+  font-weight: 500; 
+  line-height: 27px;
+  float: left;
+  text-align: justify;
+  padding: 20px;
+  width: 80%;
+  background-color: #ffccb2;
+  height: 480px; 
+  border: 3px dotted red;
+  overflow: auto;
+}
+
 #langkah{
   color:red;
   font-weight: bold;
@@ -615,6 +630,10 @@ q {font-style: italic;}
     float:none;
     font-size: 3vw;
   }
+
+  .Isi-Kirii{
+    width: 100%;
+  }
   header {
     background-image: url(headerhp.png);
     background-size: 104% 106% ;
@@ -648,16 +667,26 @@ q {font-style: italic;}
   .rumus{
     margin-left: 5px;
   }
+
   .divscratch{
     overflow-y:hidden;
-    height: auto;
+    height: 280px;
+    width: 308px;
+    margin-bottom: -39px;
   }
 
   .scratch{
     margin-top: -44px;
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
   }
-  
+  .acuan{
+  font-weight: 700;
+  text-align: center;
+  width: 300px;
+  height: 130px;
+  margin-left: 0px;
+  border: 3px solid red;
+}
    
 }

@@ -60,85 +60,67 @@ function drop(event) {
   event.target.appendChild(document.getElementById(data));
 }
 
-function cek(){
-    var jwb1 = document.getElementById("no1").innerText;
+function myFunction(){
+  var jwb1 = document.getElementById("titik1").value;
 
-if(jwb1 == "Segitiga"){
-    document.getElementById("ket1").innerHTML = "<img src='benar.png' style='width:30px; height:30px; margin:-22px;'>"
-  } else{
-    document.getElementById("ket1").innerHTML = "<img src='salah.png' style='width:30px; height:30px; margin:-22px;'>"
-  }
-}
-
-function cek2(){
-  var jwb2 = document.getElementById("no2").innerText;
-
-if(jwb2 == "Persegi Panjang"){
-  document.getElementById("ket2").innerHTML = "<img src='benar.png' style='width:30px; height:30px; margin:-22px;'>"
+if(jwb1 == "segitiga"){
+  document.getElementById("ket1").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
 } else{
-  document.getElementById("ket2").innerHTML = "<img src='salah.png' style='width:30px; height:30px; margin:-22px;'>"
-}
+  document.getElementById("ket1").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
 }
 
-function cek3(){
-  var jwb3 = document.getElementById("no3").innerText;
+}
 
-if(jwb3 == "Trapesium"){
-  document.getElementById("ket3").innerHTML = "<img src='benar.png' style='width:30px; height:30px; margin:-22px;'>"
+function Functiontwo(){
+var jwb2 = document.getElementById("titik2").value;
+
+if(jwb2 == "persegi panjang"){
+document.getElementById("ket2").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
 } else{
-  document.getElementById("ket3").innerHTML = "<img src='salah.png' style='width:30px; height:30px; margin:-22px;'>"
+document.getElementById("ket2").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
+}
+}
+
+function Functionthree(){
+var jwb3 = document.getElementById("titik3").value;
+
+if(jwb3 == "trapesium"){
+document.getElementById("ket3").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
+} else{
+document.getElementById("ket3").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
 }
 }
 
 function ulang(){
-  var plhn1 = "<p ondragstart='dragStart(event)' ondrag='dragging(event)' draggable='true' id='dragtarget'>Segitiga</p>";
-  var plhn2 = "<p ondragstart='dragStart(event)' ondrag='dragging(event)' draggable='true' id='dragtarget1'>Persegi</p>";
-  var plhn3 = "<p ondragstart='dragStart(event)' ondrag='dragging(event)' draggable='true' id='dragtarget2'>Trapesium</p>";
+  var jwb1 = document.getElementById("titik1").value;
 
-  document.getElementById("no1").innerHTML="";
-  document.getElementById("plhn1").innerHTML = plhn1;
-  document.getElementById("plhn2").innerHTML = plhn2;
-  document.getElementById("plhn3").innerHTML = plhn3;
-
+  document.getElementById("titik1").value="";
   document.getElementById("ket1").innerHTML="";
-  var kosong1 = document.getElementById("no1").innerText;
-  if(kosong1==""){
-    document.getElementById("no1").innerHTML = "";
+  if(jwb1==""){
+    document.getElementById("titik1").value = "";
     document.getElementById("ket1").innerHTML = "";
   }
-
 }
 
 function ulang2(){
-  var plhn4 = "<p ondragstart='dragStart(event)' ondrag='dragging(event)' draggable='true' id='dragtarget4'>Persegi</p>";
-  var plhn5 = "<p ondragstart='dragStart(event)' ondrag='dragging(event)' draggable='true' id='dragtarget5'>Persegi Panjang</p>";
-  var plhn6 = "<p ondragstart='dragStart(event)' ondrag='dragging(event)' draggable='true' id='dragtarget6'>Trapesium</p>";
-  
-  document.getElementById("no2").innerHTML="";
-  document.getElementById("plhn4").innerHTML = plhn4;
-  document.getElementById("plhn5").innerHTML = plhn5;
-  document.getElementById("plhn6").innerHTML = plhn6;
+  var jwb2 = document.getElementById("titik2").value;
+ 
+  document.getElementById("titik2").value="";
   document.getElementById("ket2").innerHTML="";
-  var kosong1 = document.getElementById("no2").innerText;
-  if(kosong1==""){
-    document.getElementById("no2").innerHTML = "";
+  if(jwb2==""){
+    document.getElementById("titik2").value = "";
     document.getElementById("ket2").innerHTML = "";
   }
+
 }
 
 function ulang3(){
-  var plhn7 = "<p ondragstart='dragStart(event)' ondrag='dragging(event)' draggable='true' id='dragtarget7'>Persegi</p>";
-  var plhn8 = "<p ondragstart='dragStart(event)' ondrag='dragging(event)' draggable='true' id='dragtarget8'>Persegi Panjang</p>";
-  var plhn9 = "<p ondragstart='dragStart(event)' ondrag='dragging(event)' draggable='true' id='dragtarget9'>Trapesium</p>";
+  var jwb3 = document.getElementById("titik3").value;
 
-  document.getElementById("no3").innerHTML="";
-  document.getElementById("plhn7").innerHTML = plhn7;
-  document.getElementById("plhn8").innerHTML = plhn8;
-  document.getElementById("plhn9").innerHTML = plhn9;
+  document.getElementById("titik3").value="";
   document.getElementById("ket3").innerHTML="";
-  var kosong1 = document.getElementById("no3").innerText;
-  if(kosong1==""){
-    document.getElementById("no3").innerHTML = "";
+  if(jwb3==""){
+    document.getElementById("titik3").value = "";
     document.getElementById("ket3").innerHTML = "";
   }
 }
