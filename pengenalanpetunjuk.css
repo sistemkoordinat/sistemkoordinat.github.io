@@ -128,6 +128,27 @@
     height: 412px;
   }
   
+  .bttn{
+    background-color:#ff5252; /* warna buttonnya*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid #7d2941;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    display: block 
+  }
+  .bttn-nav .button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+  }
+  
+  .bttn-nav .button:hover {
+    background-color: #633e5a;
+    
+  }
   .button-nav .button {
     background-color:#ff8a80; /* warna buttonnya*/
     font-family: Georgia, 'Times New Roman', Times, serif;
