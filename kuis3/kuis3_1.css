@@ -278,7 +278,32 @@ color: rgb(37, 37, 37);
 cursor: default !important;
 }
 
-/*tampilan HP*/
+.materiselanjutnya{
+  background-color: #ffb49e;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width: 20%;
+  padding: 5px;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 2px solid  rgb(129, 1, 1);
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 3%;
+
+}
+
+.materiselanjutnya:hover {
+  background-color:  rgb(129, 1, 1);
+  color: white;
+}
+
+.materiselanjutnya p {
+  font-size: 20px;
+}
+
+
+
 @media screen and (max-width: 992px){
 header{
   width: 100%;
