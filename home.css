@@ -381,7 +381,7 @@ footer {
 }
 #petunjuk {
   width: 100%;
-  height: 200px;
+  height: 240px;
   text-align: left;
   background-color: #ffccb2;
   border: 3px dotted red;
@@ -444,7 +444,7 @@ footer {
 }
 #petunjuksoal {
   width: 100%;
-  height: 130px;
+  height: 160px;
   text-align: left;
   background-color: #ffccb2;
   border: 3px dotted red;
@@ -649,6 +649,13 @@ q {font-style: italic;}
     height: auto;
   }
 
+  #petunjuk{
+    height: 300px;
+  }
+
+  #petunjuksoal{
+    height: 200px;
+  }
   .gmbr{
     width: 270px;
     height: auto;

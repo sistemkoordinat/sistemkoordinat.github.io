@@ -263,7 +263,7 @@
 }
 #petunjuk {
   width: 100%;
-  height: 200px;
+  height: 250px;
   text-align: left;
   background-color: #ffccb2;
   border: 3px dotted red;
@@ -295,7 +295,7 @@
 }
 #petunjuksoal {
   width: 100%;
-  height: 180px;
+  height: 220px;
   text-align: left;
   background-color: #ffccb2;
   border: 3px dotted red;
@@ -533,6 +533,17 @@
     border: 3px solid red;
   }
   
+  .divscratch{
+    overflow-y:hidden;
+    height: 372px;
+    width: 100%;
+  }
+  
+  .scratch{
+    margin-top: -44px;
+    width: 100%;
+    height: 412px;
+  }
   
   .mySlides {
     display: none;
@@ -642,6 +653,13 @@
       height: auto;
     }
   
+    #petunjuk{
+      height: 300px;
+    }
+
+    #petunjuksoal{
+      height: 200px;
+    }
     .gambar{
       float: center;
     }
@@ -682,6 +700,19 @@
     text-align: center;
   }
   
+  .divscratch{
+    overflow-y:hidden;
+    height: 280px;
+    width: 308px;
+    margin-bottom: -39px;
+  }
+
+  .scratch{
+    margin-top: -44px;
+    width: 100%;
+    height: 100%;
+  }
+
   .droptarget
   {
     width:140px;
