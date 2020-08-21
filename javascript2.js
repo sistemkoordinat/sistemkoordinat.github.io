@@ -101,7 +101,7 @@ function myFunction() {
    }
 
    function Functionsix() {
-    var x = document.getElementById("Textsix").value.toLowerCase();
+    var x = document.getElementById("Textsix").value.split(' ').join('');
      var jawaban;
      if (x == "f,g") {
       jawaban = "Berhasil, jawabanmu benar";
@@ -111,6 +111,22 @@ function myFunction() {
         jawaban = "Berhasil, jawabanmu benar";
     } else if (x=="F dan G"){
         jawaban = "Berhasil, jawabanmu benar";
+    }else if (x=="g dan f"){
+      jawaban = "Berhasil, jawabanmu benar";  
+    }else if (x=="G dan F"){
+      jawaban = "Berhasil, jawabanmu benar";  
+    }else if (x=="g,f"){
+      jawaban = "Berhasil, jawabanmu benar";  
+    }else if (x=="G,F"){
+    jawaban = "Berhasil, jawabanmu benar";  
+    }else if (x=="gdanf"){
+      jawaban = "Berhasil, jawabanmu benar";  
+    }else if (x=="GdanF"){
+      jawaban = "Berhasil, jawabanmu benar";  
+    }else if (x=="fdang"){
+      jawaban = "Berhasil, jawabanmu benar";  
+    }else if (x=="FdanG"){
+      jawaban = "Berhasil, jawabanmu benar";  
     }else {
       jawaban = "Jawabanmu salah, gunakan penghubung koma atau dan";
     }
@@ -128,7 +144,23 @@ function myFunction() {
           jawaban = "Berhasil, jawabanmu benar";
       } else if (x=="B dan C"){
           jawaban = "Berhasil, jawabanmu benar";
-      }else {
+      }else if (x=="c dan b"){
+        jawaban = "Berhasil, jawabanmu benar";  
+    }else if (x=="C dan B"){
+      jawaban = "Berhasil, jawabanmu benar";  
+  }else if (x=="c,b"){
+    jawaban = "Berhasil, jawabanmu benar";  
+}else if (x=="C,B"){
+  jawaban = "Berhasil, jawabanmu benar";  
+}else if (x=="cdanb"){
+  jawaban = "Berhasil, jawabanmu benar";  
+}else if (x=="CdanB"){
+jawaban = "Berhasil, jawabanmu benar";  
+}else if (x=="bdanc"){
+  jawaban = "Berhasil, jawabanmu benar";  
+}else if (x=="BdanC"){
+jawaban = "Berhasil, jawabanmu benar";  
+}else {
       jawaban = "Jawabanmu salah, gunakan penghubung koma atau dan";
     }
      document.getElementById("cekseven").innerHTML = jawaban;

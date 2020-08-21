@@ -61,7 +61,7 @@ function drop(event) {
 }
 
 function myFunction(){
-  var jwb1 = document.getElementById("titik1").value;
+  var jwb1 = document.getElementById("titik1").value.toLowerCase();
 
 if(jwb1 == "segitiga"){
   document.getElementById("ket1").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
@@ -72,7 +72,7 @@ if(jwb1 == "segitiga"){
 }
 
 function Functiontwo(){
-var jwb2 = document.getElementById("titik2").value;
+var jwb2 = document.getElementById("titik2").value.toLowerCase();
 
 if(jwb2 == "persegi panjang"){
 document.getElementById("ket2").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
@@ -82,7 +82,7 @@ document.getElementById("ket2").innerHTML = "<img src='salah.png' style='width:3
 }
 
 function Functionthree(){
-var jwb3 = document.getElementById("titik3").value;
+var jwb3 = document.getElementById("titik3").value.toLowerCase();
 
 if(jwb3 == "trapesium"){
 document.getElementById("ket3").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
