@@ -220,18 +220,7 @@ nav ul {
   list-style-type: none;
   padding: 0;
 }
-article{
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 18px; 
-  font-weight: 700; 
-  line-height: 26.4px;
-  float: center;
-  padding: 20px;
-  width: 100%;
-  background-color: #ffccb2;
-  height: 485px; 
-  border: 3px dotted red;
-}
+
 
 .over  { text-decoration: overline; }
 .kikd-menu{
@@ -261,7 +250,7 @@ article{
   text-align: justify;
   float: right;
   padding: 20px;
-  width: 40%;
+  width: 0%;
   background-color: #ffccb2;
   height: 480px; 
   border: 3px dotted red;
@@ -274,8 +263,8 @@ article{
   line-height: 27px;
   float: left;
   text-align: justify;
-  padding: 20px;
-  width: 40%;
+  padding: 30px 30px;
+  width: 80%;
   background-color: #ffccb2;
   height: 480px; 
   border: 3px dotted red;
@@ -307,8 +296,15 @@ article{
   text-align: center;
   width: 300px;
   height: 70px;
-  margin-left: 100px;
-  border: 3px solid red;
+  margin-left: 300px;
+  border: 3px dotted red;
+}
+
+.kuadd{
+  width: 550px;
+  height: 350px;
+  margin-left: 200px;
+  border: 3px dotted red;
 }
 
 .acuan{
@@ -381,12 +377,13 @@ footer {
 }
 #petunjuk {
   width: 100%;
-  height: 240px;
+  height: 170px;
   text-align: left;
   background-color: #ffccb2;
   border: 3px dotted red;
   border-radius: 8px;
   margin-top: 10px;
+  padding: 10px;
 }
 
 .tujuan{
@@ -401,7 +398,7 @@ footer {
   font-size: 12px;
   cursor: pointer;
   border-radius: 8px;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .tujuan:hover {background-color: #ff8a80}
@@ -413,7 +410,7 @@ footer {
 }
 #tujuan {
   width: 100%;
-  height: 220px;
+  height: 170px;
   text-align: left;
   background-color: #ffccb2;
   border: 3px dotted red;
@@ -486,6 +483,71 @@ footer {
   margin-bottom: 10px;
 }
 
+
+
+.subsection{
+  width: 100%;
+  height: 70px;
+  padding-top: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+  text-align-last: center;
+  color: #ffcc99;
+  text-align: center;
+  background-color: #d32f2f;
+  border: 3px solid #d32f2f;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.subsubsection{
+  width: 60%;
+  height: 50px;
+  padding-top: 10px;
+  padding-left: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-weight: bold;
+  text-align-last: left;
+  color: #ffcc99;
+  text-align: center;
+  background-color: #d32f2f;
+  border: 3px solid #d32f2f;
+  border-radius: 8px;
+}
+
+.subsubsection1{
+  width: 100%;
+  height: 50px;
+  padding-top: 10px;
+  padding-left: 0px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-align-last: left;
+  color: #ffcc99;
+  text-align: left;
+  background-color: #d32f2f;
+  border: 3px solid #d32f2f;
+  border-radius: 8px;
+}
+
+.subsubsection3{
+  width: 70%;
+  height: 50px;
+  padding-top: 10px;
+  padding-left: 0px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-align-last: left;
+  color: #ffcc99;
+  text-align: left;
+  background-color: #d32f2f;
+  border: 3px solid #d32f2f;
+  border-radius: 8px;
+}
+
 #fullscreen-btn {
   -webkit-appearance: none;
   border: none;
@@ -514,10 +576,20 @@ footer {
 display:none;
 }
 
+#soal {
+  position: fixed;
+  top:-500px;
+  width: 100%;
+  height:500px;
+  display: none;
+  transition: top 0.3s;
+}
 .divscratch{
   overflow-y:hidden;
-  height: 372px;
-  width: 100%;
+  float: center;
+  height: 400px;
+  width: 60%;
+  margin-left: 220px;
 }
 
 .scratch{
@@ -526,12 +598,29 @@ display:none;
   height: 412px;
 }
 
+.divgeo{
+  float: center;
+  height: 600px;
+  width: 800px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.geoo{
+  margin-top: -44px;
+  width: 100%;
+  height: 600px;
+}
+
 
 
 .slideshow-container {
   position: relative;
   background: #ffe7da;
   border: 3px solid red;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
 }
 
 
@@ -539,6 +628,41 @@ display:none;
   display: none;
   padding: 20px;
   text-align: center;
+}
+
+.mengamati{
+  position: relative;
+  background: #ffe7da;
+  border: 3px solid red;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.menanya{
+  position: relative;
+  background: #ffe7da;
+  border: 3px solid red;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.menggali{
+  position: relative;
+  background: #ffe7da;
+  border: 3px solid red;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.memecah{
+  position: relative;
+  background: #ffe7da;
+  border: 3px solid red;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
 }
 
 
@@ -622,6 +746,11 @@ q {font-style: italic;}
 
 .author {color: cornflowerblue;}
 
+#applet_container{
+  margin-left: 50px;
+  background-color: #ffe7da;
+}
+
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens, kada ngaruh sih*/
 @media (max-width: 992px) {
   nav,.Isi-Kiri,.Isi-Kanan {
@@ -650,14 +779,14 @@ q {font-style: italic;}
   }
 
   #petunjuk{
-    height: 300px;
+    height: 320px;
   }
 
   #petunjuksoal{
-    height: 200px;
+    height: 230px;
   }
   .gmbr{
-    width: 270px;
+    width: 260px;
     height: auto;
   }
 
@@ -671,15 +800,22 @@ q {font-style: italic;}
     height: 20px;
   }
 
+  
   .rumus{
-    margin-left: 5px;
+    margin-left: 0px;
+    width: 250px;
+  }
+
+  #bgndtr{
+    height: 400px;
   }
 
   .divscratch{
     overflow-y:hidden;
-    height: 280px;
-    width: 308px;
+    height: 260px;
+    width: 270px;
     margin-bottom: -39px;
+    margin-left: -9px;
   }
 
   .scratch{
@@ -695,5 +831,102 @@ q {font-style: italic;}
   margin-left: 0px;
   border: 3px solid red;
 }
+
+.subsection{
+  height: auto;
+  width: 100%;
+  font-size: 5vw;
+  padding-top: 5px;
+  margin-bottom: 0px;
+}
+
+.subsubsection{
+  height: auto;
+  width: 100%;
+  font-size: 4vw;
+  padding-top: 5px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  text-align: center;
+}
+
+.subsubsection1{
+  height: auto;
+  width: 100%;
+  font-size: 4vw;
+  padding-top: 5px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  text-align: center;
+}
+.subsubsection3{
+  height: auto;
+  width: 100%;
+  font-size: 4vw;
+  padding-top: 5px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  text-align: center;
+}
+
+
+.tujuan{
+  margin-top:-7px;
+  font-size: 3vw;
+}
+
+.petunjuk{
+  font-size: 3vw;
+}
+
+.petunjuksoal{
+  font-size: 3vw;
+}
+
+#menanya{
+  padding: 10px;
+  height: 290px;
+}
+
+#menggali{
+  padding:7px;
+  height: 370px;
+}
+
+.menggali{
+  padding: 5px;
+  height: auto;
+}
    
+.kuadd{
+  margin-left: 0px;
+  width: 250px;
+  height: 555px;
+  padding-right: 5px;
+}
+.memecah{
+  padding: 10px;
+  height: auto;
+}
+
+#applet_container{
+  margin-left: -30px;
+}
+
+#tanya{
+  height: 250px;
+}
+
+#gali{
+  height: 365px;
+}
+
+.ptjk{
+  width: 10px;
+  height: 10px;
+}
+
+#lebar{
+  width: 300px;
+}
 }
