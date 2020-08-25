@@ -785,10 +785,15 @@ q {font-style: italic;}
   #petunjuksoal{
     height: 230px;
   }
+
+  #tujuan{
+    height: 225px;
+  }
   .gmbr{
     width: 260px;
     height: auto;
   }
+
 
   iframe{
     width: 100%;
@@ -910,7 +915,7 @@ q {font-style: italic;}
 }
 
 #applet_container{
-  margin-left: -30px;
+  margin-left: -40px;
 }
 
 #tanya{
@@ -918,12 +923,12 @@ q {font-style: italic;}
 }
 
 #gali{
-  height: 365px;
+  height: 375px;
 }
 
 .ptjk{
-  width: 10px;
-  height: 10px;
+  width: 20px;
+  height: 20px;
 }
 
 #lebar{
