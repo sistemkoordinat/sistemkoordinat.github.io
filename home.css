@@ -751,6 +751,8 @@ q {font-style: italic;}
   background-color: #ffe7da;
 }
 
+
+
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens, kada ngaruh sih*/
 @media (max-width: 992px) {
   nav,.Isi-Kiri,.Isi-Kanan {
@@ -895,7 +897,7 @@ q {font-style: italic;}
 
 #menggali{
   padding:7px;
-  height: 370px;
+  height: 390px;
 }
 
 .menggali{
@@ -923,7 +925,7 @@ q {font-style: italic;}
 }
 
 #gali{
-  height: 375px;
+  height: 390px;
 }
 
 .ptjk{
