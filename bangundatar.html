@@ -158,52 +158,10 @@
         </div>
         <br>
         <!--Embed geogebranya-->
-        <div>
-          <script type="text/javascript" src="https://cdn.geogebra.org/apps/deployggb.js"></script>
-
-          <script type="text/javascript">
-          function updateHelp(p){
-            document.getElementById('tutorial-link').href = tutorials[p][1];
-            document.getElementById('tutorial-link').innerText = tutorials[p][0]+" Tutorial";
-          }
-          function perspective(p){
-            updateHelp(p);
-            ggbApplet.setPerspective(p);
-          }
-                  var parameters = {
-                          "id":"ggbApplet",
-                          "width":800,
-                          "height":600,
-                          "showToolBar":true,
-                          "borderColor":null,
-                          "showMenuBar":false,
-                          "allowStyleBar":false,
-                          "showAlgebraInput":false,
-                          "enableLabelDrags":false,
-                          "enableShiftDragZoom":false,
-                          "capturingThreshold":null,
-                          "showToolBarHelp":false,
-                          "errorDialogsActive":true,
-                          "showTutorialLink":false,
-                          "showLogging":false,
-                          "showNavigationBar":false,
-                          "algebraPanelSelected":false,
-                          "useBrowserForJS":false,
-                          "perspective":"AG"};
-  
-                  var applet = new GGBApplet(parameters, '5.0', 'applet_container');
-                 //  when used with Math Apps Bundle, uncomment this:
-                 //  applet.setHTML5Codebase('GeoGebra/HTML5/5.0/web3d/');
-  
-                  window.onload = function() { applet.inject('applet_container'); updateHelp('AG');}
-                    
-          </script>
-  
-          <div id="lebar">
-          <div id="applet_container"></div>
-        </div>
-          <center><i>Canvas Bidang Koordinat</i></center>
-      </div>
+        <iframe src="https://www.geogebra.org/classic/xrjtutfq" class="windows" width="800" height="500" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
+        <iframe src="https://www.geogebra.org/classic/katuunge" class="hape" id="geogebra" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
+        <div id="geogebra"></div>
+        <center><i>Canvas Bidang Koordinat</i></center>
 
                         <div class="mySlides">
                         <p>1. Tentukan posisi titik A,B dan C pada canvas bidang koordinat di atas dan hubungkan dengan ruas garis maka akan membentuk bangun datar. . . . <ol><li>A(1,1),</li><br><li>B(5,1),</li><br><li>C(5,4)</li><br></ol> 
@@ -274,8 +232,17 @@
 </footer>
 <script src="navigation.js"></script>
 		<script src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
-		<script src="https://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>
+    
 <script src="javascript3.js">
+</script>
+<script> 
+var ggbApp = new GGBApplet({"appName":"classic",
+                            "showToolBar":true,
+                            "showMenuBar":false});
+window.addEventListener("load", function(){
+  ggbApp.inject('geogebra');
+});
 </script>
 </body>
 </html>

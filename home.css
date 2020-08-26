@@ -598,21 +598,13 @@ display:none;
   height: 412px;
 }
 
-.divgeo{
-  float: center;
-  height: 600px;
-  width: 800px;
-  margin-left: 30px;
-  margin-top: 20px;
+.windows{
+  display: inline;
 }
 
-.geoo{
-  margin-top: -44px;
-  width: 100%;
-  height: 600px;
+.hape{
+  display: none;
 }
-
-
 
 .slideshow-container {
   position: relative;
@@ -925,7 +917,7 @@ q {font-style: italic;}
 }
 
 #gali{
-  height: 390px;
+  height: 400px;
 }
 
 .ptjk{
@@ -935,5 +927,16 @@ q {font-style: italic;}
 
 #lebar{
   width: 300px;
+}
+
+.windows{
+  display: none;
+}
+
+.hape{
+  display: block;
+  width: 270px;
+  height: 400px;
+  margin-left: -20px;
 }
 }
