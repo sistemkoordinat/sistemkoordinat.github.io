@@ -599,7 +599,8 @@ display:none;
 }
 
 .windows{
-  display: inline;
+  display: block;
+  margin-left: 70px;
 }
 
 .hape{
