@@ -60,7 +60,7 @@ function myFunction(){
 function Functiontwo(){
   var jwb2 = document.getElementById("titik2").value;
   
-if(jwb2 == "1"){
+if(jwb2 == "tegak lurus"){
   document.getElementById("ket2").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
 } else{
   document.getElementById("ket2").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
