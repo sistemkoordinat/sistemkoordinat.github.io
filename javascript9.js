@@ -49,7 +49,7 @@ function showSlides(n) {
 function myFunction(){
     var jwb1 = document.getElementById("titik1").value;
   
- if(jwb1 == "5"){
+ if(jwb1 == "sejajar"){
     document.getElementById("ket1").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
   } else{
     document.getElementById("ket1").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
