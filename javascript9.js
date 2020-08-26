@@ -80,7 +80,7 @@ if(jwb3 == "tegak lurus"){
 function Functionfour(){
     var jwb4 = document.getElementById("titik4").value;
  
- if(jwb4 == "6,3"){
+ if(jwb4 == "sejajar"){
     document.getElementById("ket4").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
   } else{
     document.getElementById("ket4").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
@@ -90,7 +90,7 @@ function Functionfour(){
 function Functionfive(){
   var jwb5 = document.getElementById("titik5").value;
 
-if(jwb5 == "5,0"){
+if(jwb5 == "berpotongan"){
   document.getElementById("ket5").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
 } else{
   document.getElementById("ket5").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
@@ -100,7 +100,7 @@ if(jwb5 == "5,0"){
 function Functionsix(){
   var jwb6 = document.getElementById("titik6").value;
 
-if(jwb6 == "-2,-1"){
+if(jwb6 == "tegak lurus"){
   document.getElementById("ket6").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
 } else{
   document.getElementById("ket6").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
