@@ -70,7 +70,7 @@ if(jwb2 == "tegak lurus"){
 function Functionthree(){
   var jwb3 = document.getElementById("titik3").value;
 
-if(jwb3 == "2"){
+if(jwb3 == "tegak lurus"){
   document.getElementById("ket3").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
 } else{
   document.getElementById("ket3").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
