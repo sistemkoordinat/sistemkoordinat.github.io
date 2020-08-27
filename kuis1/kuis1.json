@@ -83,7 +83,7 @@
     "soal8": {
         "soal": "Perhatikan gambar di bawah ini <br> <img src='img/no89.png' width='250' height='170'> <br>Koordinat titik P,Q,R dan S berturut-turut adalah. . . .",
         "a": "a. P(-2,-2), Q(2,-2), R(2,5) dan S(5,-2)",
-        "b": "b. P(5,-2), Q(2,-2), R(2,5) dan S(-2,-2",
+        "b": "b. P(-2,5),Q(2,5),R(2,-2) dan S(-2,-2)",
         "c": "c. P(-2,5),Q(2,5),R(-2,-2) dan S(2,-2)",
         "d": "d. P(5,-2), Q(2,5), R(-2,-5) dan S(2,-2)",
         "benar": "c",
