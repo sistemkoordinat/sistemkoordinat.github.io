@@ -884,6 +884,15 @@ q {font-style: italic;}
 }
 .petunjuk{
   font-size: 3vw;
+  
+}
+
+#petunjuk{
+  height: 350px;
+}
+
+#petunjuksoal{
+  height: 267px;
 }
 
 .petunjuksoal{
@@ -897,12 +906,12 @@ q {font-style: italic;}
 
 #menggali{
   padding:7px;
-  height: 390px;
+  height: 410px;
 }
 
 .menggali{
   padding: 5px;
-  height: 300px;
+  height: 320px;
 }
    
 .kuadd{
