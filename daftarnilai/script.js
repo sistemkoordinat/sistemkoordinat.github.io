@@ -25,25 +25,13 @@ function readlah() {
     let sekolahfix = '';
 
     if (kelasnya.value == "1") {
-        kelasfix = "7A";
+        kelasfix = "8A";
     } else if (kelasnya.value == "2") {
-        kelasfix = "7B";
-    } else if (kelasnya.value == "3") {
-        kelasfix = "7C";
-    } else if (kelasnya.value == "4") {
-        kelasfix = "7D";
-    } else if (kelasnya.value == "5") {
-        kelasfix = "7E";
-    } else if (kelasnya.value == "6") {
-        kelasfix = "7F";
-    } else if (kelasnya.value == "7") {
-        kelasfix = "7G";
-    }
+        kelasfix = "8B";
+    } 
 
     if (sekolah.value == "1") {
-        sekolahfix = "SMP Negeri 2 Banjarmasin";
-    } else if (sekolah.value == "2") {
-        sekolahfix = "SMP Negeri 9 Banjarmasin";
+        sekolahfix = "SMP Negeri 13 Banjarmasin";
     }
 
     if ((sekolahfix != '') && (kelasfix != '')) {

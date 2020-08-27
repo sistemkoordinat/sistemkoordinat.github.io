@@ -4,25 +4,38 @@
 }
 
 body {
-    
-    background-size: 100% 100%;
-    background-attachment: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px; 
+    font-weight: 500; 
+    line-height: 27px;
+    text-align: justify;
+    padding: 20px;
+    border: 3px dotted red;
+    background-color: #ffe4d6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    background-image: url(headerr.png);
+    height: 80px;
+    text-align:center;
+    font-size: 35px;
+    color: white;
 }
 
 .bg {
-    height: 1800px;
-    background-color: rgba(252, 252, 252, 0.658);
-
+  
 }
 
 h1 {
     font-size: 18px !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .atas {
     margin: 20px auto;
     width: 100%;
-    background-color: rgba(173, 216, 230, 0.274);
+    background-color: #ffccb2;
     box-shadow: 0px 3px 8px 1px black;
     z-index: 2;
     display: inline-block;
@@ -62,7 +75,7 @@ h1 {
     display: block;
     padding: 10px;
     font-size: 18px;
-    background-color: lightblue;
+    background-color: #ffccb2;
     border: 3px solid rgb(1, 59, 78);
     width: 90px;
     text-align: center;
@@ -128,11 +141,11 @@ hr {
 }
 
 input:checked+.slider {
-    background-color: #2196F3;
+    background-color: #ff5252;
 }
 
 input:focus+.slider {
-    box-shadow: 0 0 1px #2196F3;
+    box-shadow: 0 0 1px #ff5252;
 }
 
 input:checked+.slider:before {
@@ -190,7 +203,7 @@ label {
 .cari {
     display: inline-block;
     padding: 2px 20px;
-    background-color: rgb(14, 118, 153);
+    background-color: #ff5252;
     position: relative;
     top: -5px;
     border-radius: 5px;
@@ -202,7 +215,7 @@ label {
 }
 
 .bgnya {
-    background-color: lightgray;
+    background-color: #ffccb2;
     padding: 10px 5px 5px 5px;
 }
 
@@ -214,19 +227,22 @@ td {
 
 .ukr1 {
     width: 300px;
+    height: 56px;
 }
 
 .ukr2 {
     width: 200px;
+    height: 56px;
 }
 
 .ukr3 {
     width: 90px;
+    height: 56px;
 }
 
 .jrkbawah {
     margin-bottom: 2px;
-    background-color: lightblue;
+    background-color: #ff8f8f;
 }
 
 
@@ -283,7 +299,7 @@ td {
         left: 0;
         right: 0;
         bottom: 0;
-        background-color: #ccc;
+        background-color: #ffccb2;
         -webkit-transition: .4s;
         transition: .4s;
     }
@@ -301,11 +317,11 @@ td {
     }
 
     input:checked+.slider {
-        background-color: #2196F3;
+        background-color: #ff5252;
     }
 
     input:focus+.slider {
-        box-shadow: 0 0 1px #2196F3;
+        box-shadow: 0 0 1px #ff5252;
     }
 
     input:checked+.slider:before {
