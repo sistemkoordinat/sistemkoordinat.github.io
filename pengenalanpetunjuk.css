@@ -353,6 +353,14 @@
       margin-left: 1px;
     }
 
+    .subsection{
+      height: auto;
+      width: 100%;
+      font-size: 5vw;
+      padding-top: 5px;
+      margin-bottom: 0px;
+    }
+
     .lanjut{
       float: left;
     }
@@ -372,6 +380,10 @@
       margin-top: -44px;
       width: 100%;
       height: 100%;
+    }
+
+    #petunjuk{
+      height: 240px;
     }
 
   }
