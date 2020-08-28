@@ -780,6 +780,16 @@ q {font-style: italic;}
     height: auto;
   }
 
+  .imgk{
+    height: 15px;
+    width: 15px;
+  }
+
+  .imgss{
+    height: 15px;
+    width: 35px;
+  }
+
   .gmb{
     width:230px;
     height: auto;
