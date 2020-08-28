@@ -754,6 +754,10 @@ q {font-style: italic;}
   font-style: italic;
   }
 
+  .video{
+    height: 400px;
+    will-change: 500px;
+  }
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens, kada ngaruh sih*/
 @media (max-width: 992px) {
   nav,.Isi-Kiri,.Isi-Kanan {
@@ -967,5 +971,11 @@ q {font-style: italic;}
   width: 270px;
   height: 400px;
   margin-left: -20px;
+}
+
+.video{
+  height: 230px;
+  width: 270px;
+  margin-left: -10px;
 }
 }
