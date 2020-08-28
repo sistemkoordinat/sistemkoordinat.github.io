@@ -315,6 +315,11 @@
     border-radius: 8px;
     font-weight: bold;
   }
+
+  .video{
+    height: 400px;
+    will-change: 500px;
+  }
   
   /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens, kada ngaruh sih*/
   @media (max-width: 900px) {
@@ -336,10 +341,14 @@
       background-image: url(headerhp.png);
       background-size: 104% 106% ;
     }
+    .video{
+      height: 250px;
+      width: 300px;
+    }
     
     img{
-      width: auto;
-      height: auto;
+      width: 15px;
+      height: 15px;
     }
 
     .gmb{
