@@ -504,6 +504,10 @@ q {font-style: italic;}
     height: auto;
   }
 
+  .video{
+    
+  }
+
   iframe{
     width: 100%;
     height: 300px;
