@@ -923,11 +923,17 @@ q {font-style: italic;}
 }
 
 #petunjuksoal{
-  height: 270px;
+  height: 570px;
 }
 
 .petunjuksoal{
   font-size: 3vw;
+}
+
+.video2{
+  height: 230px;
+  width: 270px;
+  margin-left: -60px;
 }
 
 #menanya{
