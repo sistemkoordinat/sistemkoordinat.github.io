@@ -48,10 +48,13 @@ function showSlides(n) {
 
 
 function cek(){
-  var jwb1 = document.getElementById("text1").value;
+  var jwb1 = document.getElementById("text1");
+
+  var y = jwb1.value.toLowerCase();
+    y=y.replace(/\s+/g, '');
  
 
-if(jwb1 == "3 satuan ke atas"){
+if(y == "3satuankeatas"){
   document.getElementById("ket1").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
 } else{
   document.getElementById("ket1").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
@@ -74,10 +77,12 @@ if(jwb1==""){
 
 
 function cek2(){
-var jwb2 = document.getElementById("text2").value;
+var jwb2 = document.getElementById("text2");
 
+var y = jwb2.value.toLowerCase();
+    y=y.replace(/\s+/g, '');
 
-if(jwb2 == "5 satuan ke atas"){
+if(y == "5satuankeatas"){
 document.getElementById("ket2").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
 } else{
 document.getElementById("ket2").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
@@ -98,10 +103,12 @@ document.getElementById("ket2").innerHTML = "";
 }
 
 function cek3(){
-var jwb3 = document.getElementById("text3").value;
+var jwb3 = document.getElementById("text3");
 
+var y = jwb3.value.toLowerCase();
+    y=y.replace(/\s+/g, '');
 
-if(jwb3 == "9 satuan ke kiri"){
+if(y == "6satuankekiri"){
 document.getElementById("ket3").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
 } else{
 document.getElementById("ket3").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
@@ -123,10 +130,13 @@ document.getElementById("ket3").innerHTML = "";
 
 
 function cek4(){
-var jwb4 = document.getElementById("text4").value;
+var jwb4 = document.getElementById("text4");
+
+var y = jwb4.value.toLowerCase();
+    y=y.replace(/\s+/g, '');
 
 
-if(jwb4 == "6 satuan ke atas"){
+if(y == "6satuankeatas"){
 document.getElementById("ket4").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
 } else{
 document.getElementById("ket4").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
@@ -148,10 +158,12 @@ document.getElementById("ket4").innerHTML = "";
 
 
 function cek5(){
-var jwb5 = document.getElementById("text5").value;
+var jwb5 = document.getElementById("text5");
 
+var y = jwb5.value.toLowerCase();
+    y=y.replace(/\s+/g, '');
 
-if(jwb5 == "-8,-2"){
+if(y == "-8,-2"){
 document.getElementById("ket5").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
 } else{
 document.getElementById("ket5").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
@@ -173,10 +185,13 @@ document.getElementById("ket5").innerHTML = "";
 
 
 function cek6(){
-var jwb6 = document.getElementById("text6").value;
+var jwb6 = document.getElementById("text6");
+
+var y = jwb6.value.toLowerCase();
+    y=y.replace(/\s+/g, '');
 
 
-if(jwb6 == "-6,-6"){
+if(y == "-6,-6"){
 document.getElementById("ket6").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
 } else{
 document.getElementById("ket6").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
@@ -198,10 +213,12 @@ document.getElementById("ket6").innerHTML = "";
 
 
 function cek7(){
-var jwb7 = document.getElementById("text7").value;
+var jwb7 = document.getElementById("text7");
 
+var y = jwb7.value.toLowerCase();
+    y=y.replace(/\s+/g, '');
 
-if(jwb7 == "2,-3"){
+if(y == "2,-3"){
 document.getElementById("ket7").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
 } else{
 document.getElementById("ket7").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
@@ -223,10 +240,12 @@ document.getElementById("ket7").innerHTML = "";
 
 
 function cek8(){
-var jwb8 = document.getElementById("text8").value;
+var jwb8 = document.getElementById("text8");
 
+var y = jwb8.value.toLowerCase();
+    y=y.replace(/\s+/g, '');
 
-if(jwb8 == "5 satuan ke bawah"){
+if( y== "5satuankebawah"){
 document.getElementById("ket8").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
 } else{
 document.getElementById("ket8").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"

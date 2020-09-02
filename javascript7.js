@@ -12,8 +12,8 @@ xx1.addEventListener("click",function(){
   x1.classList.toggle("hilang");
 })
 
-var x2 = document.getElementById("petunjuksoal2");
-var xx2= document.querySelector('.petunjuksoal2');
+var x2 = document.getElementById("petunjuksoal");
+var xx2= document.querySelector('.petunjuksoal');
 
 xx2.addEventListener("click",function(){
   x2.classList.toggle("hilang");
@@ -48,6 +48,7 @@ function showSlides(n) {
 
 function myFunction(){
     var jwb1 = document.getElementById("titik1").value;
+ 
   
  if(jwb1 == "5"){
     document.getElementById("ket1").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
@@ -59,6 +60,7 @@ function myFunction(){
 
 function Functiontwo(){
   var jwb2 = document.getElementById("titik2").value;
+
   
 if(jwb2 == "1"){
   document.getElementById("ket2").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
@@ -70,6 +72,8 @@ if(jwb2 == "1"){
 function Functionthree(){
   var jwb3 = document.getElementById("titik3").value;
 
+
+
 if(jwb3 == "2"){
   document.getElementById("ket3").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
 } else{
@@ -79,6 +83,7 @@ if(jwb3 == "2"){
 
 function Functionfour(){
     var jwb4 = document.getElementById("titik4").value;
+
  
  if(jwb4 == "6,3"){
     document.getElementById("ket4").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
@@ -97,15 +102,6 @@ if(jwb5 == "5,0"){
 }
 }
 
-function Functionsix(){
-  var jwb6 = document.getElementById("titik6").value;
-
-if(jwb6 == "-2,-1"){
-  document.getElementById("ket6").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
-} else{
-  document.getElementById("ket6").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
-}
-}
 
 function Functionseven(){
     var jwb7 = document.getElementById("titik7").value;

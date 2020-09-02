@@ -47,10 +47,13 @@ function showSlides(n) {
 }
 
 function cek(){
-    var jwb1 = document.getElementById("text1").value;
+    var jwb1 = document.getElementById("text1");
    
+    var y = jwb1.value.toLowerCase();
+    y=y.replace(/\s+/g, '');
 
-if(jwb1 == "5 satuan ke kanan"){
+
+if(y == "5satuankekanan"){
     document.getElementById("ket1").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
   } else{
     document.getElementById("ket1").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
@@ -61,6 +64,7 @@ if(jwb1 == "5 satuan ke kanan"){
 function ulang(){
   var jwb1 = document.getElementById("text1").value;
  
+  
   document.getElementById("text1").value="";
   document.getElementById("ket1").innerHTML="";
   if(jwb1==""){
@@ -73,10 +77,12 @@ function ulang(){
 
 
 function cek2(){
-  var jwb2 = document.getElementById("text2").value;
+  var jwb2 = document.getElementById("text2");
  
+  var y = jwb2.value.toLowerCase();
+    y=y.replace(/\s+/g, '');
 
-if(jwb2 == "7 satuan ke atas"){
+if(y == "7satuankeatas"){
   document.getElementById("ket2").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
 } else{
   document.getElementById("ket2").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
@@ -97,10 +103,12 @@ if(jwb2==""){
 }
 
 function cek3(){
-  var jwb3 = document.getElementById("text3").value;
+  var jwb3 = document.getElementById("text3");
  
+  var y = jwb3.value.toLowerCase();
+    y=y.replace(/\s+/g, '');
 
-if(jwb3 == "4 satuan ke kiri"){
+if(y == "4satuankekiri"){
   document.getElementById("ket3").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
 } else{
   document.getElementById("ket3").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
@@ -122,10 +130,12 @@ if(jwb3==""){
 
 
 function cek4(){
-  var jwb4 = document.getElementById("text4").value;
+  var jwb4 = document.getElementById("text4");
  
+  var y = jwb4.value.toLowerCase();
+    y=y.replace(/\s+/g, '');
 
-if(jwb4 == "2 satuan ke bawah"){
+if(y == "2satuankebawah"){
   document.getElementById("ket4").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
 } else{
   document.getElementById("ket4").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
@@ -147,10 +157,12 @@ if(jwb4==""){
 
 
 function cek5(){
-  var jwb5 = document.getElementById("text5").value;
+  var jwb5 = document.getElementById("text5");
  
+  var y = jwb5.value.toLowerCase();
+    y=y.replace(/\s+/g, '');
 
-if(jwb5 == "9,4"){
+if(y == "9,4"){
   document.getElementById("ket5").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
 } else{
   document.getElementById("ket5").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
@@ -172,10 +184,12 @@ if(jwb5==""){
 
 
 function cek6(){
-  var jwb6 = document.getElementById("text6").value;
+  var jwb6 = document.getElementById("text6");
  
+  var y = jwb6.value.toLowerCase();
+    y=y.replace(/\s+/g, '');
 
-if(jwb6 == "-9,2"){
+if(y == "-9,2"){
   document.getElementById("ket6").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
 } else{
   document.getElementById("ket6").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
@@ -197,10 +211,12 @@ if(jwb6==""){
 
 
 function cek7(){
-  var jwb7 = document.getElementById("text7").value;
+  var jwb7 = document.getElementById("text7");
  
+  var y = jwb7.value.toLowerCase();
+    y=y.replace(/\s+/g, '');
 
-if(jwb7 == "-10,-7"){
+if(y == "-10,-7"){
   document.getElementById("ket7").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
 } else{
   document.getElementById("ket7").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
@@ -222,10 +238,12 @@ if(jwb7==""){
 
 
 function cek8(){
-  var jwb8 = document.getElementById("text8").value;
+  var jwb8 = document.getElementById("text8");
  
+    var y = jwb8.value.toLowerCase();
+    y=y.replace(/\s+/g, '');
 
-if(jwb8 == "5 satuan ke kiri"){
+if(y == "5satuankekiri"){
   document.getElementById("ket8").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
 } else{
   document.getElementById("ket8").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
