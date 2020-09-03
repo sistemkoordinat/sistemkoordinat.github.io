@@ -22,9 +22,9 @@
 }, {
     "soal2": {
         "soal": "Perhatikan gambar di bawah ini<br> <img src='img/soals3n2.png' width='250' height='170'><br>Koordinat posisi titik A terhadap titik B adalah  . . . .",
-        "a": "a. (2,4)",
+        "a": "a. (-3,4)",
         "b": "b. (-4,2)",
-        "c": "c. (2,3)",
+        "c": "c. (-4,3)",
         "d": "d. (-3,2)",
         "benar": "d",
         "nih": "d. (-3,2)"
