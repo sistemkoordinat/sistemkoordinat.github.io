@@ -1,6 +1,6 @@
 [{
     "soal0": {
-        "soal": "Pernyataan yang benar jika dikeratahui titik A(-7,3)  . . . .",
+        "soal": "Pernyataan yang benar jika diketahui titik A(-7,3)  . . . .",
         "a": "a. Berjarak 7 satuan terhadap sumbu-x",
         "b": "b. Berjarak -7 satuan terhadap sumbu-x",
         "c": "c. Berjarak 7 satuan terhadap sumbu-y",
@@ -10,18 +10,18 @@
     }
 }, {
     "soal1": {
-        "soal": "Perhatikan gambar di bawah ini<br> <img src='img/soals3n2.png' width='300' height='200'><br>Titik yang berjarak 4 satuan terhadap sumbu-y adalah titik . . . .",
+        "soal": "Perhatikan gambar di bawah ini<br> <img src='img/soals3n2.png' width='250' height='170'><br>Titik yang berjarak 4 satuan terhadap sumbu-y adalah titik . . . .",
         "a": "a. A",
         "b": "b. B",
         "c": "c. C",
-        "d": "d. A dan B",
+        "d": "d. D",
         "benar": "c",
         "nih": "c. C"
     }
 
 }, {
     "soal2": {
-        "soal": "Perhatikan gambar di bawah ini<br> <img src='img/soals3n2.png' width='300' height='200'><br>Koordinat posisi titik A terhadap titik B adalah  . . . .",
+        "soal": "Perhatikan gambar di bawah ini<br> <img src='img/soals3n2.png' width='250' height='170'><br>Koordinat posisi titik A terhadap titik B adalah  . . . .",
         "a": "a. (2,4)",
         "b": "b. (-4,2)",
         "c": "c. (2,3)",
@@ -31,7 +31,7 @@
     }
 }, {
     "soal3": {
-        "soal": "Perhatikan gambar di bawah ini<br> <img src='img/soals3n2.png' width='300' height='200'><br>Posisi titik C terhadap sumbu-y adalah  . . . .",
+        "soal": "Perhatikan gambar di bawah ini<br> <img src='img/soals3n2.png' width='250' height='170'><br>Posisi titik C terhadap sumbu-y adalah  . . . .",
         "a": "a. 3 satuan ke kanan",
         "b": "b. 4 satuan ke kiri",
         "c": "c. 3 satuan ke atas",
@@ -41,7 +41,7 @@
     }
 }, {
     "soal4": {
-        "soal": "Perhatikan gambar di bawah ini<br> <img src='img/soal2n46.png' width='300' height='200'><br> Posisi titik B terhadap titik asal(0,0) adalah . . . . ",
+        "soal": "Perhatikan gambar di bawah ini<br> <img src='img/soal2n46.png' width='250' height='170'><br> Posisi titik B terhadap titik asal(0,0) adalah . . . . ",
         "a": "a. 4 satuan ke bawah dan 3 satuan ke kiri",
         "b": "b. 3 satuan ke bawah dan 4 satuan ke kanan",
         "c": "c. 4 satuan ke kanan dan 6 satuan ke atas",
@@ -51,7 +51,7 @@
     }
 }, {
     "soal5": {
-        "soal": "Perhatikan gambar di bawah ini<br> <img src='img/soal2n46.png' width='300' height='200'> <br>Posisi titik B terhadap titik acuan C adalah . . .",
+        "soal": "Perhatikan gambar di bawah ini<br> <img src='img/soal2n46.png' width='250' height='170'> <br>Posisi titik B terhadap titik acuan C adalah . . .",
         "a": "a. (-2,8)",
         "b": "b. (2,8)",
         "c": "c. (8,-3)",
@@ -61,17 +61,17 @@
     }
 }, {
     "soal6": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/soal2n79.png' width='300' height='200'> <br>Koordinat titik A,B,C dan D berturut-turut adalah ...",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/soal2n79.png' width='250' height='170'> <br>Koordinat titik A,B,C dan D berturut-turut adalah ...",
         "a": "a. A(-5,2), B(5,4), C(2,3) dan D(-1,3)",
         "b": "b. A(-5,2), B(5,4), C(2,2) dan D(3,-1)",
         "c": "c. A(-2,5), B(5,4), C(2,2) dan D(3,-1)",
-        "d": "d. A(-5,2), B(5,6), C(3,2) dan D(3,-1)",
+        "d": "d. A(-2,5), B(5,6), C(3,2) dan D(3,-1)",
         "benar": "b",
         "nih": "b. A(-5,2), B(5,4), C(2,2) dan D(3,-1)"
     }
 }, {
     "soal7": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/soal2n79.png' width='300' height='200'> <br>Titik yang memiliki jarak yang sama terhadap sumbu-x adalah  . . .",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/soal2n79.png' width='250' height='170'> <br>Titik yang memiliki jarak yang sama terhadap sumbu-x adalah  . . .",
         "a": "a. A dan B",
         "b": "b. B dan C",
         "c": "c. A dan C",
@@ -81,7 +81,7 @@
     }
 }, {
     "soal8": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/soal2n79.png' width='300' height='200'> <br>Titik yang berada di sebelah kanan sumbu-y adalah . . . .",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/soal2n79.png' width='250' height='170'> <br>Titik yang berada di sebelah kanan sumbu-y adalah . . . .",
         "a": "a. A, B dan C",
         "b": "b. A, C dan D",
         "c": "c. A, B dan D",
