@@ -1,10 +1,10 @@
 [{
     "soal0": {
         "soal": "Pernyataan yang benar jika diketahui titik A(-7,3)  . . . .",
-        "a": "a. Berjarak 7 satuan terhadap sumbu-x",
-        "b": "b. Berjarak -7 satuan terhadap sumbu-x",
-        "c": "c. Berjarak 7 satuan terhadap sumbu-y",
-        "d": "d. Berjarak -7 satuan terhadap sumbu-y",
+        "a": "a. Berjarak 7 satuan terhadap <br>sumbu-x",
+        "b": "b. Berjarak -7 satuan terhadap <br>sumbu-x",
+        "c": "c. Berjarak 7 satuan terhadap <br>sumbu-y",
+        "d": "d. Berjarak -7 satuan terhadap <br>sumbu-y",
         "benar": "c",
         "nih": "c. Berjarak 7 satuan terhadap sumbu-y"
     }
@@ -42,10 +42,10 @@
 }, {
     "soal4": {
         "soal": "Perhatikan gambar di bawah ini<br> <img src='img/soal2n46.png' width='250' height='170'><br> Posisi titik B terhadap titik asal(0,0) adalah . . . . ",
-        "a": "a. 4 satuan ke bawah dan 3 satuan ke kiri",
-        "b": "b. 3 satuan ke bawah dan 4 satuan ke kanan",
-        "c": "c. 4 satuan ke kanan dan 6 satuan ke atas",
-        "d": "d. 5 satuan ke kanan dan 4 satuan ke atas",
+        "a": "a. 4 satuan ke bawah dan 3 satuan <br>ke kiri",
+        "b": "b. 3 satuan ke bawah dan 4 satuan <br>ke kanan",
+        "c": "c. 4 satuan ke kanan dan 6 satuan <br>ke atas",
+        "d": "d. 5 satuan ke kanan dan 4 satuan <br>ke atas",
         "benar": "d",
         "nih": "d. 5 satuan ke kanan dan 4 satuan ke atas"
     }
@@ -62,10 +62,10 @@
 }, {
     "soal6": {
         "soal": "Perhatikan gambar di bawah ini <br> <img src='img/soal2n79.png' width='250' height='170'> <br>Koordinat titik A,B,C dan D berturut-turut adalah ...",
-        "a": "a. A(-5,2), B(5,4), C(2,3) dan D(-1,3)",
-        "b": "b. A(-5,2), B(5,4), C(2,2) dan D(3,-1)",
-        "c": "c. A(-2,5), B(5,4), C(2,2) dan D(3,-1)",
-        "d": "d. A(-2,5), B(5,6), C(3,2) dan D(3,-1)",
+        "a": "a. A(-5,2), B(5,4), C(2,3) dan <br>D(-1,3)",
+        "b": "b. A(-5,2), B(5,4), C(2,2) dan <br>D(3,-1)",
+        "c": "c. A(-2,5), B(5,4), C(2,2) dan <br>D(3,-1)",
+        "d": "d. A(-2,5), B(5,6), C(3,2) dan <br>D(3,-1)",
         "benar": "b",
         "nih": "b. A(-5,2), B(5,4), C(2,2) dan D(3,-1)"
     }
