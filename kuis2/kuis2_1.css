@@ -413,10 +413,11 @@ main{
 } 
 .kiri {
   background-color: white;
-  width: 85%;
+  width: 99%;
   height: auto;
   margin-top: 5px;
   padding: 15px;
+  padding-right: 10px;
   text-align: justify;
   
 
