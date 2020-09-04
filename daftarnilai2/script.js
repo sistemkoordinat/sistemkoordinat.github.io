@@ -16,7 +16,7 @@ window.load = function () {
 }
 
 function readlah() {
-    var task = firebase.database().ref("kuis1/");
+    var task = firebase.database().ref("kuis2/");
     let tmp = document.querySelector('.disini');
     tmp.innerHTML = "";
     kelasnya = document.getElementById('kelas');
