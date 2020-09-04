@@ -5,8 +5,8 @@
         "b": "b. Berjarak -7 satuan terhadap <br>sumbu-x",
         "c": "c. Berjarak 7 satuan terhadap <br>sumbu-y",
         "d": "d. Berjarak -7 satuan terhadap <br>sumbu-y",
-        "benar": "c",
-        "nih": "c. Berjarak 7 satuan terhadap sumbu-y"
+        "benar": "d",
+        "nih": "d. Berjarak -7 satuan terhadap <br>sumbu-y"
     }
 }, {
     "soal1": {
