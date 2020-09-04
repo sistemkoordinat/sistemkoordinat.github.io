@@ -47,7 +47,7 @@
         "c": "c. 4 satuan ke kanan dan 6 satuan <br>ke atas",
         "d": "d. 5 satuan ke kanan dan 4 satuan <br>ke atas",
         "benar": "d",
-        "nih": "d. 5 satuan ke kanan dan 4 satuan ke atas"
+        "nih": "d. 5 satuan ke kanan dan 4 satuan <br>ke atas"
     }
 }, {
     "soal5": {
@@ -57,7 +57,7 @@
         "c": "c. (8,-3)",
         "d": "d. (8,3)",
         "benar": "b",
-        "nih": "b. 2,8"
+        "nih": "b. (2,8)"
     }
 }, {
     "soal6": {
@@ -67,7 +67,7 @@
         "c": "c. A(-2,5), B(5,4), C(2,2) dan <br>D(3,-1)",
         "d": "d. A(-2,5), B(5,6), C(3,2) dan <br>D(3,-1)",
         "benar": "b",
-        "nih": "b. A(-5,2), B(5,4), C(2,2) dan D(3,-1)"
+        "nih": "b. A(-5,2), B(5,4), C(2,2) dan <br>D(3,-1)"
     }
 }, {
     "soal7": {
@@ -76,8 +76,8 @@
         "b": "b. B dan C",
         "c": "c. A dan C",
         "d": "d. C dan D",
-        "benar": "a",
-        "nih": "a. A dan B"
+        "benar": "c",
+        "nih": "c. A dan C"
     }
 }, {
     "soal8": {
