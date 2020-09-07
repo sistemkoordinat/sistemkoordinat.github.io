@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Media Pembelajaran</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<header>
+  
+</header>
+<body>
+
+    <div class="bg">
+
+
+
+        <div class="atas">
+           
+        </div>
+
+        <center>
+            <div class="navigasi">
+                <a href="../daftarnilai/daftarnilai.html">Hasil Kuis dan Latihan</a>
+                <a href="#" class="aktif">Jawaban Kuis dan Latihan</a>
+                <a href="../kunci/hasilnya.html">Soal Kuis dan Latihan</a>
+            </div>
+        </center>
+
+
+        <div class="konten batsatas">
+            <div class="isinya">
+                <h1><select id="kuis" name="kuis" class="mundur">
+                        <option value="kuis1/" selected="selected">KUIS_1</option>
+                        <option value="kuis2/">KUIS_2</option>
+                        <option value="kuis3/">KUIS_3</option>
+                        <option value="evaluasi/">EVALUASI</option>
+                    </select></h1>
+                <hr>
+                <div class="bgnya">
+
+                    <label for="nama"> Sekolah :
+                        <select id="sekolah" name="sekolah" class="mundur" aria-placeholder="-PILIH SEKOLAH-">
+                            <option value="0" selected="selected">-- PILIH SEKOLAH --</option>
+                            <option value="1">SMP Negeri 13 Banjarmasin</option>
+                        </select>
+                    </label>
+                    <label for="nama"> Kelas :
+                        <select id="kelas" name="kelas" class="mundur" aria-placeholder="-PILIH SEKOLAH-">
+                            <option value="0" selected="selected">-- PILIH KELAS --</option>
+                            <option value="1">8A</option>
+                            <option value="2">8B</option>
+                        </select>
+                    </label>
+                    <div class="cari" onclick="readlah()">Cari</div>
+                    <div class="cari download">Download</div>
+
+
+
+                </div>
+                <br><br>
+
+                <div>
+                    <table id='table_wrapper'>
+                        <thead class="jrkbawah">
+                            <tr>
+                                <td class="ukr1" colspan="" rowspan="2">Nama</td>
+                                <td class="ukr3" colspan="" rowspan="2">Skor</td>
+                                <td class="ukr0" colspan="10">Jawaban</td>
+                            </tr>
+                            <tr>
+                                <td width="7%">1</td>
+                                <td width="7%">2</td>
+                                <td width="7%">3</td>
+                                <td width="7%">4</td>
+                                <td width="7%">5</td>
+                                <td width="7%">6</td>
+                                <td width="7%">7</td>
+                                <td width="7%">8</td>
+                                <td width="7%">9</td>
+                                <td width="7%">10</td>
+                            </tr>
+                        </thead>
+                        <tbody class="disini"></tbody>
+                    </table>
+                    <center class="ha">
+                    </center>
+
+
+
+                </div>
+
+
+
+                <div class=" clear"></div>
+            </div>
+        </div>
+
+        <center>
+            <div class="kembali blok"><a href="../index.html">KEMBALI</a></div>
+            <!-- <div class="download kembali blok" id="btnExport">DOWNLOAD</div> -->
+
+        </center>
+
+
+
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+
+    <script src="script.js"></script>
+
+
+
+</body>
+
+</html>

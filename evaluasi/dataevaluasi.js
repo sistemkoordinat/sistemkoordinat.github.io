@@ -292,6 +292,7 @@ dat.onreadystatechange = function () {
                     for (let j = 0; j < namaradio.length; j++) {
                         if(namaradio[j].checked){
                             checked = true;
+                            pil_user.push(namaradio[j].value);
                             if(namaradio[j].value == jwbs[i]){
                                 hasilakhir = hasilakhir + 5;
                                 benarr = benarr + 1;
@@ -301,6 +302,16 @@ dat.onreadystatechange = function () {
                         }
                     }
                 }
+                for (let i = 0; i < cek.length; i++) {
+                    for (let j = 0; j < cek.length; j++) {
+                        if (i == cek[j]) {
+                            new_jwb_urut.push(pil_user[j]);
+                            new_jwb_urut_no.push(cek[j]);
+                        }
+                    }
+                }
+                console.log("jwb_user_urut_no :" + new_jwb_urut_no);
+                console.log("jwb_user_urut :" + new_jwb_urut);
 
                 
                 // simpan kedatabase----------
@@ -311,7 +322,7 @@ dat.onreadystatechange = function () {
                 let waktunya = waktu();
                 let harinya = hari();
 
-                createTask(sekolahfix, namanya.value, kelasfix, hasilakhir, waktunya, harinya);
+                createTask(sekolahfix, namanya.value, kelasfix, hasilakhir, waktunya, harinya, new_jwb_urut);
 
                 let namainput = document.querySelector('.nama');
                 namainput.innerText = namanya.value;
@@ -389,7 +400,7 @@ function hari() {
 }
 
 
-function createTask(sekolah, nama, kelas, nilai, waktunya, hari) {
+function createTask(sekolah, nama, kelas, nilai, waktunya, hari, jwb) {
     counter += 1;
     var task = {
         id: counter,
@@ -398,29 +409,11 @@ function createTask(sekolah, nama, kelas, nilai, waktunya, hari) {
         kelas: kelas,
         nilai: nilai,
         waktu: waktunya,
-        hari: hari
+        hari: hari,
+        jawabannya: jwb
     }
 
     let db = firebase.database().ref("evaluasi/" + counter);
     db.set(task);
 
 }
-
-// //tomboll ulang
-// let ulangin = document.querySelector('.tmblUlang');
-
-// ulangin.addEventListener('click', function () {
-//     document.getElementById("halskor").className += " hilang";
-//     document.getElementById("data").className = document.getElementById("data").className.replace("hilang","");
-//     datadiri.className = datadiri.className.replace("hilang","");
-//     document.getElementById('nama').value="";
-//     document.getElementById('kelas').value="0";
-//     document.getElementById('sekolah').value="0";
-
-//     for(let i=1; i<=10; i++){
-//         let radio = document.getElementById("radio"+i);
-//         radio.checked = false;
-//     }
-    
-// })
-

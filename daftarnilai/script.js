@@ -35,7 +35,8 @@ function readlah() {
     }
 
     if ((sekolahfix != '') && (kelasfix != '')) {
-        task.on("child_added", function (data) {
+       task.orderByChild("hari").on("child_added", function(data){
+        //task.on("child_added", function (data) {
             var taskvalue = data.val();
 
 
@@ -52,7 +53,8 @@ function readlah() {
         });
 
     } else if (sekolahfix != '') {
-        task.on("child_added", function (data) {
+        task.orderByChild("hari").on("child_added", function(data){
+        //task.on("child_added", function (data) {
             var taskvalue = data.val();
 
 

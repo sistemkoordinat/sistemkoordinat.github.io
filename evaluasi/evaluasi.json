@@ -5,7 +5,7 @@
         "b": "b. (ii) dan (iii)",
         "c": "c. (ii) dan (iv)",
         "d": "d. (iii) dan (iv)",
-        "benar": "b",
+        "benar": "c",
         "nih": "c. (ii) dan (iv)"
     }
 }, {
@@ -16,7 +16,7 @@
         "c": "c. Kuadran I dan Kuadran IV",
         "d": "d. Kuadran II dan Kuadran III",
         "benar": "a",
-        "nih": "c. Kuadran I dan Kuadran II"
+        "nih": "a. Kuadran I dan Kuadran II"
     }
 
 }, {
@@ -76,7 +76,7 @@
         "b": "b. Persegi Panjang",
         "c": "c. Trapesium",
         "d": "d. Jajargenjang ",
-        "benar": "b",
+        "benar": "c",
         "nih": "c. Trapesium"
     }
 }, {
