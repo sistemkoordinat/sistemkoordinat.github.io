@@ -104,13 +104,13 @@ function Ya1() {
 
  function Ya5() {
   var jawaban;
-  jawaban = "Berhasil, jawabanmu benar";
+  jawaban = "Maaf, Jawabanmu salahh";
    document.getElementById("cekfive").innerHTML = jawaban;
  }
 
  function Tidak5() {
   var jawaban;
-  jawaban = "Maaf, Jawabanmu salahh";
+  jawaban = "Berhasil, jawabanmu benar";
    document.getElementById("cekfive").innerHTML = jawaban;
  }
 
