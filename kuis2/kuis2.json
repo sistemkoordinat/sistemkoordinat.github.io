@@ -21,7 +21,7 @@
 
 }, {
     "soal2": {
-        "soal": "Perhatikan gambar di bawah ini<br> <img src='img/soals3n2.png' width='250' height='170'><br>Koordinat posisi titik A terhadap titik B adalah  . . . .",
+        "soal": "Perhatikan gambar di bawah ini<br> <img src='img/soals3n2.png' width='250' height='170'><br>Koordinat posisi titik A terhadap titik acuan B adalah  . . . .",
         "a": "a. (-3,4)",
         "b": "b. (-4,2)",
         "c": "c. (-4,3)",

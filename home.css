@@ -1016,6 +1016,10 @@ q {font-style: italic;}
   font-size: 3vw;
 }
 
+#mengamati{
+  width: 340px;
+}
+
 #menanya{
   padding: 10px;
   height: 290px;
