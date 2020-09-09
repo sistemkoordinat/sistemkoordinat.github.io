@@ -96,7 +96,7 @@
      budaran Kayutangi ke arah selatan adalah Jl.Perdagangan. </p>
     </div>
 
-    <div class="menanya">
+    <div class="menanya" id="tanya2">
     <img src="marimenanya.png" width="250" height="70" class="gmb">
     <br>
     <ol>
@@ -109,7 +109,7 @@
     </ol>
   </div>
 
-  <div class="menggali">
+  <div class="menggali" id="gelo">
     <img src="marimenggali informasi.png" width="330" height="70" class="gmbr">
     <br>
     Berdasarkan masalah 3.3 kita dapat menentukan :
@@ -126,10 +126,12 @@
                   <button class="petunjuk">Klik Untuk Melihat Petunjuk Animasi</button><br>
                   <div id="petunjuk" class="hilang">
                     <b> Petunjuk Penggunaan Animasi</b>
-                      <ol>
-                      <li>Klik tombol bendera hijau kemudian tekan mulai pada animasi dibawah ini untuk memulai.</li><br>
-                      <li>Jawab pertanyaan dengan masukkan jawaban pada kolom yang tersedia kemudian tekan enter</li>
-                     </ol>
+                    <ol>
+                      <li>Klik tombol bendera hijau <img src="flag.PNG" width="20px" height="20px" class="imgk"> kemudian tekan mulai pada animasi di bawah ini untuk memulai.</li><br>
+                      <li>Tekan tombol selanjutnya <img src="slnjutnya.PNG" width="50px" height="20px" class="imgss">  apabila anda ingin melanjutkan animasi</li><br>
+                      <li>Masukkan jawaban anda pada kolom yang tersedia dan klik tanda checklist<img src="ceklis.PNG" width="20px" height="20px" class="imgk"> atau tekan enter</li><br>
+                      <li>Naikkan volume suara <img src="sound.PNG" width="20px" height="20px" class="imgk"> pada perangkat anda</li><br>
+                    </ol>
                   </div>
                   <br>
                   <div class="divscratch">
@@ -138,26 +140,27 @@
                 </div>
 
       <div class="slideshow-container">
-      <img src="mariberlatih.png" width="250" height="70" class="gmb">
-      <p>&nbsp;&nbsp;Kerjakan latihan soal berikut ini!</p>
+      <img src="mariberlatih.png" width="250" height="70" class="gmb"><br>
       <button class="petunjuksoal2">Klik Untuk Melihat Petunjuk</button><br>
       <div id="petunjuksoal2" class="hilang">
         <ol>
           <b>Petunjuk:<br></b>
-        <li>Isikan jawaban anda pada kotak yang kosong.</li>
-        <li>Tekan tombol cek untuk mengecek jawaban.</li>
-        <li>Tekan tombol ulang untuk menghapus jawaban</li>
-        <li>Tekan tombol 1,2,3,4,5 dan 6 dibawah soal atau tekan tombol "<" dan ">" disamping soal untuk mengganti ke nomor selanjutnya</li>
+        <li>Isikan jawaban anda pada kotak yang kosong.</li><br>
+        <li>Tekan tombol cek untuk mengecek jawaban.</li><br>
+        <li>Tekan tombol ulang untuk menghapus jawaban</li><br>
+        <li>Tekan tombol <img src="kr.PNG" width="20px" height="20px" class="imgk"><img src="kn.PNG" width="20px" height="20px" class="imgk"> disamping soal untuk mengganti nomor</li>
       </ol>
     </div>
+    <p>&nbsp;&nbsp;Kerjakan latihan soal berikut ini dengan menentukan apakah posisi garis saling sejajar,tegak lurus atau berpotongan!</p>
+      
       <center><img src="latihanpotong.png" width="480" height="300" class="imgf"></center>
       <center><i><b>Gambar 3.7</b> : Bidang kordinat posisi garis terhadap garis sumbu</i></center>
-    <br>
+    
   
       <div class="mySlides">
       <p>1.Posisi ruas garis AB terhadap <b>sumbu-x</b> adalah . . . .
         <br>
-        <input type="text" id="titik1" value="" style="width: 50px;" placeholder=". . . . ."><p id="ket1"></p>
+        <input type="text" id="titik1" value="" style="width: 100px;" placeholder=". . . . . . . . . . . "><p id="ket1"></p>
       </p>
         <p>Kemudian klik tombol dibawah ini untuk mengecek jawaban anda</p>
         <button onclick="myFunction()">Cek</button> <button id="ulang" onclick="ulang()">Ulang</button>
@@ -166,7 +169,7 @@
       <div class="mySlides">
         <p>2.Posisi ruas garis AB terhadap <b>sumbu-y</b> adalah . . . .
           <br>
-          <input type="text" id="titik2" value="" style="width: 50px;" placeholder=". . . . ."><p id="ket2"></p>
+          <input type="text" id="titik2" value="" style="width: 100px;" placeholder=". . . . . . . . . ."><p id="ket2"></p>
         </p>
           <p>Kemudian klik tombol dibawah ini untuk mengecek jawaban anda</p>
           <button onclick="Functiontwo()">Cek</button> <button id="ulang2" onclick="ulang2()">Ulang</button>
@@ -175,7 +178,7 @@
         <div class="mySlides">
           <p>3.Posisi ruas garis CD terhadap <b>sumbu-x</b> adalah . . . .
             <br>
-            <input type="text" id="titik3" value="" style="width: 50px;" placeholder=". . . . ."><p id="ket3"></p>
+            <input type="text" id="titik3" value="" style="width: 100px;" placeholder=". . . . . . . . . . . ."><p id="ket3"></p>
           </p>
             <p>Kemudian klik tombol dibawah ini untuk mengecek jawaban anda</p>
             <button onclick="Functionthree()">Cek</button> <button id="ulang3" onclick="ulang3()">Ulang</button>
@@ -184,7 +187,7 @@
         <div class="mySlides">
           <p>4.Posisi ruas garis CD terhadap <b>sumbu-y</b> adalah . . . .
             <br>
-            <input type="text" id="titik4" value="" style="width: 50px;" placeholder=". . . . ."><p id="ket4"></p>
+            <input type="text" id="titik4" value="" style="width: 100px;" placeholder=". . . . . . . . . . . ."><p id="ket4"></p>
           </p>
           <p>Kemudian klik tombol dibawah ini untuk mengecek jawaban anda</p>
           <button onclick="Functionfour()">Cek</button> <button id="ulang4" onclick="ulang4()">Ulang</button>
@@ -193,7 +196,7 @@
         <div class="mySlides">
           <p>5.Posisi ruas garis EF terhadap <b>sumbu-x</b> adalah . . . .
             <br>
-            <input type="text" id="titik5" value="" style="width: 50px;" placeholder=". . . . ."><p id="ket5"></p>
+            <input type="text" id="titik5" value="" style="width: 100px;" placeholder=". . . . . . . . . . . ."><p id="ket5"></p>
           </p>
           <p>Kemudian klik tombol dibawah ini untuk mengecek jawaban anda</p>
           <button onclick="Functionfive()">Cek</button> <button id="ulang5" onclick="ulang5()">Ulang</button>
@@ -202,7 +205,7 @@
         <div class="mySlides">
           <p>6.Posisi ruas garis EF terhadap <b>sumbu-y</b> adalah . . . .
             <br>
-            <input type="text" id="titik6" value="" style="width: 50px;" placeholder=". . . . ."><p id="ket6"></p>
+            <input type="text" id="titik6" value="" style="width: 100px;" placeholder=". . . . . . . . . . . ."><p id="ket6"></p>
           </p>
           <p>Kemudian klik tombol dibawah ini untuk mengecek jawaban anda</p>
           <button onclick="Functionsix()">Cek</button> <button id="ulang6" onclick="ulang6()">Ulang</button>
@@ -215,6 +218,7 @@
           </div>
       
         <div class="dot-container">
+          <b class="no">Nomor Soal: &nbsp;</b><br>
           <span class="dot" onclick="currentSlide(1)">1</span> 
           <span class="dot" onclick="currentSlide(2)">2</span> 
           <span class="dot" onclick="currentSlide(3)">3</span>

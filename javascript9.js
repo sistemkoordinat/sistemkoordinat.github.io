@@ -47,9 +47,14 @@ function showSlides(n) {
 }
 
 function myFunction(){
-    var jwb1 = document.getElementById("titik1").value;
+    var jwb1 = document.getElementById("titik1");
+
+    var y = jwb1.value.toLowerCase();
+    y=y.replace(/\s+/g, '');
+ 
+
   
- if(jwb1 == "sejajar"){
+ if(y == "sejajar"){
     document.getElementById("ket1").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
   } else{
     document.getElementById("ket1").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
@@ -58,9 +63,14 @@ function myFunction(){
 }
 
 function Functiontwo(){
-  var jwb2 = document.getElementById("titik2").value;
+  var jwb2 = document.getElementById("titik2");
+
+  var y = jwb2.value.toLowerCase();
+    y=y.replace(/\s+/g, '');
+ 
+
   
-if(jwb2 == "tegak lurus"){
+if(y == "tegaklurus"){
   document.getElementById("ket2").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
 } else{
   document.getElementById("ket2").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
@@ -68,9 +78,14 @@ if(jwb2 == "tegak lurus"){
 }
 
 function Functionthree(){
-  var jwb3 = document.getElementById("titik3").value;
+  var jwb3 = document.getElementById("titik3");
 
-if(jwb3 == "tegak lurus"){
+  var y = jwb3.value.toLowerCase();
+    y=y.replace(/\s+/g, '');
+ 
+
+
+if(y == "tegaklurus"){
   document.getElementById("ket3").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
 } else{
   document.getElementById("ket3").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
@@ -78,9 +93,14 @@ if(jwb3 == "tegak lurus"){
 }
 
 function Functionfour(){
-    var jwb4 = document.getElementById("titik4").value;
+    var jwb4 = document.getElementById("titik4");
+
+    var y = jwb4.value.toLowerCase();
+    y=y.replace(/\s+/g, '');
  
- if(jwb4 == "sejajar"){
+
+ 
+ if(y == "sejajar"){
     document.getElementById("ket4").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
   } else{
     document.getElementById("ket4").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
@@ -88,9 +108,13 @@ function Functionfour(){
 }
 
 function Functionfive(){
-  var jwb5 = document.getElementById("titik5").value;
+  var jwb5 = document.getElementById("titik5");
 
-if(jwb5 == "berpotongan"){
+  var y = jwb5.value.toLowerCase();
+    y=y.replace(/\s+/g, '');
+ 
+
+if(y == "berpotongan"){
   document.getElementById("ket5").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
 } else{
   document.getElementById("ket5").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
@@ -98,46 +122,21 @@ if(jwb5 == "berpotongan"){
 }
 
 function Functionsix(){
-  var jwb6 = document.getElementById("titik6").value;
+  var jwb6 = document.getElementById("titik6");
 
-if(jwb6 == "tegak lurus"){
+  var y = jwb6.value.toLowerCase();
+    y=y.replace(/\s+/g, '');
+ 
+
+
+if(y == "tegaklurus"){
   document.getElementById("ket6").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
 } else{
   document.getElementById("ket6").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
 }
 }
 
-function Functionseven(){
-    var jwb7 = document.getElementById("titik7").value;
-  
- if(jwb7 == "1,5"){
-    document.getElementById("ket7").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
-  } else{
-    document.getElementById("ket7").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
-  }
-}
 
-
-function Functioneight(){
- var jwb8 = document.getElementById("titik8").value;
-
-if(jwb8 == "-1,4"){
-  document.getElementById("ket8").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
-} else{
-  document.getElementById("ket8").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
-}
-}
-
-
-function Functionnine(){
- var jwb9 = document.getElementById("titik9").value;
-
-if(jwb9 == "7,-1"){
-  document.getElementById("ket9").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
-} else{
-  document.getElementById("ket9").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
-}
-}
 
 
 function ulang(){

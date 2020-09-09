@@ -246,6 +246,25 @@ td {
 }
 
 
+.navigasi {
+    padding: 10px 20px;
+    font-size: 2vw;
+
+}
+
+.navigasi a {
+    background-color: #ffccb2;
+    padding: 10px;
+    border: 2px solid red;
+
+}
+
+.navigasi a:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+
 
 /* ------------------------------------------------------------- */
 

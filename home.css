@@ -478,7 +478,7 @@ footer {
 }
 #petunjuksoal2 {
   width: 100%;
-  height: 20px;
+  height: 200px;
   text-align: left;
   background-color: #ffccb2;
   border: 3px dotted red;
@@ -858,6 +858,10 @@ q {font-style: italic;}
     height: 230px;
   }
 
+  #petunjuksoal2{
+    height: 300px;
+  }
+
   .petunjuksoal{
     margin-bottom: 10px;
     margin-top:0px;
@@ -1025,6 +1029,10 @@ q {font-style: italic;}
   height: 290px;
 }
 
+#tanya2{
+   height: 550px;
+}
+
 #acuan1{
   padding: 10px;
   height: 310px;
@@ -1041,6 +1049,10 @@ q {font-style: italic;}
 
 #gli{
 height: 200px;
+}
+
+#gelo{
+  height: 300px;
 }
 
 #acuan3{
