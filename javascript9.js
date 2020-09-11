@@ -19,6 +19,20 @@ xx2.addEventListener("click",function(){
   x2.classList.toggle("hilang");
 })
 
+var ya = document.getElementById("yas2");
+var yaya= document.querySelector('.yas2');
+
+yaya.addEventListener("click",function(){
+  ya.classList.toggle("hilang");
+})
+
+var no = document.getElementById("not2");
+var nono= document.querySelector('.not2');
+
+nono.addEventListener("click",function(){
+  no.classList.toggle("hilang");
+})
+
 var slideIndex = 1;
 showSlides(slideIndex);
 

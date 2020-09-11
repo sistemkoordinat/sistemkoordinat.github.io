@@ -19,6 +19,20 @@ xx2.addEventListener("click",function(){
   x2.classList.toggle("hilang");
 })
 
+var ya = document.getElementById("yas");
+var yaya= document.querySelector('.yas');
+
+yaya.addEventListener("click",function(){
+  ya.classList.toggle("hilang");
+})
+
+var no = document.getElementById("not");
+var nono= document.querySelector('.not');
+
+nono.addEventListener("click",function(){
+  no.classList.toggle("hilang");
+})
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -225,6 +239,7 @@ function Ya1() {
    jawaban = "Maaf, Jawabanmu salahh";
    document.getElementById("cekeight").innerHTML = jawaban;
  }
+
  
 
  

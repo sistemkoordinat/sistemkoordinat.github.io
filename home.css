@@ -271,6 +271,20 @@ nav ul {
   overflow: auto;
 }
 
+.Isi-Kiri1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px; 
+  font-weight: 500; 
+  line-height: 27px;
+  float: left;
+  text-align: justify;
+  padding: 30px 30px;
+  width: 80%;
+  background-color: #ffccb2;
+  height: 480px; 
+  border: 3px dotted red;
+  overflow: auto;
+}
 .Isi-Kirii{
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 16px; 
@@ -656,7 +670,7 @@ display:none;
   background: #ffe7da;
   border: 3px solid red;
   border-radius: 8px;
-  padding: 20px;
+  padding: 10px;
   margin-top: 20px;
 }
 
@@ -804,6 +818,160 @@ q {font-style: italic;}
     height: 400px;
     will-change: 500px;
   }
+
+  .kutak{
+    background-color: rgb(255, 192, 149);
+    border-radius: 8px;
+    width: 100%;
+    height: 170px;
+    padding: 10px;
+  }
+
+  .kutaksual{
+    background-color: rgb(255, 192, 149);
+    border: 2px solid red;
+    border-radius: 50px;
+    width: 100%;
+    height: 100px;
+    margin-left: 10px;
+    padding-left: 26px;
+    padding-right: 30px;
+    padding-top: 9px;
+  }
+
+  .yas{
+    background-color: #ff5252;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    color: white;
+    padding: 7px 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+.yas:hover {background-color: #ff8a80}
+
+.yas:active {
+  background-color: #ff8a80;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#yas {
+  background-color: rgb(255, 192, 149);
+    border-radius: 8px;
+    font-size: 16px; 
+    font-weight: 500; 
+    width: 100%;
+    height: 500px;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.not{
+  background-color: #ff5252;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border: none;
+  color: white;
+  padding: 7px 10px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.not:hover {background-color: #ff8a80}
+
+.not:active {
+  background-color: #ff8a80;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#not {
+  background-color: rgb(255, 192, 149);
+  font-size: 16px; 
+  font-weight: 500; 
+    border-radius: 8px;
+    width: 100%;
+    height: 500px;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+
+.yas2{
+  background-color: #ff5252;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border: none;
+  color: white;
+  padding: 7px 10px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.yas2:hover {background-color: #ff8a80}
+
+.yas2:active {
+background-color: #ff8a80;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+#yas2 {
+background-color: rgb(255, 192, 149);
+  border-radius: 8px;
+  font-size: 16px; 
+  font-weight: 500; 
+  width: 100%;
+  height: 400px;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.not2{
+background-color: #ff5252;
+font-family: Georgia, 'Times New Roman', Times, serif;
+border: none;
+color: white;
+padding: 7px 10px;
+text-align: left;
+text-decoration: none;
+display: inline-block;
+font-size: 12px;
+cursor: pointer;
+border-radius: 8px;
+margin-top: 20px;
+}
+
+.not2:hover {background-color: #ff8a80}
+
+.not2:active {
+background-color: #ff8a80;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+#not2 {
+background-color: rgb(255, 192, 149);
+font-size: 16px; 
+font-weight: 500; 
+  border-radius: 8px;
+  width: 100%;
+  height: 400px;
+  padding: 10px;
+  margin-top: 15px;
+}
+
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens, kada ngaruh sih*/
 @media (max-width: 992px) {
   nav,.Isi-Kiri,.Isi-Kanan {
@@ -813,8 +981,59 @@ q {font-style: italic;}
     font-size: 3vw;
   }
 
-  .Isi-Kirii{
+  nav,.Isi-Kirii{
     width: 100%;
+    height: auto;
+    float:none;
+    font-size: 3vw;
+  }
+
+  #yas{
+    font-size: 3vw;
+  }
+
+  #not{
+    font-size: 3vw;
+  }
+
+  
+  #yas2{
+    
+    font-size: 3vw;
+    height: 330px;
+  }
+
+  #not2{
+    font-size: 3vw;
+    height: 350px;
+  }
+
+  .yas2{
+    margin-top:-5px;
+  }
+
+  .imgg{
+    height: 170px;
+    width: 200px;
+  }
+
+  .kutak{
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+  }
+
+  .kutaksual{
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+  }
+  nav,.Isi-Kiri1 {
+    width: 100%;
+    height: auto;
+    float:none;
+    font-size: 3vw;
+    padding: 30px 15px;
   }
   header {
     background-image: url(headerhp.png);
@@ -826,6 +1045,10 @@ q {font-style: italic;}
     height: auto;
   }
 
+  .imgsjj{
+    width: 100%;
+    height: auto;
+  }
   .imgk{
     height: 15px;
     width: 15px;
@@ -879,9 +1102,9 @@ q {font-style: italic;}
   }
 
   .imgf{
-    width: 260px;
+    width: 100%;
     height: auto;
-    margin-left: -14px;
+    margin-left: 0px;
   }
 
   .imgff{
@@ -913,15 +1136,15 @@ q {font-style: italic;}
   .divscratch{
     overflow-y:hidden;
     height: 260px;
-    width: 270px;
+    width: 100%;
     margin-bottom: -39px;
-    margin-left: -9px;
+    margin-left: 0px;
   }
 
   .divscratch2{
     overflow-y:hidden;
     height: 260px;
-    width: 270px;
+    width: 100%;
     margin-bottom: -39px;
     margin-left: -9px;
   }
@@ -1022,8 +1245,16 @@ q {font-style: italic;}
 
 #mengamati{
   width: 340px;
+  padding: 10px;
 }
 
+#amat{
+  padding: 10px;
+}
+
+p{
+  padding: 10px;
+}
 #menanya{
   padding: 10px;
   height: 290px;
@@ -1072,7 +1303,7 @@ height: 200px;
   padding-right: 5px;
 }
 .memecah{
-  padding: 10px;
+  padding: 3px;
   height: auto;
 }
 
