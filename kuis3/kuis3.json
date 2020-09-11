@@ -22,9 +22,9 @@
 }, {
     "soal2": {
         "soal": "Perhatikan gambar di bawah ini<br> <img src='img/soals3n35.png' width='300' height='200'><br>Garis yang sejajar dengan sumbu-x adalah . . . .",
-        "a": "a. Garis k",
-        "b": "b. Garis l",
-        "c": "c. Garis m",
+        "a": "a. Garis k dan n",
+        "b": "b. Garis l dan n",
+        "c": "c. Garis m dan l",
         "d": "d. Garis m dan n",
         "benar": "a",
         "nih": "a. Garis k"
@@ -64,7 +64,7 @@
         "soal": "Perhatikan gambar di bawah ini <br> <img src='img/soals3n68.png' width='300' height='200'> <br>Garis yang berjarak 3 satuan terhadap <b>sumbu-x</b> adalah. . . .",
         "a": "a. Garis m",
         "b": "b. Garis n",
-        "c": "c. Garis m dan n",
+        "c": "c. Garis k",
         "d": "d. Garis l",
         "benar": "a",
         "nih": "a. Garis m"
@@ -74,7 +74,7 @@
         "soal": "Perhatikan gambar di bawah ini <br> <img src='img/soals3n68.png' width='300' height='200'> <br>Garis yang berjarak 3 satuan terhadap <b>sumbu-y</b> adalah  . . .",
         "a": "a. Garis m",
         "b": "b. Garis n",
-        "c": "c. Garis m dan n",
+        "c": "c. Garis k",
         "d": "d. Garis l",
         "benar": "b",
         "nih": "a. Garis n"
