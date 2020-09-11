@@ -19,14 +19,14 @@ xx2.addEventListener("click",function(){
   x2.classList.toggle("hilang");
 })
 
-var ya = document.getElementById("yas2");
+var ya = document.getElementById("yas3");
 var yaya= document.querySelector('.yas2');
 
 yaya.addEventListener("click",function(){
   ya.classList.toggle("hilang");
 })
 
-var no = document.getElementById("not2");
+var no = document.getElementById("not3");
 var nono= document.querySelector('.not2');
 
 nono.addEventListener("click",function(){
@@ -143,7 +143,7 @@ function Functionsix(){
  
 
 
-if(y == "tegaklurus"){
+if(y == "berpotongan"){
   document.getElementById("ket6").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>"
 } else{
   document.getElementById("ket6").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>"
