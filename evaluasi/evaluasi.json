@@ -92,12 +92,12 @@
 }, {
     "soal9": {
         "soal": "Perhatikan gambar di bawah ini <br> <img src='img/bgn.png' width='300' height='200'> <br>Keliling persegi panjang ABCD adalah  . . .",
-        "a": "a. 9 Satuan luas",
-        "b": "b. 12 Satuan luas",
-        "c": "c. 15 Satuan luas",
-        "d": "d. 18 Satuan luas",
+        "a": "a. 9 Satuan",
+        "b": "b. 12 Satuan",
+        "c": "c. 15 Satuan",
+        "d": "d. 18 Satuan",
         "benar": "d",
-        "nih": "d. 18 Satuan luas"
+        "nih": "d. 18 Satuan"
     }
 }, {
     "soal10": {
@@ -191,7 +191,7 @@
     }
 }, {
     "soal19": {
-        "soal": "Diketahui sebuah ruas garis A(4,4) dan B(-2,-2). Kedudukan ruas garis AB terhadap sumbu koordinat adalah  . . .",
+        "soal": "Diketahui sebuah titik A(4,4) dan titik B(-2,-2) membentuk sebuah ruas garis AB. Kedudukan ruas garis AB terhadap sumbu koordinat adalah  . . .",
         "a": "a. Sejajar ",
         "b": "b. Tegak Lurus",
         "c": "c. Berhimpit",

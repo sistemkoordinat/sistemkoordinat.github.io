@@ -292,7 +292,6 @@ dat.onreadystatechange = function () {
                     for (let j = 0; j < namaradio.length; j++) {
                         if(namaradio[j].checked){
                             checked = true;
-                            pil_user.push(namaradio[j].value);
                             if(namaradio[j].value == jwbs[i]){
                                 hasilakhir = hasilakhir + 5;
                                 benarr = benarr + 1;
@@ -302,16 +301,7 @@ dat.onreadystatechange = function () {
                         }
                     }
                 }
-                for (let i = 0; i < cek.length; i++) {
-                    for (let j = 0; j < cek.length; j++) {
-                        if (i == cek[j]) {
-                            new_jwb_urut.push(pil_user[j]);
-                            new_jwb_urut_no.push(cek[j]);
-                        }
-                    }
-                }
-                console.log("jwb_user_urut_no :" + new_jwb_urut_no);
-                console.log("jwb_user_urut :" + new_jwb_urut);
+               
 
                 
                 // simpan kedatabase----------
