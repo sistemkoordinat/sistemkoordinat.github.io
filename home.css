@@ -1037,6 +1037,17 @@ font-weight: 500;
     height: 350px;
   }
 
+  #yas3{
+    
+    font-size: 3vw;
+    height: 330px;
+  }
+
+  #not3{
+    font-size: 3vw;
+    height: 350px;
+  }
+
   .yas2{
     margin-top:-5px;
   }
