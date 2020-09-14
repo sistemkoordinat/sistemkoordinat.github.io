@@ -52,12 +52,12 @@
 }, {
     "soal5": {
         "soal": "Perhatikan gambar di bawah ini <br> <img src='img/s1.png' width='300' height='200'> <br> Titik koordinat ABCD secara berturut-turut adalah . . .",
-        "a": "a. A(2,4), B(-2,4) ,C(-4,1) dan D(4,1)",
-        "b": "b. A(-2,4), B(2,4) ,C(-4,1) dan D(4,1)",
-        "c": "c. A(2,4), B(-2,4) ,C(4,1) dan D(-4,1)",
-        "d": "d. A(2,-4), B(-2,4) ,C(-4,1) dan D(-4,-1)",
+        "a": "a. A(2,4), B(-2,4) ,C(-4,1) dan <br>D(4,1)",
+        "b": "b. A(-2,4), B(2,4) ,C(-4,1) dan <br>D(4,1)",
+        "c": "c. A(2,4), B(-2,4) ,C(4,1) dan <br>D(-4,1)",
+        "d": "d. A(2,-4), B(-2,4) ,C(-4,1) dan <br>D(-4,-1)",
         "benar": "a",
-        "nih": "a. A(2,4), B(-2,4) ,C(-4,1) dan D(4,1)"
+        "nih": "a. A(2,4), B(-2,4) ,C(-4,1) dan <br>D(4,1)"
     }
 }, {
     "soal6": {
@@ -122,12 +122,12 @@
 }, {
     "soal12": {
         "soal": "Perhatikan gambar di bawah ini <br> <img src='img/s3.png' width='300' height='200'> <br>Jika titik A menjadi titik acuan, maka berapa jarak titik C terhadap titik A? . . .",
-        "a": "a. 10 satuan ke kiri dan 1 satuan ke atas",
-        "b": "b. 10 satuan ke kiri dan 1 satuan ke bawah",
-        "c": "c. 10 satuan ke kanan dan 1 satuan ke bawah",
-        "d": "d. 10 satuan ke kanan dan 1 satuan ke atas",
+        "a": "a. 10 satuan ke kiri dan 1 satuan <br>ke atas",
+        "b": "b. 10 satuan ke kiri dan 1 satuan <br>ke bawah",
+        "c": "c. 10 satuan ke kanan dan 1 satuan <br>ke bawah",
+        "d": "d. 10 satuan ke kanan dan 1 satuan <br>ke atas",
         "benar": "d",
-        "nih": "d. 10 satuan ke kanan dan 1 satuan ke atas"
+        "nih": "d. 10 satuan ke kanan dan 1 satuan <br>ke atas"
     }
 }, {
     "soal13": {
@@ -142,12 +142,12 @@
 }, {
     "soal14": {
         "soal": "Perhatikan gambar di bawah ini <br> <img src='img/s4.png' width='300' height='200'> <br>Berapa jarak yang ditempuh Ani saat pulang sekolah menuju rumah  . . .",
-        "a": "a. 4 satuan ke kanan dan 3 satuan ke bawah",
-        "b": "b. 4 satuan ke kanan dan 3 satuan ke atas",
-        "c": "c. 4 satuan ke bawah dan 3 satuan ke bawah",
-        "d": "d. 4 satuan ke atas dan 3  satuan ke kanan",
+        "a": "a. 4 satuan ke kanan dan 3 satuan <br>ke bawah",
+        "b": "b. 4 satuan ke kanan dan 3 satuan <br>ke atas",
+        "c": "c. 4 satuan ke bawah dan 3 satuan <br>ke bawah",
+        "d": "d. 4 satuan ke atas dan 3  satuan <br>ke kanan",
         "benar": "b",
-        "nih": "b. 4 satuan ke kanan dan 3 satuan ke atas"
+        "nih": "b. 4 satuan ke kanan dan 3 satuan <br>ke atas"
     }
 }, {
     "soal15": {
