@@ -72,8 +72,8 @@ selanjutnya.addEventListener('click', function () {
 
 window.onload = function () {
     namanya.value = "";
-    kelasnya.value = value = "";
-    sekolah.value = value = "";
+    kelasnya.value = value = "8A/8B";
+    sekolah.value = value = "SMP Negeri 13 Banjarmasin";
 
 
     document.getElementById('kiri').className += ' hilang';

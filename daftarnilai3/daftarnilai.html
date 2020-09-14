@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Media Pembelajaran</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<header>
+  
+</header>
+
+<body>
+        <div class="konten batsatas">
+            <div class="isinya">
+                <h1>DAFTAR NILAI KUIS 3</h1>
+                <hr>
+                <div class="bgnya">
+
+                    <label for="nama"> Sekolah :
+                        <select id="sekolah" name="sekolah" class="mundur" aria-placeholder="-Pilih Sekolah-">
+                            <option value="0" selected="selected">-- Pilih Sekolah --</option>
+                            <option value="1">SMP Negeri 13 Banjarmasin</option>
+                        </select>
+                    </label>
+                    <label for="nama"> Kelas :
+                        <select id="kelas" name="kelas" class="mundur" aria-placeholder="-Pilih Kelas-">
+                            <option value="0" selected="selected">-- Pilih Kelas --</option>
+                            <option value="1">8A</option>
+                            <option value="2">8B</option>
+                        </select>
+                    </label>
+                    <div class="cari" onclick="readlah()">Cari</div>
+
+                </div>
+                <br><br>
+
+                <div>
+                    <table class="jrkbawah">
+                        <tr>
+                            <td class="ukr1">Sekolah</td>
+                            <td class="ukr3">Kelas</td>
+                            <td class="ukr1">Nama</td>
+                            <td class="ukr3">Skor</td>
+                            <td class="ukr2">Hari</td>
+                            <td class="ukr2">Waktu</td>
+                        </tr>
+                    </table>
+                    <table class="disini" id='table_wrapper'></table>
+                </div>
+
+
+
+                <div class=" clear"></div>
+            </div>
+        </div>
+
+        <center>
+            <div class="kembali"><a href="../nilaijawaban/daftarnilai.html">KEMBALI</a></div>
+            <div class="download kembali" id="btnExport">Download</div>
+
+        </center>
+
+
+
+    
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+
+
+    <script src="script.js"></script>
+
+
+
+</body>
+
+</html>

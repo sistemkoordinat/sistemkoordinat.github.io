@@ -41,7 +41,7 @@
     }
 }, {
     "soal4": {
-        "soal": "Titik T berjarak 2 satuan terhadap sumbu-x dan 6 satuan terhadap sumbu-y. Jika titik T terletak di kuadran I, maka koordinat titik I adalah  . . . .",
+        "soal": "Titik T berjarak 2 satuan terhadap sumbu-x dan 6 satuan terhadap sumbu-y. Jika titik T terletak di kuadran I, maka koordinat titik T adalah  . . . .",
         "a": "a. (6,2)",
         "b": "b. (6,-2)",
         "c": "c. (-6,2)",
@@ -145,7 +145,7 @@
         "a": "a. 4 satuan ke kanan dan 3 satuan ke bawah",
         "b": "b. 4 satuan ke kanan dan 3 satuan ke atas",
         "c": "c. 4 satuan ke bawah dan 3 satuan ke bawah",
-        "d": "d. 4 satuan ke atas dan 3 ke kanan",
+        "d": "d. 4 satuan ke atas dan 3  satuan ke kanan",
         "benar": "b",
         "nih": "b. 4 satuan ke kanan dan 3 satuan ke atas"
     }
@@ -191,7 +191,7 @@
     }
 }, {
     "soal19": {
-        "soal": "Diketahui sebuah titik A(4,4) dan titik B(-2,-2) membentuk sebuah ruas garis AB. Kedudukan ruas garis AB terhadap sumbu koordinat adalah  . . .",
+        "soal": "Diketahui titik A(4,4) dan titik B(-2,-2) membentuk sebuah ruas garis AB. Kedudukan ruas garis AB terhadap sumbu koordinat adalah  . . .",
         "a": "a. Sejajar ",
         "b": "b. Tegak Lurus",
         "c": "c. Berhimpit",

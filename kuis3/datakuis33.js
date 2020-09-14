@@ -34,32 +34,26 @@ selanjutnya.addEventListener('click', function () {
 
     }
 
-    if (kelasnya.value == "0") {
+    if (kelasnya.value == "") {
         if (kelasnya.className.indexOf('tt_salah') == -1) {
             kelasnya.className += ' tt_salah';
         }
     } else {
         kelasnya.className = kelasnya.className.replace('tt_salah', '');
-        if (kelasnya.value == "1") {
-            kelasfix = "8A";
-        } else if (kelasnya.value == "2") {
-            kelasfix = "8B";
-        } 
         cek += 1;
+
     }
 
-    if (sekolah.value == "0") {
+    if (sekolah.value == "") {
         if (sekolah.className.indexOf('tt_salah') == -1) {
             sekolah.className += ' tt_salah';
         }
     } else {
         sekolah.className = sekolah.className.replace('tt_salah', '');
-        if (sekolah.value == "1") {
-            sekolahfix = "SMP Negeri 13 Banjarmasin";
-        }
         cek += 1;
-    }
 
+    }
+    
     console.log(sekolahfix);
 
     if (cek != 3) {
@@ -75,8 +69,8 @@ selanjutnya.addEventListener('click', function () {
 
 window.onload = function () {
     namanya.value = "";
-    kelasnya.value = value = "0";
-    sekolah.value = value = "0";
+    kelasnya.value = value = "8A/8B";
+    sekolah.value = value = "SMP Negeri 13 Banjarmasin";
 
 
     document.getElementById('kiri').className += ' hilang';
@@ -139,7 +133,7 @@ dat.onreadystatechange = function () {
             //     bg_pertanyaan.className += " hilang";
             // }
 
-            for(let i=1; i<=20; i++){
+            for(let i=1; i<=10; i++){
                 let radio = document.getElementById("radio"+i);
                 radio.checked = false;
             }
@@ -269,7 +263,7 @@ dat.onreadystatechange = function () {
         let pil_user = [];
         new_jwb_urut = [];
         new_jwb_urut_no = [];
-
+        
         selesai.addEventListener("click", function(){
             let sarat = 0;
             
@@ -297,7 +291,7 @@ dat.onreadystatechange = function () {
                             checked = true;
                             pil_user.push(namaradio[j].value);
                             if(namaradio[j].value == jwbs[i]){
-                                hasilakhir = hasilakhir + 5;
+                                hasilakhir = hasilakhir + 10;
                                 benarr = benarr + 1;
                             } else {
                                 hasilakhir = hasilakhir;
@@ -315,7 +309,6 @@ dat.onreadystatechange = function () {
                 }
                 console.log("jwb_user_urut_no :" + new_jwb_urut_no);
                 console.log("jwb_user_urut :" + new_jwb_urut);
-
                 
                 // simpan kedatabase----------
                 console.log(namanya.value);
@@ -325,16 +318,16 @@ dat.onreadystatechange = function () {
                 let waktunya = waktu();
                 let harinya = hari();
 
-                createTask(sekolahfix, namanya.value, kelasfix, hasilakhir, waktunya, harinya, new_jwb_urut);
+                createTask(sekolah.value, namanya.value, kelasnya.value, hasilakhir, waktunya, harinya, new_jwb_urut);
 
                 let namainput = document.querySelector('.nama');
                 namainput.innerText = namanya.value;
 
                 let sekolahinput = document.querySelector('.sekolah');
-                sekolahinput.innerText = sekolahfix;
+                sekolahinput.innerText = sekolah.value;
 
                 let kelasinput = document.querySelector('.kelas');
-                kelasinput.innerText = kelasfix;
+                kelasinput.innerText = kelasnya.value;
 
                 let hariinput = document.querySelector('.hari');
                 hariinput.innerText = harinya;
@@ -369,7 +362,7 @@ dat.onreadystatechange = function () {
 
     }
 }
-dat.open('GET', 'evaluasi.json', true);
+dat.open('GET', 'kuis3.json', true);
 dat.send();
 
 //FUNGSI WAKTU DAN HARI
@@ -403,7 +396,7 @@ function hari() {
 }
 
 
-function createTask(sekolah, nama, kelas, nilai, waktunya, hari,jwb) {
+function createTask(sekolah, nama, kelas, nilai, waktunya, hari, jwb) {
     counter += 1;
     var task = {
         id: counter,
@@ -416,7 +409,7 @@ function createTask(sekolah, nama, kelas, nilai, waktunya, hari,jwb) {
         jawabannya: jwb
     }
 
-    let db = firebase.database().ref("evaluasi/" + counter);
+    let db = firebase.database().ref("kuis3/" + counter);
     db.set(task);
 
 }
