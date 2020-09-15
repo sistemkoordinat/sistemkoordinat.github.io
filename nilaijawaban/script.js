@@ -75,7 +75,7 @@ function readlah() {
         jwbfixx = jwb2;
     }
 
-    let jwb3 = ["b", "c", "a", "c", "b", "b", "a", "b", "a", "a"];
+    let jwb3 = ["b", "c", "a", "c", "b", "b", "a", "b", "a", "d"];
     if (kuisfix == "kuis3/") {
         let hhh = `<tr><td class="nah" colspan="2">Kunci Jawaban </td>`;
         for (let i = 0; i < jwb3.length; i++) {
