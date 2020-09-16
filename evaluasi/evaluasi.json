@@ -1,6 +1,6 @@
 [{
     "soal0": {
-        "soal": "<img src='img/s2.png' width='300' height='200'><br>Perhatikan pernyataan berikut ini berdasarkan gambar di atas<br>(i)&nbsp;&nbsp;Titik P terletak pada koordinat (2,4)<br>(ii)&nbsp;Titik R terletak pada koordinat (1,-3).<br>(iii)Titik S berada pada kuadran II.<br>(iv) Jarak titik P dan Q adalah 2 satuan terhadap sumbu-y<br>Pernyataan yang benar adalah . . .",
+        "soal": "<img src='img/s2.png' width='250' height='170'><br>Perhatikan pernyataan berikut ini berdasarkan gambar di atas<br>(i)&nbsp;&nbsp;Titik P terletak pada koordinat (2,4)<br>(ii)&nbsp;Titik R terletak pada koordinat (1,-3).<br>(iii)Titik S berada pada kuadran II.<br>(iv) Jarak titik P dan Q adalah 2 satuan terhadap sumbu-y<br>Pernyataan yang benar adalah . . .",
         "a": "a. (i) dan (iii)",
         "b": "b. (ii) dan (iii)",
         "c": "c. (ii) dan (iv)",
@@ -10,7 +10,7 @@
     }
 }, {
     "soal1": {
-        "soal": " Perhatikan gambar di bawah ini<br> <img src='img/s2.png' width='300' height='200'><br> Titik P dan Q secara berturut-turut terletak pada kuadran . . . .",
+        "soal": " Perhatikan gambar di bawah ini<br> <img src='img/s2.png' width='250' height='170'><br> Titik P dan Q secara berturut-turut terletak pada kuadran . . . .",
         "a": "a. Kuadran I dan Kuadran II",
         "b": "b. Kuadran I dan Kuadran III",
         "c": "c. Kuadran I dan Kuadran IV",
@@ -21,7 +21,7 @@
 
 }, {
     "soal2": {
-        "soal": "Perhatikan gambar di bawah ini<br> <img src='img/s2.png' width='300' height='200'><br>Jarak titik P dan Q terhadap sumbu-x adalah  . . . .",
+        "soal": "Perhatikan gambar di bawah ini<br> <img src='img/s2.png' width='250' height='170'><br>Jarak titik P dan Q terhadap sumbu-x adalah  . . . .",
         "a": "a. 2 satuan",
         "b": "b. 3 satuan",
         "c": "c. 4 satuan",
@@ -51,7 +51,7 @@
     }
 }, {
     "soal5": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/s1.png' width='300' height='200'> <br> Titik koordinat ABCD secara berturut-turut adalah . . .",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/s1.png' width='250' height='170'> <br> Titik koordinat ABCD secara berturut-turut adalah . . .",
         "a": "a. A(2,4), B(-2,4) ,C(-4,1) dan <br>D(4,1)",
         "b": "b. A(-2,4), B(2,4) ,C(-4,1) dan <br>D(4,1)",
         "c": "c. A(2,4), B(-2,4) ,C(4,1) dan <br>D(-4,1)",
@@ -61,7 +61,7 @@
     }
 }, {
     "soal6": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/s1.png' width='300' height='200'> <br>Titik yang berada di kuadran II adalah . . . .",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/s1.png' width='250' height='170'> <br>Titik yang berada di kuadran II adalah . . . .",
         "a": "a. A dan B",
         "b": "b. A dan C",
         "c": "c. D dan C",
@@ -71,7 +71,7 @@
     }
 }, {
     "soal7": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/s1.png' width='300' height='200'> <br>Jika titik ABCD dihubungkan dengan ruas garis maka akan membentuk bangun datar . . .",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/s1.png' width='250' height='170'> <br>Jika titik ABCD dihubungkan dengan ruas garis maka akan membentuk bangun datar . . .",
         "a": "a. Persegi",
         "b": "b. Persegi Panjang",
         "c": "c. Trapesium",
@@ -81,7 +81,7 @@
     }
 }, {
     "soal8": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/prsgipng.png' width='300' height='200'><br>Gambar di atas akan membentuk sebuah persegi panjang apabila titik D berada di koordinat . . . .",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/prsgipng.png' width='250' height='170'><br>Gambar di atas akan membentuk sebuah persegi panjang apabila titik D berada di koordinat . . . .",
         "a": "a. (-3,-1)",
         "b": "b. (3,-1)",
         "c": "c. (4,-1)",
@@ -91,7 +91,7 @@
     }
 }, {
     "soal9": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/bgn.png' width='300' height='200'> <br>Keliling persegi panjang ABCD adalah  . . .",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/bgn.png' width='250' height='170'> <br>Keliling persegi panjang ABCD adalah  . . .",
         "a": "a. 9 Satuan",
         "b": "b. 12 Satuan",
         "c": "c. 15 Satuan",
@@ -101,7 +101,7 @@
     }
 }, {
     "soal10": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/s3.png' width='300' height='200'> <br>Titik yang berada pada sebelah kiri sumbu-y adalah  . . .",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/s3.png' width='250' height='170'> <br>Titik yang berada pada sebelah kiri sumbu-y adalah  . . .",
         "a": "a. A dan B",
         "b": "b. B dan C",
         "c": "c. A dan C",
@@ -111,7 +111,7 @@
     }
 }, {
     "soal11": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/s3.png' width='300' height='200'> <br>1Titik yang berjarak sama terhadap sumbu-x adalah  . . .",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/s3.png' width='250' height='170'> <br>1Titik yang berjarak sama terhadap sumbu-x adalah  . . .",
         "a": "a. A dan B",
         "b": "b. B dan C",
         "c": "c. A dan C",
@@ -121,7 +121,7 @@
     }
 }, {
     "soal12": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/s3.png' width='300' height='200'> <br>Jika titik A menjadi titik acuan, maka berapa jarak titik C terhadap titik A? . . .",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/s3.png' width='250' height='170'> <br>Jika titik A menjadi titik acuan, maka berapa jarak titik C terhadap titik A? . . .",
         "a": "a. 10 satuan ke kiri dan 1 satuan <br>ke atas",
         "b": "b. 10 satuan ke kiri dan 1 satuan <br>ke bawah",
         "c": "c. 10 satuan ke kanan dan 1 satuan <br>ke bawah",
@@ -141,7 +141,7 @@
     }
 }, {
     "soal14": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/s4.png' width='300' height='200'> <br>Berapa jarak yang ditempuh Ani saat pulang sekolah menuju rumah  . . .",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/s4.png' width='250' height='170'> <br>Berapa jarak yang ditempuh Ani saat pulang sekolah menuju rumah  . . .",
         "a": "a. 4 satuan ke kanan dan 3 satuan <br>ke bawah",
         "b": "b. 4 satuan ke kanan dan 3 satuan <br>ke atas",
         "c": "c. 4 satuan ke bawah dan 3 satuan <br>ke bawah",
@@ -151,7 +151,7 @@
     }
 }, {
     "soal15": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/s4.png' width='300' height='200'> <br>Rumah yang memiliki jarak paling dekat dengan sekolah adalah  . . .",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/s4.png' width='250' height='170'> <br>Rumah yang memiliki jarak paling dekat dengan sekolah adalah  . . .",
         "a": "a. Rumah Ani",
         "b": "b. Rumah Tina",
         "c": "c. Rumah Dede",
@@ -161,7 +161,7 @@
     }
 }, {
     "soal16": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/soallat1518.png' width='300' height='200'> <br>Garis yang sejajar dengan sumbu-x adalah  . . .",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/soallat1518.png' width='250' height='170'> <br>Garis yang sejajar dengan sumbu-x adalah  . . .",
         "a": "a. Garis k dan garis l ",
         "b": "b. Garis k dan garis m ",
         "c": "c. Garis k dan garis n",
@@ -171,7 +171,7 @@
     }
 }, {
     "soal17": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/soallat1518.png' width='300' height='200'> <br>Garis yang memotong sumbu-x dan sumbu-y adalah  . . .",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/soallat1518.png' width='250' height='170'> <br>Garis yang memotong sumbu-x dan sumbu-y adalah  . . .",
         "a": "a. Garis k ",
         "b": "b. Garis l",
         "c": "c. Garis m",
@@ -181,7 +181,7 @@
     }
 }, {
     "soal18": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/soallat1518.png' width='300' height='200'> <br>Garis k dan garis l adalah dua garis yang saling  . . .",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/soallat1518.png' width='250' height='170'> <br>Garis k dan garis l adalah dua garis yang saling  . . .",
         "a": "a. Berpotongan ",
         "b": "b. Tegak Lurus",
         "c": "c. Sejajar",
