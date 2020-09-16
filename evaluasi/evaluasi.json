@@ -111,13 +111,13 @@
     }
 }, {
     "soal11": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/s3.png' width='250' height='170'> <br>1Titik yang berjarak sama terhadap sumbu-x adalah  . . .",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/s3.png' width='250' height='170'> <br>Titik yang berjarak sama terhadap sumbu-x adalah  . . .",
         "a": "a. A dan B",
         "b": "b. B dan C",
         "c": "c. A dan C",
         "d": "d. C dan D",
-        "benar": "b",
-        "nih": "b. B dan C"
+        "benar": "d",
+        "nih": "d. C dan D"
     }
 }, {
     "soal12": {
@@ -126,8 +126,8 @@
         "b": "b. 10 satuan ke kiri dan 1 satuan <br>ke bawah",
         "c": "c. 10 satuan ke kanan dan 1 satuan <br>ke bawah",
         "d": "d. 10 satuan ke kanan dan 1 satuan <br>ke atas",
-        "benar": "d",
-        "nih": "d. 10 satuan ke kanan dan 1 satuan <br>ke atas"
+        "benar": "b",
+        "nih": "b. 10 satuan ke kiri dan 1 satuan <br>ke bawah"
     }
 }, {
     "soal13": {
@@ -142,12 +142,12 @@
 }, {
     "soal14": {
         "soal": "Perhatikan gambar di bawah ini <br> <img src='img/s4.png' width='250' height='170'> <br>Berapa jarak yang ditempuh Ani saat pulang sekolah menuju rumah  . . .",
-        "a": "a. 4 satuan ke kanan dan 3 satuan <br>ke bawah",
-        "b": "b. 4 satuan ke kanan dan 3 satuan <br>ke atas",
-        "c": "c. 4 satuan ke bawah dan 3 satuan <br>ke bawah",
-        "d": "d. 4 satuan ke atas dan 3  satuan <br>ke kanan",
+        "a": "a. 4 satuan ke kanan dan 3 satuan ke bawah",
+        "b": "b. 4 satuan ke kanan dan 3 satuan ke atas",
+        "c": "c. 4 satuan ke bawah dan 3 satuan ke bawah",
+        "d": "d. 4 satuan ke atas dan 3  satuan ke kanan",
         "benar": "b",
-        "nih": "b. 4 satuan ke kanan dan 3 satuan <br>ke atas"
+        "nih": "b. 4 satuan ke kanan dan 3 satuan ke atas"
     }
 }, {
     "soal15": {
