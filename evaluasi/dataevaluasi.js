@@ -106,7 +106,7 @@ dat.onreadystatechange = function () {
         // ---------------------------------
         // acak urutan soal
         //random urutan
-        for (let x = 0; x < 100; x++) {
+        for (let x = 0; x < 500; x++) {
             // acak angka dengan batas length.data dan minimum 0
             let angka = Math.floor(Math.random() * data.length) + 0;
             cek.push(angka);
