@@ -53,7 +53,7 @@ function readlah() {
 
     let jwbfixx = [];
 
-    let jwb1 = ["c", "a", "c", "b", "a", "a", "d", "c", "b", "d", "d", "d", "b", "b", "b", "b", "c", "c", "b", "d" ];
+    let jwb1 = ["c", "a", "c", "c", "a", "a", "d", "c", "b", "d", "d", "d", "b", "b", "b", "b", "c", "c", "b", "d" ];
     if (kuisfix == "evaluasi/") {
         let hhh = `<tr><td class="nah" colspan="2">Kunci Jawaban </td>`;
         for (let i = 0; i < jwb1.length; i++) {
