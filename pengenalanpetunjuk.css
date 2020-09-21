@@ -226,7 +226,37 @@
   padding:10px ;
   margin-top: 10px;
 }
+.petunjukpengenalan{
+  background-color: #ff5252;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border: none;
+  color: white;
+  padding: 7px 10px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 8px;
+}
 
+.petunjukpengenalan:hover {background-color: #ff8a80}
+
+.petunjukpengenalan:active {
+  background-color: #ff8a80;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#petunjukpengenalan {
+  width: 100%;
+  height: 230px;
+  text-align: left;
+  background-color: #ffccb2;
+  border: 3px dotted red;
+  border-radius: 8px;
+  margin-top: 10px;
+  padding: 10px;
+}
 .hilang{
   display:none;
   }
@@ -387,7 +417,7 @@
       height: 100%;
     }
 
-    #petunjuk{
+    #petunjukpengenalan{
       height: 280px;
     }
 
