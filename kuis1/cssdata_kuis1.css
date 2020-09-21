@@ -53,15 +53,23 @@ label {
     cursor: pointer;
 }
 
-.lanjut:hover{
-    background-color: #ffb49e;
-  color: black;
+.lanjut:hover {background-color: #ff8a80}
+  
+.lanjut:active {
+  background-color: #ff8a80;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 .tmblUlang:hover{
-    background-color: #ffb49e;
-  color: black;
+    background-color: #ff8a80
 }
+
+.tmblUlang:active {
+    background-color: #ff8a80;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
 
 .tt_salah {
     border: 2px solid red;
@@ -331,6 +339,30 @@ p{
     background-color: white;
 }
 
+.petunjukdll{
+    background-color: #ff5252;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    color: white;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 14%;
+    height: 43px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .petunjukdll:hover {background-color: #ff8a80}
+  
+  .petunjukdll:active {
+    background-color: #ff8a80;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
 .skornya {
     margin-top: 10px;
     margin-left: 0px;
@@ -505,5 +537,11 @@ p{
 
     .lanjut, .tmblUlang{
         margin-top: 25px;
+    }
+
+    .petunjukdll{
+        margin-left: 0px;
+        width: auto;
+        font-size: 4vw;
     }
 }

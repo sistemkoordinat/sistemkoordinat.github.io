@@ -272,6 +272,30 @@ border: 2px solid #ffb49e;
 outline-offset: -20px; */
 }
 
+.petunjukdll{
+  background-color: #ff5252;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border: none;
+  color: white;
+  padding: 7px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 14%;
+  height: 43px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.petunjukdll:hover {background-color: #ff8a80}
+
+.petunjukdll:active {
+  background-color: #ff8a80;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 .disable {
 background-color: rgb(133, 133, 133) !important;
 color: rgb(37, 37, 37);
@@ -421,6 +445,12 @@ main{
   text-align: justify;
   
 
+}
+
+.petunjukdll{
+  margin-left: 0px;
+  width: auto;
+  font-size: 4vw;
 }
 
 }
