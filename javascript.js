@@ -60,17 +60,6 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-// When the user scrolls down 20px from the top of the document, slide down the navbar
-window.onscroll = function() {scrollFunction()};
-console.log(kkk);
-function scrollFunction() {
-  
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("soal").style.top = "0";
-  } else {
-    document.getElementById("soal").style.top = "-500px";
-  }
-}
 
 
 function myFunction() {
