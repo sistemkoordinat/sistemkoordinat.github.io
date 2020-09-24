@@ -17,6 +17,27 @@ header {
   color: white;
 }
 
+.petunjuksoal{
+  background-color: #ff5252;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border: none;
+  color: white;
+  padding: 7px 10px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.petunjuksoal:hover {background-color: #ff8a80}
+
+.petunjuksoal:active {
+  background-color: #ff8a80;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 a {
   text-decoration: none;
   display: inline-block;
