@@ -310,9 +310,9 @@ cursor: default !important;
 
 /*tampilan HP*/
 @media screen and (max-width: 992px){
-  .full{
+ /* .full{
     height: 150%;
-}
+}*/
 
 header{
   background-image: url(../headerhp.png);
