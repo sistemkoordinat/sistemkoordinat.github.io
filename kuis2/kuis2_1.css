@@ -358,6 +358,11 @@ cursor: default !important;
 }
 
 @media screen and (max-width: 992px){
+
+  .full{
+    height: 133%;
+}
+
 header{
   background-image: url(../headerhp.png);
   background-size: 104% 106% ;
