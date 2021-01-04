@@ -1,0 +1,79 @@
+<html>
+<head>
+<title>Media Pembelajaran</title>
+<link href="home3.css" rel="stylesheet" type="text/css" media="screen" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<header>
+</header>
+<section>
+  <ul>
+    <marquee direction="left" class="text" width="1337" height="40" behavior="alternate" style="border:solid">Selamat Datang!! Silahkan Pilih Kuis dan Evaluasi yang ingin dikunci atau dibuka</marquee>
+  </ul>
+  <article>
+     
+    <center>
+        <br>
+        <h2> Kontrol Kuis dan Evaluasi</h2>
+        <div class="latarhasil">
+            <div class="hasz">
+                <center>
+                  <table id="t01">
+                    <tr>
+                      <th>Halaman</th>
+                      <th colspan="2">Kontrol</th>
+                    </tr>
+                    <tr>
+                    <td><p>Kuis 1</p> </td>   
+                       <td style="background-color:rgba(172, 255, 47, 0.712);"> <span id="matiquiz1"><input type="radio" id="mati1" name="kontrol1" value="0">
+                        <label for="mati1">Buka Kuis</label></span></td>
+                        <td style="background-color:rgba(255, 0, 0, 0.493) ;"><span id="aktifquiz1">
+                        <input type="radio" id="aktif1" name="kontrol1" value="1">
+                        <label for="aktif1">Tutup Kuis</label></span></td>
+
+                  </tr>
+                  <tr>
+                  <td> <p>Kuis 2</p></td>    
+                    <td style="background-color:rgba(172, 255, 47, 0.712);"><span id="matiquiz2"><input type="radio" id="mati2" name="kontrol2" value="0">
+                    <label for="mati2">Buka Kuis</label></span></td>
+                    <td style="background-color:rgba(255, 0, 0, 0.493) ;"><span id="aktifquiz2">
+                    <input type="radio" id="aktif2" name="kontrol2" value="1">
+                    <label for="aktif2">Tutup Kuis</label></span></td>
+              </tr>
+              <tr>
+               <td><p>Kuis 3</p>      
+                <td style="background-color:rgba(172, 255, 47, 0.712);"><span id="matiquiz3"><input type="radio" id="mati3" name="kontrol3" value="0">
+                <label for="mati3">Buka Kuis</label></span></td>
+                <td style="background-color:rgba(255, 0, 0, 0.493)  ;"><span id="aktifquiz3">
+                <input type="radio" id="aktif3" name="kontrol3" value="1">
+                <label for="aktif3">Tutup Kuis</label></span>
+              </td>
+          </tr>
+
+                <tr>
+                    <td><p>Evaluasi</p>  </td> 
+                   <td style="background-color: rgba(172, 255, 47, 0.712);"><span id="matikuis1"><input type="radio" id="mati" name="kontrol" value="0">
+                    <label for="mati">Buka Kuis</label></span></td>
+                   <td style="background-color:rgba(255, 0, 0, 0.493);"> <span id="aktifkuis1">
+                    <input type="radio" id="aktif" name="kontrol" value="1">
+                    <label for="aktif">Tutup Kuis</label></span></td>
+                  </tr>
+               </table>
+              </center>
+            </div>
+        </div>
+</article>
+</section>
+<footer>
+  <div id="footer">
+    <a href="menuguru.html" class="previous">&laquo; Kembali</a>
+  </div>
+</footer>
+<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+
+<script src="kontrol.js"></script>
+</body>
+</html>

@@ -161,9 +161,16 @@
         <br>
         <!--Embed geogebranya-->
         <p>Gunakan canvas di bawah ini untuk menggambar titik koordinat dan ruas garis, apabila kurang jelas klik petunjuk di atas</p>
-        <iframe src="https://www.geogebra.org/classic/grnv3rvt" class="windows" width="800" height="500" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
-        <iframe src="https://www.geogebra.org/classic/bsugmt7h" class="hape" id="geogebra" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
+       
+        <iframe src="https://www.geogebra.org/classic/grnv3rvt" class="windows" width="800" height="500" 
+        allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0">
+      </iframe>
+      
+        <iframe src="https://www.geogebra.org/classic/bsugmt7h" class="hape" id="geogebra" 
+        allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0">
+      </iframe>
         <div id="geogebra"></div>
+        
         <center><i>Canvas Bidang Koordinat</i></center>
 
                         <div class="mySlides">
@@ -239,14 +246,6 @@
     <script src="https://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>
     
 <script src="javascript3.js">
-</script>
-<script> 
-var ggbApp = new GGBApplet({"appName":"classic",
-                            "showToolBar":true,
-                            "showMenuBar":false});
-window.addEventListener("load", function(){
-  ggbApp.inject('geogebra');
-});
 </script>
 </body>
 </html>

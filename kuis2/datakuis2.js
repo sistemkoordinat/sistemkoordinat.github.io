@@ -11,7 +11,16 @@ var firebaseConfig = {
   firebase.initializeApp(firebaseConfig);
 
 
-
+  let temp = document.querySelector(".full");
+  let task =firebase.database().ref('kontrolkuis2/');
+  task.on("child_added", function(data){
+    let values=data.val();
+    console.log("NILAI" +values.nilai);
+    console.log("Task "+task);
+    if(values.nilai==1){
+        temp.classList.toggle("hidde");
+    }
+  });
 
 let selanjutnya = document.querySelector('.lanjut');
 let datadiri = document.querySelector('.data_diri');

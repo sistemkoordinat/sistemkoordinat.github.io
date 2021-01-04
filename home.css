@@ -1047,7 +1047,7 @@ font-weight: 500;
   height: 300px;
 }
 
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens, kada ngaruh sih*/
+/* Responsive layout*/
 @media (max-width: 992px) {
   nav,.Isi-Kiri,.Isi-Kanan {
     width: 100%;

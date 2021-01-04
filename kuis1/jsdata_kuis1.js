@@ -1,4 +1,4 @@
-//firebase connected
+//mengkoneksikan ke firebase
 var firebaseConfig = {
     apiKey: "AIzaSyBNS_wz_CMntH55l8Rb0lVfYmo66zRfkO4",
     authDomain: "sistemkoordinat.firebaseapp.com",
@@ -10,6 +10,19 @@ var firebaseConfig = {
   };
 
   firebase.initializeApp(firebaseConfig);
+
+ 
+      let temp = document.querySelector(".full");
+      let task =firebase.database().ref('kontrolkuis1/');
+      task.on("child_added", function(data){
+        let values=data.val();
+        console.log("NILAI" +values.nilai);
+        console.log("Task "+task);
+        if(values.nilai==1){
+            temp.classList.toggle("hidde");
+        }
+      });
+  
 
 
 
@@ -89,54 +102,36 @@ window.onload = function () {
 // -----------------------------------------------------------------------------------------
 // mengambil data dan menampilkanya
 
-let dat = new XMLHttpRequest();
-dat.onreadystatechange = function () {
+let json = new XMLHttpRequest();
+json.onreadystatechange = function () {
     
     cek = [];
-    jwbs = [];
+    jwbn = [];
     hasilakhir = 0;
-    benarr = 0;
-    salahh = 0;
+    jwbnbnr = 0;
+    jwbnslh = 0;
 
-    if (dat.readyState == 4 && dat.status == 200) {
-        // tankap apapun responsnya tangkap,lalu diubah ke objeck
+    if (json.readyState == 4 && json.status == 200) {
         let data = JSON.parse(this.responseText);
         // melihat data 
 
-        // Mengacak soal
-        for (let x = 0; x < 100; x++) {
-            // acak angka dengan batas length.data dan minimum 0
-            let angka = Math.floor(Math.random() * data.length) + 0;
-            cek.push(angka);
+        
+    for (let i = 0; i < 100; i++) {
+            let acak = Math.floor(Math.random() * data.length) + 0;
+            cek.push(acak);
         }
-        // membuang angka yang sama
         cek = Array.from(new Set(cek));
-        console.log(cek);
-        // ---------------------------------
-        // ambil data tertentu
-
         for (let i = 0; i < cek.length; i++) {
             let nilai = cek[i];
-
             let soaldata = data[nilai]["soal" + nilai]["soal"];
             let jwb0 = data[nilai]["soal" + nilai]["a"];
             let jwb1 = data[nilai]["soal" + nilai]["b"];
             let jwb2 = data[nilai]["soal" + nilai]["c"];
             let jwb3 = data[nilai]["soal" + nilai]["d"];
-            let nih = data[nilai]["soal" + nilai]["nih"];
             let bnr = data[nilai]["soal" + nilai]["benar"];
+            jwbn.push(bnr);
 
-            let jwb = [jwb0, jwb1, jwb2, jwb3, nih];
-
-            jwbs.push(bnr);
-
-            // ---------------------------------
-            // // rangkai konten soal;
-            // let bg_pertanyaan = document.getElementById('bg_pertanyaan');
-            // if (i != 0) {
-            //     bg_pertanyaan.className += " hilang";
-            // }
-
+           
             for(let i=1; i<=10; i++){
                 let radio = document.getElementById("radio"+i);
                 radio.checked = false;
@@ -176,33 +171,7 @@ dat.onreadystatechange = function () {
                         }
                 }
             }
-            // //nomor ke
-            // document.getElementById('nomornya').innerHTML = i+1;
-
-            // // ---------------------------------
-
-            // //soal
-            // document.getElementById("soalnya").innerHTML = soaldata;
-
-            // // ---------------------------------
-
             
-
-            // // ---------------------------------
-
-            
-
-            // // ---------------------------------
-
-            // //tombol selanjutnya
-            // let nav_selanjut = document.getElementById("nav_selanjut");
-            // if (i == (cek.length - 1)) {
-            //     nav_selanjut.className += " disable";
-            // }
-
-            // ---------------------------------
-
-            // ---------------------------------
 
 
         }
@@ -265,48 +234,46 @@ dat.onreadystatechange = function () {
         //cek jawaban
         let selesai = document.querySelector(".selesai");
 
-        let pil_user = [];
+        let jawaban = [];
         new_jwb_urut = [];
         new_jwb_urut_no = [];
 
         selesai.addEventListener("click", function(){
-            let sarat = 0;
+            let kunci = 0;
             
-            for (let t = 0; t < jwbs.length; t++) {
+            for (let t = 0; t < jwbn.length; t++) {
                 if ((soal_nav[t].className.indexOf('belum') == -1)) {
-                    sarat = sarat + 1;
+                    kunci = kunci + 1;
                     
                 }
             }
-            console.log(sarat);
+            console.log(kunci);
 
-            if (sarat == jwbs.length) {
+            if (kunci == jwbn.length) {
                 // array kunci
                 hasilakhir = 0;
-                benarr = 0;
-                salahh = jwbs.length;
+                jwbnbnr = 0;
+                jwbnslh = jwbn.length;
 
-                for (let i = 0; i < jwbs.length; i++) {
-                    let a = i+1;
-                    let namaradio = document.getElementsByName("radio"+a);
+                for (let i = 0; i < jwbn.length; i++) {
+                    let x = i+1;
+                    let radiobutton = document.getElementsByName("radio"+x);
                     let checked = false;
-                    for (let j = 0; j < namaradio.length; j++) {
-                        if(namaradio[j].checked){
+                    for (let j = 0; j < radiobutton.length; j++) {
+                        if(radiobutton[j].checked){
                             checked = true;
-                            pil_user.push(namaradio[j].value);
-                            if(namaradio[j].value == jwbs[i]){
+                            jawaban.push(radiobutton[j].value);
+                            if(radiobutton[j].value == jwbn[i]){
                                 hasilakhir = hasilakhir + 10;
-                                benarr = benarr + 1;
+                                jwbnbnr = jwbnbnr + 1;
                             } else {
                                 hasilakhir = hasilakhir;
-                            }
-                        }
-                    }
-                }
+                            }}}}
+
                 for (let i = 0; i < cek.length; i++) {
                     for (let j = 0; j < cek.length; j++) {
                         if (i == cek[j]) {
-                            new_jwb_urut.push(pil_user[j]);
+                            new_jwb_urut.push(jawaban[j]);
                             new_jwb_urut_no.push(cek[j]);
                         }
                     }
@@ -367,8 +334,8 @@ dat.onreadystatechange = function () {
 
     }
 }
-dat.open('GET', 'kuis1.json', true);
-dat.send();
+json.open('GET', 'kuis1.json', true);
+json.send();
 
 //FUNGSI WAKTU DAN HARI
 var d = new Date();

@@ -5,8 +5,7 @@
         "b": "b. (ii) dan (iii)",
         "c": "c. (ii) dan (iv)",
         "d": "d. (iii) dan (iv)",
-        "benar": "c",
-        "nih": "c. (ii) dan (iv)"
+        "benar": "c"
     }
 }, {
     "soal1": {
@@ -15,8 +14,7 @@
         "b": "b. Kuadran I dan Kuadran III",
         "c": "c. Kuadran I dan Kuadran IV",
         "d": "d. Kuadran II dan Kuadran III",
-        "benar": "a",
-        "nih": "a. Kuadran I dan Kuadran II"
+        "benar": "a"
     }
 
 }, {
@@ -26,8 +24,7 @@
         "b": "b. 3 satuan",
         "c": "c. 4 satuan",
         "d": "d. 5 satuan",
-        "benar": "c",
-        "nih": "c. 4 satuan"
+        "benar": "c"
     }
 }, {
     "soal3": {
@@ -36,8 +33,7 @@
         "b": "b. (3,-5)",
         "c": "c. (-3,5)",
         "d": "d. (-3,-5)",
-        "benar": "c",
-        "nih": "c. (-3,5)"
+        "benar": "c"
     }
 }, {
     "soal4": {
@@ -46,8 +42,7 @@
         "b": "b. (6,-2)",
         "c": "c. (-6,2)",
         "d": "d. (-6,-2)",
-        "benar": "a",
-        "nih": "a. (6,2)"
+        "benar": "a"
     }
 }, {
     "soal5": {
@@ -56,8 +51,7 @@
         "b": "b. A(-2,4), B(2,4) ,C(-4,1) dan <br>D(4,1)",
         "c": "c. A(2,4), B(-2,4) ,C(4,1) dan <br>D(-4,1)",
         "d": "d. A(2,-4), B(-2,4) ,C(-4,1) dan <br>D(-4,-1)",
-        "benar": "a",
-        "nih": "a. A(2,4), B(-2,4) ,C(-4,1) dan <br>D(4,1)"
+        "benar": "a"
     }
 }, {
     "soal6": {
@@ -66,8 +60,7 @@
         "b": "b. A dan C",
         "c": "c. D dan C",
         "d": "d. B dan C",
-        "benar": "d",
-        "nih": "d. B dan C"
+        "benar": "d"
     }
 }, {
     "soal7": {
@@ -76,8 +69,7 @@
         "b": "b. Persegi Panjang",
         "c": "c. Trapesium",
         "d": "d. Jajargenjang ",
-        "benar": "c",
-        "nih": "c. Trapesium"
+        "benar": "c"
     }
 }, {
     "soal8": {
@@ -86,8 +78,7 @@
         "b": "b. (3,-1)",
         "c": "c. (4,-1)",
         "d": "d. (-4,1)",
-        "benar": "b",
-        "nih": "b. (3,-1)"
+        "benar": "b"
     }
 }, {
     "soal9": {
@@ -96,8 +87,7 @@
         "b": "b. 12 Satuan",
         "c": "c. 15 Satuan",
         "d": "d. 18 Satuan",
-        "benar": "d",
-        "nih": "d. 18 Satuan"
+        "benar": "d"
     }
 }, {
     "soal10": {
@@ -106,8 +96,7 @@
         "b": "b. B dan C",
         "c": "c. A dan C",
         "d": "d. C dan D",
-        "benar": "d",
-        "nih": "d. C dan D"
+        "benar": "d"
     }
 }, {
     "soal11": {
@@ -116,8 +105,7 @@
         "b": "b. B dan C",
         "c": "c. A dan C",
         "d": "d. C dan D",
-        "benar": "d",
-        "nih": "d. C dan D"
+        "benar": "d"
     }
 }, {
     "soal12": {
@@ -126,8 +114,7 @@
         "b": "b. 10 satuan ke kiri dan 1 satuan <br>ke bawah",
         "c": "c. 10 satuan ke kanan dan 1 satuan <br>ke bawah",
         "d": "d. 10 satuan ke kanan dan 1 satuan <br>ke atas",
-        "benar": "b",
-        "nih": "b. 10 satuan ke kiri dan 1 satuan <br>ke bawah"
+        "benar": "b"
     }
 }, {
     "soal13": {
@@ -136,8 +123,7 @@
         "b": "b. (-9,5)",
         "c": "c. (5,-9)",
         "d": "d. (-5,-9)",
-        "benar": "b",
-        "nih": "b. (-9,5)"
+        "benar": "b"
     }
 }, {
     "soal14": {
@@ -146,8 +132,7 @@
         "b": "b. 4 satuan ke kanan dan 3 satuan ke atas",
         "c": "c. 4 satuan ke bawah dan 3 satuan ke bawah",
         "d": "d. 4 satuan ke atas dan 3  satuan ke kanan",
-        "benar": "b",
-        "nih": "b. 4 satuan ke kanan dan 3 satuan ke atas"
+        "benar": "b"
     }
 }, {
     "soal15": {
@@ -156,8 +141,7 @@
         "b": "b. Rumah Tina",
         "c": "c. Rumah Dede",
         "d": "d. Rumah Susi",
-        "benar": "b",
-        "nih": "b. Rumah Tina"
+        "benar": "b"
     }
 }, {
     "soal16": {
@@ -166,8 +150,7 @@
         "b": "b. Garis k dan garis m ",
         "c": "c. Garis k dan garis n",
         "d": "d. Garis m dan garis n ",
-        "benar": "c",
-        "nih": "c. Garis k dan garis n"
+        "benar": "c"
     }
 }, {
     "soal17": {
@@ -176,8 +159,7 @@
         "b": "b. Garis l",
         "c": "c. Garis m",
         "d": "d. Garis n ",
-        "benar": "c",
-        "nih": "c. Garis m"
+        "benar": "c"
     }
 }, {
     "soal18": {
@@ -186,8 +168,7 @@
         "b": "b. Tegak Lurus",
         "c": "c. Sejajar",
         "d": "d. Berhimpit ",
-        "benar": "b",
-        "nih": "b. Tegak Lurus"
+        "benar": "b"
     }
 }, {
     "soal19": {
@@ -196,7 +177,6 @@
         "b": "b. Tegak Lurus",
         "c": "c. Berhimpit",
         "d": "d. Berpotongan",
-        "benar": "d",
-        "nih": "d. Berpotongan"
+        "benar": "d"
     }
 }]

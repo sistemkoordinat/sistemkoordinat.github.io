@@ -3,17 +3,15 @@
   }
   
   body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
   /* Header coyy*/
   header {
-    background-color: #ff5252;
+    background-image: url(headerr.png);
     height: 80px;
-    padding: 15px 15px;
     text-align:center;
-    font-size: 44px;
-    font-weight: bold;
+    font-size: 35px;
     color: white;
   }
   
@@ -77,6 +75,16 @@
     color: white;
   }
   
+  .hidde{
+    display: none;
+  }
+  .previous {
+    margin-left: 25px;
+    background-color: #f1f1f1;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
   .petunjuksoal{
     background-color: #ff5252;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -100,6 +108,56 @@
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
+
+  .petunjuksoal1{
+    background-color: #ff5252;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    color: white;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    margin-top:100px;
+  }
+  
+  .petunjuksoal1:hover {background-color: #ff8a80}
+  
+  .petunjuksoal1:active {
+    background-color: #ff8a80;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .petunjuksoal2{
+    background-color: #ff5252;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    color: white;
+    padding: 7px 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+    margin-top:100px;
+  }
+  
+  .petunjuksoal2:hover {background-color: #ff8a80}
+  
+  .petunjuksoal2:active {
+    background-color: #ff8a80;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
   a {
     text-decoration: none;
     display: inline-block;
@@ -154,15 +212,6 @@
     text-align: center;
   }
   
-  article{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-    font-size: 18px; 
-    font-weight: 700; 
-    line-height: 26.4px;
-    width: 100%;
-    background-color: lavenderblush;
-    height: 485px; 
-  }
   
   .tombol{
     width: 100%;
@@ -240,210 +289,14 @@
     transform: translateY(4px);
   }
   
-  section:after {
-    content: "";
-    display: table;
-    clear: both;
-    opacity: 0.2;
-  }
-  
-  footer {
-    background-color: #6d6875;
-    font-family: Baskerville, "Baskerville Old Face",serif; 
-    padding: 10px;
-    height: 50px;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-  }
-  
-  
-  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens, kada ngaruh sih*/
-  @media (max-width: 992px) {
-    article {
-      width: 100%;
-      height: 100%;
-      float:none;
-      font-size: 3vw;
-      min-height: 800;
-    }
-  
-    .tombol{
-      height: 100%;
-      font-size: 3vw;
-    }
-    header {
-    background-color: #fd7878;
-    height: 10%;
-    padding: 30px 15px;
-    text-align:center;
-    font-weight: bold;
-    color: white;
-    font-size: 8vw;
-    }
-    .kikd{
-      margin-top: 30px;
-      margin-left: 65px;
-      font-size: 5vw;
-    }
-  
-  .kikd:hover {background-color: #ff8a80}
-  
-  .kikd:active {
-    background-color: #ff8a80;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-  }
-  
-    .materi{
-      margin-top: 40px;
-      margin-left: 65px;
-      font-size: 6vw;
-    }
-  
-  .materi:hover {background-color: #ff8a80}
-  
-  .materi:active {
-    background-color: #ff8a80;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-  }
-  
-    .info{
-      margin-top: 40px;
-      margin-left: 65px;
-      font-size: 5vw;
-    }
-  
-    .info:hover {background-color: #ff8a80}
-  
-  .info:active {
-    background-color: #ff8a80;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-  }
-  
-    footer{
-      height: 10%;
-      text-align:center;
-      padding: 20px 10px;
-      font-size: 4vw;
-    }
-  
-    .text{
-      font-size: 4vw;
-      height: auto;
-      width: 500px;
-    }
-     
-    img{
-      width: 100%;
-      height: auto;
-    }
-  }
-  
-  .text{
-    color: white;
-    font-size: 20px;
-  }
-  
-  .pilih{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-    font-size: 30px; 
-    text-align: center;
-  }
-  
   article{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 22px; 
     font-weight: 700; 
     line-height: 26.4px;
     width: 100%;
-   background-color: lavenderblush;
+   background-color: rgb(255, 213, 198);
     height: 485px; 
-  }
-  
-  .tombol{
-    width: 100%;
-    height: 485px;
-    background-color: rgba(255, 255, 255, 0.89);
-  }
-  
-  .over  { text-decoration: overline; }
-  
-  .kikd{
-    background-color: white;
-    border: none;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 24px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 8px;
-    margin-top: 70px;
-    margin-left: 200px;
-  }
-  
-  .kikd:hover {background-color: #ff8a80}
-  
-  .kikd:active {
-    background-color: #ff8a80;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-  }
-  
-  .materi{
-    background-color: white;
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 24px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 8px;
-    margin-top: 70px;
-    margin-left: 50px;
-  }
-  
-  .materi:hover {background-color: #ff8a80}
-  
-  .materi:active {
-    background-color: #ff8a80;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-  }
-  
-  .info{
-    background-color: white;
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 24px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 8px;
-    margin-top: 70px;
-    margin-left: 50px;
-  }
-  
-  .info:hover {background-color: #ff8a80}
-  
-  .info:active {
-    background-color: #ff8a80;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-  }
-  
-  section:after {
-    content: "";
-    display: table;
-    clear: both;
-    opacity: 0.2;
   }
   
   footer {
@@ -454,6 +307,24 @@
     text-align: center;
     text-decoration: none;
     color: white;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: Baskerville, "Baskerville Old Face",serif;
+  }
+  th, td {
+    padding: 15px;
+    text-align: center;
+  }
+  #t01 {
+    width: 70%;    
+    background-color: #fff1f1;
+  }
+
+  th{
+    background-color:#ff9f86 ;
   }
   
   

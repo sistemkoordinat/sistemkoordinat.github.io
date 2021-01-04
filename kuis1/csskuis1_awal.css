@@ -10,8 +10,8 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 
 header{
 width: 100%;
-height: 40px;
-background-color: #ff5252;
+background-image: url(../headerr.png);
+height: 70px;
 color: white;
 font-size: 35px;
 text-align: center;
@@ -154,21 +154,23 @@ width: 82%;
 
 .subbab{
 width: 100%;
-background-color: #f71c1c;
 color: white;
 padding: 5px 0px 5px 0px;
 font-size: 30px;
 }
 
 .konten{
-margin: 10px;
-background-color: white;
-height: 100%;
-padding: 15px;
-overflow: auto;
-border: 3px dotted #ffb49e;
-text-align: justify;
-border-radius: 10px;
+  margin-top: -5px;
+  height: 110%;
+  background-color: white;
+  padding: 15px;
+  overflow: auto;
+  border: 3px solid red;
+  text-align: justify;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .gambar{
@@ -178,6 +180,7 @@ width: 4%;
 .judul{
 font-weight: bold;
 font-size: 35px;
+font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .isi{
@@ -193,12 +196,13 @@ overflow: auto;
 
 .kliktunjuk{
 margin: 5px 0px 5px 0px;
-background-color: #ffb49e;
+background-color: white;
 font-family: Georgia, 'Times New Roman', Times, serif;
 padding: 5px 13px;
 border-radius: 5px;
 width: 61%;
-font-size: 16px;
+font-size: 20px;
+font-weight: 600;
 }
 
 .kliktunjuk a{
@@ -208,9 +212,8 @@ color: black;
 
 .tjk1{
 min-height: 5px;
-border-style: dotted;
+border-style: solid;
 border-color:#ff5252;
-border-radius: 10px;
 background-color: #f8eded;
 font-family: Georgia, 'Times New Roman', Times, serif;
 padding: 10px 0px 5px 0px;
@@ -222,11 +225,12 @@ margin: 0px 25px 5px 35px;
 }
 
 .hilang {
-  display: none !important;
+  display: none;
 }
 
 .kotak{
 width: 47%;
+height: 400px;
 float: left;
 overflow: auto;
 margin: 0px 0px 10px 10px;
@@ -249,6 +253,20 @@ background-color: #ffb49e;
 color: black;
 }
 
+.mulai{
+  text-decoration: none;
+  background-color: #f71c1c;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  }
+  
+  .mulai:hover{
+  background-color: #ffb49e;
+  color: black;
+  }
+
 .kanan{
 float: right;
 width: 30%;
@@ -265,7 +283,7 @@ outline-offset: -20px; */
 float: left;
 width: 70%;
 background-color: white;
-height: 485px;
+height: 540px;
 overflow: auto;
 padding: 20px;
 text-align: justify;
@@ -284,8 +302,8 @@ cursor: default !important;
 /*tampilan HP*/
 @media screen and (max-width: 992px){
 header{
-  width: 100%;
-  height: auto;
+  background-image: url(../headerhp.png);
+  background-size: 104% 106% ;
 }
 .bar{
   width: 22%;
