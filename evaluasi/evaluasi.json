@@ -28,7 +28,7 @@
     }
 }, {
     "soal3": {
-        "soal": "Titik M berjarak 5 satuan terhadap sumbu-x dan 3 satuan terhadap sumbu-y. Jika titik M terletak di kuadran II, maka koordinat titik M adalah  . . . . ",
+        "soal": "Rumah Mia berjarak 5 satuan terhadap sumbu-x dan 3 satuan terhadap sumbu-y. Jika rumah mia terletak di kuadran II, maka titik koordinat rumah mia adalah . . . .",
         "a": "a. (3,5)",
         "b": "b. (3,-5)",
         "c": "c. (-3,5)",
@@ -37,7 +37,7 @@
     }
 }, {
     "soal4": {
-        "soal": "Titik T berjarak 2 satuan terhadap sumbu-x dan 6 satuan terhadap sumbu-y. Jika titik T terletak di kuadran I, maka koordinat titik T adalah  . . . .",
+        "soal": "Taman bermain berjarak 2 satuan terhadap sumbu-x dan 6 satuan terhadap sumbu-y. Jika taman bermain terletak di kuadran I, maka titik koordinat taman bermain adalah . . . .",
         "a": "a. (6,2)",
         "b": "b. (6,-2)",
         "c": "c. (-6,2)",
@@ -118,7 +118,7 @@
     }
 }, {
     "soal13": {
-        "soal": "Diketahui sebuah lapangan sepak bola menjadi titik asal (0,0) dan terdapat sekolah yang berjarak 9 satuan ke kiri dan 5 satuan ke atas dari lapangan sepak bola. Berapakah titik koordinat sekolah tersebut?",
+        "soal": "Sebuah lapangan sepak bola menjadi titik asal (0,0) dan terdapat sekolah yang berjarak 9 satuan ke kiri dan 5 satuan ke atas dari lapangan sepak bola. Berapakah titik koordinat sekolah tersebut?",
         "a": "a. (9,5)",
         "b": "b. (-9,5)",
         "c": "c. (5,-9)",
@@ -127,7 +127,7 @@
     }
 }, {
     "soal14": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/s4.png' width='250' height='170'> <br>Berapa jarak yang ditempuh Ani saat pulang sekolah menuju rumah  . . .",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/s4.png' width='250' height='170'> <br>Ani akan menempuh perjalanan dari sekolah menuju rumah, jika rumah Ani berada pada titik koordinat (4,3). Berapa jarak yang ditempuh Ani saat pulang sekolah menuju rumah ",
         "a": "a. 4 satuan ke kanan dan 3 satuan ke bawah",
         "b": "b. 4 satuan ke kanan dan 3 satuan ke atas",
         "c": "c. 4 satuan ke bawah dan 3 satuan ke bawah",
@@ -136,7 +136,7 @@
     }
 }, {
     "soal15": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/s4.png' width='250' height='170'> <br>Rumah yang memiliki jarak paling dekat dengan sekolah adalah  . . .",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='img/s4.png' width='250' height='170'> <br>Rumah Ani berada pada titik koordinat (4,3), rumah Tina berada pada titik (-2,1), rumah dede berada pada titik koordnat (-6,-4) dan rumah susi berada pada titik koordinat (3,-4). Rumah yang memiliki jarak paling dekat dengan sekolah adalah . . . .",
         "a": "a. Rumah Ani",
         "b": "b. Rumah Tina",
         "c": "c. Rumah Dede",

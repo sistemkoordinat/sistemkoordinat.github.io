@@ -24,9 +24,6 @@ var firebaseConfig = {
       });
   
 
-
-
-
 let selanjutnya = document.querySelector('.lanjut');
 let datadiri = document.querySelector('.data_diri');
 namanya = document.getElementById('nama');
@@ -39,21 +36,21 @@ selanjutnya.addEventListener('click', function () {
 
     let cek = 0;
     if (namanya.value == "") {
-        if (namanya.className.indexOf('tt_salah') == -1) {
-            namanya.className += ' tt_salah';
+        if (namanya.className.indexOf('borrder') == -1) {
+            namanya.className += ' borrder';
         }
     } else {
-        namanya.className = namanya.className.replace('tt_salah', '');
+        namanya.className = namanya.className.replace('borrder', '');
         cek += 1;
 
     }
 
     if (kelasnya.value == "0") {
-        if (kelasnya.className.indexOf('tt_salah') == -1) {
-            kelasnya.className += ' tt_salah';
+        if (kelasnya.className.indexOf('borrder') == -1) {
+            kelasnya.className += ' borrder';
         }
     } else {
-        kelasnya.className = kelasnya.className.replace('tt_salah', '');
+        kelasnya.className = kelasnya.className.replace('borrder', '');
         if (kelasnya.value == "1") {
             kelasfix = "8A";
         } else if (kelasnya.value == "2") {
@@ -63,11 +60,11 @@ selanjutnya.addEventListener('click', function () {
     }
 
     if (sekolah.value == "0") {
-        if (sekolah.className.indexOf('tt_salah') == -1) {
-            sekolah.className += ' tt_salah';
+        if (sekolah.className.indexOf('borrder') == -1) {
+            sekolah.className += ' borrder';
         }
     } else {
-        sekolah.className = sekolah.className.replace('tt_salah', '');
+        sekolah.className = sekolah.className.replace('borrder', '');
         if (sekolah.value == "1") {
             sekolahfix = "SMP Negeri 13 Banjarmasin";
         }
